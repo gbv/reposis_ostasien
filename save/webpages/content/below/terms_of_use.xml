@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MyCoReWebPage>
+    <section xml:lang="de" title="NUTZUNGSBEDINGUNGEN">
+        <div class="row">
+            <div class="col-md-12" lang="de">
+                <h1>Nutzungsbedingungen</h1>
+                <p>
+                    Informationen zur Nutzung.
+                </p>
+                <p>
+                    Weitere Erklärungen.
+                </p>
+                <h2>
+                    Überschrift 1
+                </h2>
+                <p>
+                    Hier kommt noch Text.
+                </p>
+                <h2>
+                    Überschrift 2
+                </h2>
+                <p>
+                    Hier kommt noch viel mehr Text.
+                    <ul>
+                        <li>...</li>
+                        <li>...</li>
+                        <li>...</li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+    </section>
+    <section xml:lang="en" title="TERMS OF USE">
+    </section>
+    <meta>
+        <log lastEditor="administrator" date="2020-06-10" time="15:29"/>
+    </meta>
+</MyCoReWebPage>

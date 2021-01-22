@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MyCoReWebPage>
+    <section xml:lang="de" title="Datenschutz (Privacy Policy)">
+        <div class="row">
+            <div class="col-md-12" lang="de">
+                <h1>I. Name und Anschrift des Verantwortlichen</h1>
+                <p>Verantwortlicher im Sinne der Datenschutz-Grundverordnung und anderer datenschutzrechtlicher
+                    Bestimmungen ist die:
+                </p>
+                <p>INSTITUTION
+                </p>
+                <p>
+                    E-Mail:
+                    <a href="mailto:INSTITUTION@beispiel.de" title="Opens window for sending email">
+                        INSTITUTION@beispiel.de
+                    </a>
+                </p>
+
+                <p>
+                    <b>Stand: Februar 2020</b>
+                </p>
+            </div>
+        </div>
+    </section>
+</MyCoReWebPage>

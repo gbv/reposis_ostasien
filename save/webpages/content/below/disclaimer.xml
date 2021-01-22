@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MyCoReWebPage>
+    <section xml:lang="de" title="HAFTUNGSHINWEISE">
+        <div class="row">
+            <div class="col-md-12" lang="de">
+                <h1>Haftungshinweise</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua. Ullamcorper morbi tincidunt ornare massa eget egestas purus
+                    viverra. Vitae purus faucibus ornare suspendisse sed nisi lacus. Erat velit scelerisque in
+                    dictum non consectetur a erat. Faucibus et molestie ac feugiat sed lectus. Turpis in eu mi
+                    bibendum neque. At erat pellentesque adipiscing commodo elit at imperdiet dui. Ut porttitor leo
+                    a diam. Gravida cum sociis natoque penatibus et magnis dis parturient montes. Mollis nunc sed id
+                    semper risus in hendrerit gravida rutrum. Eget nunc scelerisque viverra mauris. Et ligula
+                    ullamcorper malesuada proin libero nunc. Felis donec et odio pellentesque. Quis ipsum
+                    suspendisse ultrices gravida dictum. Amet dictum sit amet justo donec enim diam vulputate ut.
+                    Consequat ac felis donec et odio pellentesque diam.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <meta>
+        <log lastEditor="administrator" date="2020-06-10" time="15:29"/>
+    </meta>
+</MyCoReWebPage>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MyCoReWebPage>
+<MyCoReWebPage>
+    <section xml:lang="de" title="Impressum">
+        <div class="row">
+            <div class="col-md-12" lang="de">
+                <h1>Impressum</h1>
+                <p>
+                    Die nachstehenden Informationen enthalten die gesetzlich vorgesehenen Pflichtangaben zur
+                    Anbieterkennzeichnung, sowie wichtige rechtliche Hinweise zur Internetpräsenz der ...
+                </p>
+
+                <h2>Anbieter</h2>
+                <p>
+                    Anbieter dieser Internetpräsenz ist im Rechtssinne ...
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <meta>
+        <log date="2020-10-22" time="18:09" labelPath=" » Admin" lastEditor="Kathleen Neumann"/>
+    </meta>
+</MyCoReWebPage>
