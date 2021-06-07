@@ -1,0 +1,68 @@
+/*  xasia menu settings
+ *  - reset for bs4 settings
+ *  - style adjustments
+ */
+
+// Extra large devices (large desktops)
+// set the defaults for all responsive levels here
+// no (xl) media query necessary (desktop first)
+
+.xabs {
+  .navbar .container,
+  .navbar .container-fluid,
+  .navbar .container-sm,
+  .navbar .container-md,
+  .navbar .container-lg,
+  .navbar .container-xl {
+    display: block;
+    padding: 0;
+  }
+  .navbar {
+    padding: 0;
+  }
+  .navbar {
+    display: block;
+  }
+  .navbar-collapse {
+  }
+  .navbar-brand {
+    margin-right: auto;
+    padding-left: 0;
+  }
+  .navbar-nav {
+    display: block;
+  }
+  .nav {
+    display: block;
+  }
+  .dropdown-toggle::after {
+    display: none;
+  }
+  .navbar .fa-file-alt {
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  .defaultpage .xAsiaIcon {
+    //margin-left: 0 !important;
+  }
+}
+
+// Large devices (desktops) and below: <= 1200px
+@include media-breakpoint-down(lg) {
+  // add/overwrite styles for responsive level lg and lower
+}
+
+// Medium devices (tablets) and below: <= 992px
+@include media-breakpoint-down(md) {
+  // add/overwrite styles for responsive level md and lower
+}
+
+// Small devices (landscape phones) and below: <= 768px
+@include media-breakpoint-down(sm) {
+  // add/overwrite styles for responsive level sm and lower
+}
+
+// Extra small devices (portrait phones): <= 576px
+@include media-breakpoint-down(xs) {
+  // add/overwrite styles for responsive level xs
+}
