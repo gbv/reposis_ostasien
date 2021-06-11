@@ -1,28 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <navigation dir="/content" href="navigation" hrefStartingPage="/content/index.xml" template="template_mir">
-  <menu id="main" dir="/content/main">
-    <label xml:lang="de">Hauptmenü</label>
-    <label xml:lang="en">Main menu</label>
-  </menu>
-  <menu id="brand" dir="/content/brand">
-    <label xml:lang="de">MIR-Menü</label>
-    <label xml:lang="en">MIR menu</label>
-    <item href="/content/index.xml" type="intern">
-      <label xml:lang="de">Start</label>
-      <label xml:lang="en">Start</label>
+  <menu id="about" dir="/content/about">
+    <label xml:lang="de">Über uns</label>
+    <label xml:lang="en">About us</label>
+    <item href="/content/publish/guidelines.xml" type="intern">
+      <label xml:lang="de">Sammelauftrag</label>
+      <label xml:lang="en">Collecting order</label>
     </item>
-    <item href="/content/brand/impressum.xml" type="intern">
-      <label xml:lang="de">Impressum</label>
-      <label xml:lang="en">Impressum</label>
+    <item href="/content/about/policy.xml" type="intern" replaceMenu="false" constrainPopUp="false">
+      <label xml:lang="de">Publizieren</label>
+      <label xml:lang="en">Publish</label>
     </item>
-    <item href="/content/brand/contact.xml" type="intern">
+    <item href="/content/about/contact.xml" type="intern" replaceMenu="false" constrainPopUp="false">
       <label xml:lang="de">Kontakt</label>
       <label xml:lang="en">Contact</label>
     </item>
   </menu>
-  <menu id="below" dir="/content/below">
-    <label xml:lang="de">Footer-Menü</label>
-    <label xml:lang="en">Footer menu</label>
+  <menu id="rights" dir="/content/rights">
+    <label xml:lang="de">Rechtliches</label>
+    <label xml:lang="en">Rights</label>
+    <item href="/content/rights/copyright.xml" replaceMenu="false" constrainPopUp="false" template="undefined">
+      <label xml:lang="de">Urheberrecht</label>
+      <label xml:lang="en">Copyright</label>
+    </item>
+    <item href="/content/rights/disclaimer.xml" replaceMenu="false" constrainPopUp="false">
+      <label xml:lang="de">Haftungshinweise</label>
+      <label xml:lang="en">Disclaimer</label>
+    </item>
+    <item href="/content/rights/privacy.xml" replaceMenu="false" constrainPopUp="false" template="undefined">
+      <label xml:lang="de">Datenschutz</label>
+      <label xml:lang="en">Privacy</label>
+    </item>
+    <item href="/content/rights/imprint.xml" type="intern" replaceMenu="false" constrainPopUp="false">
+      <label xml:lang="de">Impressum</label>
+      <label xml:lang="en">Imprint</label>
+    </item>
+    <item href="/content/rights/accessibility.xml" type="intern" replaceMenu="false" constrainPopUp="false">
+      <label xml:lang="de">Barrierefreiheit</label>
+      <label xml:lang="en">Accessibility</label>
+    </item>
+  </menu>
+  <menu id="technical" dir="/content/technical">
+    <label xml:lang="de">Technisches</label>
+    <label xml:lang="en">Technical</label>
+    <item href="/content/technical/basics.xml" type="intern" replaceMenu="false" constrainPopUp="false">
+      <label xml:lang="de">Grundlagen</label>
+      <label xml:lang="en">Basics</label>
+    </item>
+    <item href="http://www.gbv.de/" type="extern" replaceMenu="false" constrainPopUp="false">
+      <label xml:lang="de">GBV</label>
+      <label xml:lang="en">GBV</label>
+    </item>
+    <item href="http://www.mycore.de/" type="extern" replaceMenu="false" constrainPopUp="false">
+      <label xml:lang="de">MyCoRe</label>
+      <label xml:lang="en">MyCoRe</label>
+    </item>
+    <item href="http://www.dini.de/" type="extern" replaceMenu="false" constrainPopUp="false">
+      <label xml:lang="de">DINI</label>
+      <label xml:lang="en">DINI</label>
+    </item>
   </menu>
   <menu id="search">
     <!-- search menu  -->
@@ -44,46 +80,66 @@
       <label xml:lang="de">komplex</label>
       <label xml:lang="en">complex</label>
     </item>
-    <item href="/search/search-expert.xed" type="intern">
+    <!-- 
+      <item href="/search/search-expert.xed" type="intern">
       <label xml:lang="de">expert</label>
       <label xml:lang="en">expert</label>
     </item>
+    -->
   </menu>
   <menu id="browse">
-  <!-- search menu  -->
+    <!-- search menu  -->
     <label xml:lang="de">Blättern</label>
     <label xml:lang="en">Browse</label>
     <item href="/content/browse/institutes.xml" type="intern">
-      <label xml:lang="de">Einrichtungen</label>
-      <label xml:lang="en">Institutions</label>
+      <label xml:lang="de">nach Forschungseinrichtung</label>
+      <label xml:lang="en">by institutions</label>
     </item>
     <item href="/content/browse/genres.xml" type="intern">
-      <label xml:lang="de">Dokumenttypen</label>
-      <label xml:lang="en">Genres</label>
+      <label xml:lang="de">nach Dokumenttyp</label>
+      <label xml:lang="en">by document typ</label>
     </item>
     <item href="/content/browse/sdnb.xml" type="intern">
-      <label xml:lang="de">Sachgruppen</label>
-      <label xml:lang="en">SNDB</label>
+      <label xml:lang="de">nach Sachgruppe</label>
+      <label xml:lang="en">by SNDB</label>
     </item>
+    <item href="/content/browse/ddc.xml" type="intern">
+      <label xml:lang="de">nach DDC</label>
+      <label xml:lang="en">by DDC</label>
+    </item>
+    <!-- 
     <item href="/servlets/MCRActionMappingServlet/personindex/browse" type="extern">
-      <label xml:lang="de">Personen</label>
-      <label xml:lang="en">Persons</label>
+      <label xml:lang="de">nach Person</label>
+      <label xml:lang="en">for people</label>
     </item>
+    -->
   </menu>
   <menu id="publish" dir="/content/publish">
-    <label xml:lang="de">Dokumente einreichen</label>
-    <label xml:lang="en">Submit Document</label>
+    <label xml:lang="de">Publizieren</label>
+    <label xml:lang="en">Publish</label>
+    <item href="https://crossasia.org/heimatinstitution/" type="extern" replaceMenu="false" constrainPopUp="false">
+      <label xml:lang="de">Dokument einreichen</label>
+      <label xml:lang="en">submit document</label>
+    </item>
     <item href="/servlets/MCRActionMappingServlet/mods/create" type="intern">
-      <label xml:lang="de">Publizieren</label>
-      <label xml:lang="en">Publish</label>
+      <label xml:lang="de">Dokument einreichen</label>
+      <label xml:lang="en">submit document</label>
     </item>
     <item href="/content/publish/importPPN.xml" type="intern">
-      <label xml:lang="de">Publizieren (PPN Import)</label>
-      <label xml:lang="en">Publish (PPN Import)</label>
+      <label xml:lang="de">mit Metadatenübernahme</label>
+      <label xml:lang="en">with metadata import</label>
+    </item>
+    <item href="/editor/editor-admins.xed" type="intern" replaceMenu="false" constrainPopUp="false">
+      <label xml:lang="de">Erfassung für Experten</label>
+      <label xml:lang="en">submit as expert</label>
+    </item>
+    <item href="/servlets/solr/select?q=createdby:USERNAME" type="intern" replaceMenu="false" constrainPopUp="false">
+      <label xml:lang="de">Eigene Dokumente</label>
+      <label xml:lang="en">My Documents</label>
     </item>
     <item href="/content/publish/guidelines.xml" type="intern">
-      <label xml:lang="de">Leitlinien</label>
-      <label xml:lang="en">Guidelines</label>
+      <label xml:lang="de">Sammelauftrag</label>
+      <label xml:lang="en">Collecting order</label>
     </item>
     <item href="/content/publish/contract.xml" type="intern">
       <label xml:lang="de">Vertragsbedingungen</label>
