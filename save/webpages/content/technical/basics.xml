@@ -1,30 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MyCoReWebPage>
-    <section xml:lang="de" title="CrossAsia - Technische Grundlage">
-        <div>
-            <h2>Technische Grundlagen</h2>
+    <section xml:lang="de" title="Technische Grundlagen">
 
-            <div class="three_column">
+        <div class="row">
+            <div class="col-sm-12 col-md-8" lang="de">
+                <h1>Technische Grundlagen</h1>
                 <p>
-                    CrossAsia wird auf Basis des Software-Frameworks MyCoRe <sup><a href="http://www.mycore.de/" shape="rect">[1]</a></sup>
-                    im Rahmen ihres Hosting-Service "Reposis" von der Verbundzentrale des Gemeinsamen Bibliotheksverbunds
-                    <sup><a href="https://www.gbv.de/Verbundzentrale/serviceangebote/reposis-repository-service/" shape="rect">[2]</a></sup>
-                    betrieben, die auch die Archivierung der auf diesem Repositorium publizierten Inhalte für mindestens fünf Jahre garantiert. 
-                    Zusätzlich werden die auf CrossAsia veröffentlichten Inhalte von Seiten der Deutschen Nationalbibliothek im Rahmen Ihres 
-                    gesetzlichen Sammlungsauftrags für digitale Medien und Netzpublikationen langzeitarchiviert. Ebenfalls in Kooperation mit 
-                    der Deutschen Nationalbibliothek erhalten die auf CrossAsia veröffentlichten elektronischen Dokumente eindeutige persistente 
-                    Identifikatoren – so genannten Uniform Resource Names –, die eine zuverlässige Referenzierung von digitalen Objekten und damit 
-                    deren dauerhafte Zitierfähigkeit sicherstellen. Ergänzend werden in Verbindung mit DataCite Digital Object Identifiers vergeben 
-                    – ein international stärker etabliertes Alternativsystem zur persistenten Identifikation von Netzinhalten. Als Dataprovider im 
-                    Rahmen der internationalen Open Archives Initiative (OAI) exponiert CrossAsia die formalen und inhaltsbezogenen Metadaten zu den 
-                    veröffentlichten Beiträgen über eine standardisierte Schnittstelle (OAI-PMH 2.0), die bei den etablierten wissenschaftlichen 
-                    Suchmaschinen – darunter OAIster, BASE, CORE sowie der CrossAsia International Discovery Service – registriert ist. Die globale 
-                    Sichtbarkeit der auf CrossAsia veröffentlichten Beiträge wird zudem über eine Indexierung durch Google Scholar weiter erhöht.
+                    CrossAsia Open Access Repository wird auf Basis des Software-Frameworks
+                    <a href="http://www.mycore.de/">MyCoRe</a>
+                    im Rahmen ihres Hosting-Service "Reposis" von der
+                    <a href="https://www.gbv.de/Verbundzentrale/serviceangebote/reposis-repository-service/">
+                    Verbundzentrale des Gemeinsamen Bibliotheksverbunds</a>
+                    betrieben, die auch die Archivierung der auf diesem Repositorium publizierten Inhalte für 
+                    mindestens fünf Jahre garantiert. 
+                    Zusätzlich werden die auf CrossAsia Open Access Repository veröffentlichten Inhalte von Seiten der 
+                    Deutschen Nationalbibliothek im Rahmen Ihres gesetzlichen Sammlungsauftrags für digitale Medien 
+                    und Netzpublikationen langzeitarchiviert. Ebenfalls in Kooperation mit der Deutschen 
+                    Nationalbibliothek erhalten die auf CrossAsia Open Access Repository veröffentlichten 
+                    elektronischen Dokumente eindeutige persistente Identifikatoren – so genannten Uniform Resource 
+                    Names –, die eine zuverlässige Referenzierung von digitalen Objekten und damit deren dauerhafte 
+                    Zitierfähigkeit sicherstellen. Ergänzend werden in Verbindung mit DataCite Digital Object 
+                    Identifiers vergeben – ein international stärker etabliertes Alternativsystem zur persistenten 
+                    Identifikation von Netzinhalten. Als Dataprovider im Rahmen der internationalen Open Archives 
+                    Initiative (OAI) exponiert CrossAsia Open Access Repository die formalen und inhaltsbezogenen 
+                    Metadaten zu den veröffentlichten Beiträgen über eine standardisierte Schnittstelle (OAI-PMH 2.0), 
+                    die bei den etablierten wissenschaftlichen Suchmaschinen – darunter OAIster, BASE, CORE sowie der 
+                    CrossAsia Suche – registriert ist. Die globale Sichtbarkeit der auf CrossAsia Open Access 
+                    Repository veröffentlichten Beiträge wird zudem über eine Indexierung durch Google Scholar weiter 
+                    erhöht.
                 </p>
             </div>
         </div>
     </section>
-    <meta>
-        <log lastEditor="cmathieu" date="2018-05-24" time="10:12" />
-    </meta>
+    <meta></meta>
 </MyCoReWebPage>

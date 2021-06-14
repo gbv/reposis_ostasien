@@ -120,7 +120,7 @@
           </ul>
         </div>
         <div class="col-2">
-          <h4>Rechtliches</h4>
+          <h4>Technisches</h4>
           <ul class="internal_links">
             <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='technical']/*" />
           </ul>
