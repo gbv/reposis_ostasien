@@ -98,8 +98,7 @@
     <xsl:if test="//div/@class='jumbotwo'">
       <div class="jumbotron">
         <div class="container">
-          <h1>Mit MIR wird alles gut!</h1>
-          <h2>your repository - just out of the box</h2>
+          <h1>CrossAsia Open Access Repository</h1>
         </div>
       </div>
     </xsl:if>

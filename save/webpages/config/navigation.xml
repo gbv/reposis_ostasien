@@ -145,7 +145,7 @@
       <label xml:lang="de">Sammelauftrag</label>
       <label xml:lang="en">Collecting order</label>
     </item>
-    <item href="/content/publish/contract.xml" type="intern">
+    <item href="/content/rights/contract.xml" type="intern">
       <label xml:lang="de">Vertragsbedingungen</label>
       <label xml:lang="en">Terms &amp; Conditions</label>
     </item>

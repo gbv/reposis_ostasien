@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE MyCoReWebPage>
 <MyCoReWebPage>
-
-  <section title="Willkommen bei MIR!" xml:lang="de">
-        <div class="jumbotwo" >
+    <section title="Willkommen bei MIR!" xml:lang="de">
+        <div class="jumbotwo">
             <div class="row">
-
-                <div class="col-12">
-                    <h2>Mods Institutional Repository (MIR)</h2>
-                </div>
-
                 <div class="col-md-4">
-                    <h3><span class="fas fa-check"></span> fertig</h3>
-                    <p>MIR ist eine MyCoRe-Software, die mit nur wenigen Anpassungen
-                    - so wie sie ist - als Repositorium eingesetzt werden kann.</p>
-                    <p><a class="btn btn-secondary" href="https://www.mycore.de/documentation/getting_started/gs_mir_install/" role="button">weitere Informationen »</a></p>
+                    <h3>Über uns</h3>
+                    <p>
+                        Das disziplinäre Open-Access-Repositorium CrossAsia Open Access Repository ist die zentrale Publikationsplattform
+                        des Fachportals CrossAsia und versteht sich als zentraler Beitrag zur Beförderung und Akzeptanzsteigerung des 
+                        Open-Access-Paradigmas auf Seiten der asienwissenschaftlichen Wissenschaftsgemeinde.
+                    </p>
+                    <p><a class="btn btn-secondary" href="./about/about_us.xml" role="button">Über CrossAsia Open Access Repository »</a></p>
                 </div>
                 <div class="col-md-4">
-                    <h3><span class="fas fa-bolt"></span> mächtig</h3>
-                    <p>MIR verwendet das mächtige und bewährte MODS-Datenmodell. Den
-                    Kern der Webanwendung bildet MyCoRe mit einer Vielzahl von Funktionen.</p>
-                    <p><a class="btn btn-secondary" href="https://www.mycore.de/site/features/" role="button">weitere Informationen »</a></p>
+                    <h3>Sammelauftrag</h3>
+                    <p>
+                        CrossAsia Open Access Repository ist ein asienwissenschaftliches Fachrepositorium in Deutschland und ist dem Ziel
+                        verpflichtet, offenen und kostenfreien Zugang zu qualitätsgesicherten wissenschaftlichen Beiträgen aus allen Bereichen
+                        der asienbezogenen geistes- und sozialwissenschaftlichen Forschung dauerhaft sicherzustellen. 
+                    </p>
+                    <p><a class="btn btn-secondary" href="./publish/guidelines.xml" role="button">Sammelauftrag »</a></p>
                 </div>
                 <div class="col-md-4">
-                    <h3><span class="fas fa-heart"></span> lebendig</h3>
-                    <p>MIR basiert auf dem Software-Kern MyCoRe, der kontinuierlich
-                    weiter entwickelt wird. Eine lebendige Community setzt MIR in
-                    ihren Anwendungen ein.</p>
-                    <p><a class="btn btn-secondary" href="https://www.mycore.de/site/community/contact/" role="button">weitere Informationen »</a></p>
+                    <h3>Publizieren</h3>
+                    <p>
+                        Als Serviceangebot von CrossAsia steht CrossAsia Open Access Repository als Plattform für das wissenschaftliche
+                        Open-Access-Publizieren allen Forschenden der asienbezogenen Wissenschaften und insbesondere den universitären wie
+                        außeruniversitären Forschungseinrichtungen offen.
+                    </p>
+                    <p><a class="btn btn-secondary" href="./about/policy.xml" role="button">Publizieren »</a></p>
                 </div>
             </div>
         </div>
-  </section>
-  <meta>
-    <log date="2015-05-22" time="11:12" labelPath=" » Start" lastEditor="Kathleen Neumann" />
-  </meta>
+    </section>
+    <meta></meta>
 </MyCoReWebPage>
