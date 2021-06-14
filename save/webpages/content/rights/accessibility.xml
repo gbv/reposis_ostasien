@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE MyCoReWebPage>
 <MyCoReWebPage>
-    <section xml:lang="de" title="Barrierefreiheitserklärung">
+    <section xml:lang="de" title="Publizieren in CrossAsia Open Access Repository">
         <div class="row">
-            <div class="col-md-12" lang="de">
+            <div class="col-sm-12 col-md-8">
                 <h1>Erklärung zur Barrierefreiheit</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                     labore et dolore magna aliqua. Ullamcorper morbi tincidunt ornare massa eget egestas purus
                     viverra. Vitae purus faucibus ornare suspendisse sed nisi lacus. Erat velit scelerisque in
                     dictum non consectetur a erat. Faucibus et molestie ac feugiat sed lectus. Turpis in eu mi
@@ -19,7 +19,5 @@
             </div>
         </div>
     </section>
-    <meta>
-        <log lastEditor="administrator" date="2020-09-22" time="12:30"/>
-    </meta>
+    <meta></meta>
 </MyCoReWebPage>
