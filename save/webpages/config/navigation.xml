@@ -15,7 +15,7 @@
       <label xml:lang="de">Publizieren</label>
       <label xml:lang="en">Publish</label>
     </item>
-    <item href="/content/about/contact.xml" type="intern" replaceMenu="false" constrainPopUp="false">
+    <item href="/content/about/contact.xed" type="intern" replaceMenu="false" constrainPopUp="false">
       <label xml:lang="de">Kontakt</label>
       <label xml:lang="en">Contact</label>
     </item>

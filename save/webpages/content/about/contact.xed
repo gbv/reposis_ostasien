@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MyCoReWebPage>
+<MyCoReWebPage>
+
+    <section xml:lang="all" title="Kontakt">
+        <xed:form xmlns:xed="http://www.mycore.de/xeditor" method="post" role="form" class="form-horizontal">
+            <xed:bind xpath="/contactMail">
+                <h1>Kontakt</h1>
+                <p>
+                    <strong>Publikationsservice CrossAsia Open Access Repository</strong>
+                    <br />
+                    CrossAsia
+                    <br />
+                    Staatsbibliothek zu Berlin – Preußischer Kulturbesitz
+                    <br />
+                    Potsdamer Straße 33
+                    <br />
+                    D-10785 Berlin
+                    <br />
+                    E-Mail:
+                    <span class="madress">x-asia [at] sbb.spk-berlin.de</span>
+                    <br />
+                    Internet:
+                    <a href="https://crossasia.org/">https://crossasia.org</a>
+                </p>
+                <h1>Fragen Sie uns</h1>
+
+                <!-- Subject -->
+                <xed:bind xpath="subject">
+                    <div class="form-group row">
+                        <label class="col-md-2 control-label">* Anliegen:</label>
+                        <div class="col-md-6">
+                            <select class="form-control">
+                                <option title="Frage" value="Frage">Frage</option>
+                                <option title="Anregung" value="Anregung">Anregung</option>
+                                <option title="Korrektur melden" value="Korrektur">Korrektur melden</option>
+                                <option title="Anderes" value="Anderes" selected="selected">Anderes</option>
+                            </select>
+                        </div>
+                    </div>
+                </xed:bind>
+
+                <!-- Message -->
+                <xed:bind xpath="body">
+                    <div class="form-group row">
+                        <label class="col-md-2 control-label">* Nachricht:</label>
+                        <div class="col-md-6">
+                            <textarea class="form-control input-md" rows="3" required="required" type="text" />
+                        </div>
+                    </div>
+                </xed:bind>
+
+                <!-- Sender Name -->
+                <xed:bind xpath="to_name">
+                    <div class="form-group row">
+                        <label class="col-md-2 control-label required">
+              * Name:
+            </label>
+                        <div class="col-md-6">
+                            <input placeholder="Max Mustermann" class="form-control input-md" type="text" required="required" />
+                        </div>
+                    </div>
+                </xed:bind>
+
+                <!-- Sender Mail Address -->
+                <xed:bind xpath="to_mail">
+                    <div class="form-group row">
+                        <label class="col-md-2 control-label required">
+              * E-Mail:
+            </label>
+                        <div class="col-md-6">
+                            <input placeholder="max.mustermann@sbb.spk-berlin.dee" class="form-control input-md" type="email" required="required" />
+                        </div>
+                    </div>
+                </xed:bind>
+
+                <!-- Approvement -->
+                <xed:bind xpath="approvement">
+                    <div class="form-group row ">
+                        <div class="ml-3">
+                            *
+                            <input type="checkbox" value="true" required="required" />
+                            Ich habe die
+                            <a href="../rights/privacy.xml">Datenschutzerklärung</a>
+                            gelesen und erkenne sie an.
+                        </div>
+                    </div>
+                </xed:bind>
+
+                <!-- Captacha -->
+                <!-- TODO: Remove this once MIR-993 is fixed -->
+                <xed:if test="string-length($MIR.ReCaptcha.site.key) &gt; 0">
+                    <script src='https://www.google.com/recaptcha/api.js' />
+                    <script type="text/javascript">
+                        <![CDATA[
+                            var verifyCallback = function(response) {
+                                $('#my-g-recaptcha-response').val(response);
+                            };
+                        ]]>
+                    </script>
+
+                    <script src='https://www.google.com/recaptcha/api.js?hl={$CurrentLang}'></script>
+                    <xed:bind xpath="attributes/attribute[@name='recaptchaParam']/@value">
+                        <div class="form-group row {$xed-validation-marker} required">
+                            <label class="col-md-2 control-label" for="my-g-recaptcha-response">
+                                <xed:output i18n="selfRegistration.captcha" />
+                            </label>
+                            <div id="captcha" class="g-recaptcha col-md-6" data-sitekey="{$MIR.ReCaptcha.site.key}" data-callback="verifyCallback" />
+                            <input id="my-g-recaptcha-response" type="hidden" />
+                            <xed:validate display="global" i18n="selfRegistration.error.captcha" test="xed:call-java('org.mycore.mir.authorization.ReCaptcha', 'isSubmittedCaptchaCorrect', .)" />
+                        </div>
+                    </xed:bind>
+                    <xed:cleanup-rule xpath="//attribute[@name='recaptchaParam']" relevant-if="true" />
+                </xed:if>
+
+                <!-- Hidden parameters for MCRMailer -->
+                <input type="hidden" value="../content/below/contact.xed?XSL.Status.Style=success&amp;XSL.Status.Message=kartdok.contact.success" name="goto" /> <!-- where to go after sending mail -->
+                <input type="hidden" value="e-mail-contact" name="xsl" /> <!-- specify xsl to convert mail to for MCRMailer -->
+
+                <!-- Buttons -->
+                <div class="form-group row ">
+                    <div class="ml-3">
+                        <button id="reset" class="btn btn-secondary" type="reset">Formular leeren</button>
+                        <button id="save" class="btn btn-primary" xed:target="servlet" xed:href="MCRMailer" type="submit">Nachricht senden</button>
+                    </div>
+                </div>
+
+                <script src="../../js/validator.min.js" type="text/javascript"></script>
+            </xed:bind>
+        </xed:form>
+    </section>
+
+</MyCoReWebPage>
