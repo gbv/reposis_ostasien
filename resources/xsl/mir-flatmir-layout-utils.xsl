@@ -108,7 +108,7 @@
   <xsl:template name="mir.footer">
     <div class="container">
       <div class="row">
-        <div class="col-2">
+        <div class="col-3">
           <h4>Über uns</h4>
           <ul class="internal_links">
             <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='about']/*" />

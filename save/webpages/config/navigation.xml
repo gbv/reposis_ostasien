@@ -3,6 +3,10 @@
   <menu id="about" dir="/content/about">
     <label xml:lang="de">Über uns</label>
     <label xml:lang="en">About us</label>
+    <item href="/content/about/about_us.xml" type="intern">
+      <label xml:lang="de">Über CrossAsia Open Access Repository</label>
+      <label xml:lang="en">About Crossasia Open Access Repository</label>
+    </item>
     <item href="/content/publish/guidelines.xml" type="intern">
       <label xml:lang="de">Sammelauftrag</label>
       <label xml:lang="en">Collecting order</label>
