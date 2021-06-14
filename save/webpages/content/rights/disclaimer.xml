@@ -1,25 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MyCoReWebPage>
-    <section xml:lang="de" title="HAFTUNGSHINWEISE">
+    <section xml:lang="de" title="Haftungshinweise">
         <div class="row">
-            <div class="col-md-12" lang="de">
+            <div class="col-sm-12 col-md-8" lang="de">
                 <h1>Haftungshinweise</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                    labore et dolore magna aliqua. Ullamcorper morbi tincidunt ornare massa eget egestas purus
-                    viverra. Vitae purus faucibus ornare suspendisse sed nisi lacus. Erat velit scelerisque in
-                    dictum non consectetur a erat. Faucibus et molestie ac feugiat sed lectus. Turpis in eu mi
-                    bibendum neque. At erat pellentesque adipiscing commodo elit at imperdiet dui. Ut porttitor leo
-                    a diam. Gravida cum sociis natoque penatibus et magnis dis parturient montes. Mollis nunc sed id
-                    semper risus in hendrerit gravida rutrum. Eget nunc scelerisque viverra mauris. Et ligula
-                    ullamcorper malesuada proin libero nunc. Felis donec et odio pellentesque. Quis ipsum
-                    suspendisse ultrices gravida dictum. Amet dictum sit amet justo donec enim diam vulputate ut.
-                    Consequat ac felis donec et odio pellentesque diam.
+                <p>
+                    Als Trägerin des Fachportals CrossAsia ist die Staatsbibliothek zu Berlin – Preußischer 
+                    Kulturbesitz um Richtigkeit und Aktualität der auf dieser Internetpräsenz bereitgestellten 
+                    Informationen bemüht. Trotzdem können Fehler und Unklarheiten nicht vollständig ausgeschlossen 
+                    werden. Die Staatsbibliothek zu Berlin – Preußischer Kulturbesitz übernimmt daher keinerlei Gewähr 
+                    für die Aktualität, Korrektheit, Vollständigkeit oder Qualität der bereitgestellten Informationen. 
+                    Die Nutzung der Inhalte der Website erfolgt auf eigene Gefahr des/der Nutzer:in. Gleiches gilt für 
+                    kostenlos zum Download bereitgehaltene Inhalte. Alle Angebote sind freibleibend und unverbindlich. 
+                    Die Staatsbibliothek zu Berlin – Preußischer Kulturbesitz behält es sich explizit vor, Teile des 
+                    Internetangebotes oder das gesamte Angebot ohne gesonderte Ankündigung zu verändern oder zu 
+                    ergänzen.
+                </p>
+                <p>
+                    Das Angebot von CrossAsia enthält Links zu externen Webseiten Dritter, auf deren Inhalte CrossAsia 
+                    keinen Einfluss hat. Deshalb kann CrossAsia für diese fremden Inhalte keine Gewähr übernehmen. Für 
+                    die Inhalte der verlinkten Seiten sind stets die jeweiligen Anbieter:innen oder Betreiber:innen 
+                    der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche 
+                    Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht 
+                    erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete 
+                    Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen 
+                    werden derartige Links umgehend entfernt. Der Nutzung von im Rahmen der Impressumspflicht 
+                    veröffentlichten Kontaktdaten durch Dritte zur Übersendung von nicht ausdrücklich angeforderter 
+                    Werbung und Informationsmaterialien wird hiermit ausdrücklich widersprochen. Die Betreiberin der 
+                    Seiten behält sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von 
+                    Werbeinformationen, etwa durch Spam-Mails, vor. Soweit die Inhalte auf dieser Seite nicht von der 
+                    Betreiberin erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden 
+                    Inhalte Dritter als solche gekennzeichnet.
+                </p>
+                <p>
+                    Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bittet CrossAsia um einen 
+                    entsprechenden Hinweis. Bei Kenntnis von Rechtsverletzungen werden derartige Inhalte entfernt.
+                </p>
+                <h2>Rechtswirksamkeit dieses Haftungsausschlusses</h2>
+                <p>
+                    Der im Vorstehenden formulierte Haftungsausschluss ist als Teil des Internetangebotes zu 
+                    betrachten, von dem aus auf diese Seite verwiesen wurde. Insofern Teile oder einzelne 
+                    Formulierungen dieses Textes der aktuell geltenden Rechtslage nicht, nicht mehr oder nicht 
+                    vollständig entsprechen sollten, bleiben die übrigen Teile des Dokumentes in Hinblick sowohl auf 
+                    ihren Inhalt als auch und vor allem auf ihre Gültigkeit davon unberührt.
                 </p>
             </div>
         </div>
     </section>
 
     <meta>
-        <log lastEditor="administrator" date="2020-06-10" time="15:29"/>
     </meta>
 </MyCoReWebPage>
