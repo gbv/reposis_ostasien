@@ -1,75 +1,131 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MyCoReWebPage>
     <section xml:lang="de" title="Urheberrecht">
+
         <div class="row">
-        <div class="col-md-12" lang="de">
-            <h2>Urheberrecht</h2>
-               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                    labore et dolore magna aliqua. Ullamcorper morbi tincidunt ornare massa eget egestas purus
-                    viverra. Vitae purus faucibus ornare suspendisse sed nisi lacus. Erat velit scelerisque in
-                    dictum non consectetur a erat. Faucibus et molestie ac feugiat sed lectus. Turpis in eu mi
-                    bibendum neque. At erat pellentesque adipiscing commodo elit at imperdiet dui. Ut porttitor leo
-                    a diam. Gravida cum sociis natoque penatibus et magnis dis parturient montes. Mollis nunc sed id
-                    semper risus in hendrerit gravida rutrum. Eget nunc scelerisque viverra mauris. Et ligula
-                    ullamcorper malesuada proin libero nunc. Felis donec et odio pellentesque. Quis ipsum
-                    suspendisse ultrices gravida dictum. Amet dictum sit amet justo donec enim diam vulputate ut.
-                    Consequat ac felis donec et odio pellentesque diam.
-                </p>
-
-            <h3>Überschrift 1</h3>
-
-                <p>Vulputate odio ut enim blandit volutpat maecenas volutpat blandit. Imperdiet sed euismod nisi
-                    porta lorem mollis aliquam ut. Pretium vulputate sapien nec sagittis aliquam malesuada bibendum
-                    arcu. Nec feugiat in fermentum posuere urna nec tincidunt praesent. Praesent elementum facilisis
-                    leo vel fringilla est. Sit amet mattis vulputate enim nulla aliquet porttitor lacus. Suscipit
-                    tellus mauris a diam maecenas sed. Praesent elementum facilisis leo vel fringilla est
-                    ullamcorper eget nulla. Orci sagittis eu volutpat odio facilisis mauris sit amet. Eget gravida
-                    cum sociis natoque penatibus et magnis dis. In nisl nisi scelerisque eu. Massa tincidunt dui ut
-                    ornare. Semper eget duis at tellus at urna condimentum mattis. Viverra suspendisse potenti
-                    nullam ac tortor vitae purus faucibus ornare.
-                </p>
-
-            <h3>Überschrift 2</h3>
-
-                <p>Fermentum odio eu feugiat pretium nibh. Fermentum posuere urna nec tincidunt praesent semper
-                    feugiat nibh sed. Dignissim cras tincidunt lobortis feugiat vivamus at augue. Sit amet dictum
-                    sit amet. Aliquam sem fringilla ut morbi tincidunt augue interdum velit. Viverra orci sagittis
-                    eu volutpat. Non diam phasellus vestibulum lorem sed risus ultricies. Odio tempor orci dapibus
-                    ultrices in iaculis nunc sed. Pharetra vel turpis nunc eget. Odio morbi quis commodo odio aenean
-                    sed adipiscing. Amet cursus sit amet dictum sit. Nam libero justo laoreet sit amet cursus sit.
-                    Amet risus nullam eget felis eget nunc lobortis mattis.
-                </p>
-
-            <h3>Überschrift 3</h3>
-
+            <div class="col-sm-12 col-md-8" lang="de">
+                <h1>Urheberrecht</h1>
                 <p>
-                    Odio aenean sed adipiscing diam donec adipiscing. Eget nunc lobortis mattis aliquam. Viverra
-                    accumsan in nisl nisi scelerisque eu. Netus et malesuada fames ac turpis. Egestas integer eget
-                    aliquet nibh praesent tristique magna sit. Ultrices neque ornare aenean euismod. Platea dictumst
-                    quisque sagittis purus sit amet volutpat. Suscipit adipiscing bibendum est ultricies integer
-                    quis. Varius quam quisque id diam vel quam elementum. At consectetur lorem donec massa sapien
-                    faucibus. Volutpat consequat mauris nunc congue. Pellentesque dignissim enim sit amet venenatis.
-                    Vitae tempus quam pellentesque nec nam aliquam. Tristique sollicitudin nibh sit amet commodo.
-                    Felis donec et odio pellentesque.
-                </p>
-
-
-            <h3>Überschrift 4</h3>
-
-
-                <p>Potenti nullam ac tortor vitae purus faucibus ornare. Volutpat maecenas volutpat blandit aliquam
-                    etiam. Orci eu lobortis elementum nibh tellus molestie nunc. Quam adipiscing vitae proin
-                    sagittis nisl rhoncus mattis rhoncus urna. Est ullamcorper eget nulla facilisi etiam dignissim
-                    diam quis enim. Risus at ultrices mi tempus imperdiet nulla. Non nisi est sit amet facilisis
-                    magna etiam. Fermentum dui faucibus in ornare quam. Duis ultricies lacus sed turpis tincidunt id
-                    aliquet risus. Sagittis vitae et leo duis ut diam quam nulla. Egestas dui id ornare arcu odio
-                    ut.
+                    Während die Erstpublikation von Originalbeiträgen auf CrossAsia Open Access Repository unter 
+                    urheberrechtlichem Aspekt in aller Regel unproblematisch ist, ergeben sich bei der 
+                    Zweitveröffentlichung zuvor bereits in gedruckter oder elektronischer Form in monographischen 
+                    Sammelwerken – darunter Festschriften, Lexika, Kongressbände und Handbücher – oder 
+                    abonnementpflichtigen Zeitschriften, Jahrbüchern und Zeitungen erschienener Aufsätze regelmäßig 
+                    Fragen nach der Zulässigkeit.
                 </p>
             </div>
+            <div class="col-sm-12 col-md-8" lang="de">
+                <div class="h2" data-toggle="collapse" data-target="#goodwill" aria-expanded="false" aria-controls="goodwill">
+                    <h2>Zweitveröffentlichungsrecht aus Kulanz <span class="fas fa-chevron-down toggle-icon" title="{i18n:mir.help.expand}" aria-hidden="true"></span></h2>
+                </div>
+                <div class="collapse" id="goodwill">
+                    <p>
+                        Bei der Klärung Ihrer Zweitveröffentlichungsrechte unterstützt Sie das nahtlos in das 
+                        Upload-Verfahren von CrossAsia Open Access Repository eingebundene 
+                        <a href="https://v2.sherpa.ac.uk/romeo/">SHERPA/RoMEO-Verzeichnis</a>, das die Bedingungen 
+                        zahlreicher internationaler Wissenschaftsverlage und einzelner Fachzeitschriften in Hinblick 
+                        auf eine mögliche Zweitveröffentlichung im Open-Access dokumentiert und nach einer 
+                        vierteiligen Typologie klassifiziert. Dabei reicht das Spektrum von Verlagen, die eine 
+                        nicht-kommerzielle Zweitveröffentlichung auf institutionellen oder disziplinären Repositorien 
+                        prinzipiell verweigern, bis hin zu Zeitschriften, deren Inhalte für eine 
+                        Open-Access-Publikation in der zum Druck akzeptierten Manuskriptversion oder sogar im 
+                        tatsächlichen Verlagslayout freigegeben sind. Bitte beachten Sie, dass etwaige abweichende 
+                        Vereinbarungen Ihres jeweiligen Verlagsvertrags von den rechtlich ohnehin unverbindlichen 
+                        Angaben des SHERPA/RoMEO-Verzeichnisses in jedem Fall unberührt bleiben.
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-8" lang="de">
+                <div class="h2" data-toggle="collapse" data-target="#publication_right" aria-expanded="false" aria-controls="publication_right">
+                    <h2>Abdingbares Zweitveröffentlichungsrecht <span class="fas fa-chevron-down toggle-icon" title="{i18n:mir.help.expand}" aria-hidden="true"></span></h2>
+                </div>
+                <div class="collapse" id="publication_right">
+                    <p>
+                        Wurde dagegen kein expliziter Verlagsvertrag geschlossen, so sind in diesem Zusammenhang 
+                        vorrangig die Bestimmungen der Abätze eins und zwei des mit Wirkung zum 1. Januar 2014 
+                        novellierten <a href="https://www.gesetze-im-internet.de/urhg/__38.html">§ 38 UrhG</a> zu 
+                        berücksichtigen, die bei nicht finanziell honorierten Publikationen in monographischen, nicht 
+                        periodisch erscheinenden Sammlungen – etwa Handbüchern, Lexika, Festschriften oder 
+                        Kongressbänden – sowie bei Veröffentlichungen in Zeitschriften und Jahrbüchern zur Anwendung 
+                        kommen. Gemäß dieser Norm erwirbt der Verlag für die Vervielfältigung, Verbreitung und 
+                        öffentliche Zugänglichmachung eines entsprechenden Werks im Zweifel zwar ein ausschließliches 
+                        Nutzungsrecht, dennoch aber dürfen Sie Ihren Beitrag nach Ablauf einer Embargofrist von zwölf 
+                        Monaten anderweitig und damit also auch auf CrossAsia Open Access Repository zweitverwerten – 
+                        unter dem Vorbehalt, dass mit dem betreffenden Verlag nichts anderes vereinbart wurde.
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-8" lang="de">
+                <div class="h2" data-toggle="collapse" data-target="#publication_right_2" aria-expanded="false" aria-controls="publication_right_2">
+                    <h2>Unabdingbares Zweitveröffentlichungsrecht <span class="fas fa-chevron-down toggle-icon" title="{i18n:mir.help.expand}" aria-hidden="true"></span></h2>
+                </div>
+                <div class="collapse" id="publication_right_2">
+                    <p>
+                        Sollte Ihr wissenschaftlicher Aufsatz allerdings im Rahmen einer mindestens zur Hälfte mit 
+                        öffentlichen Mitteln geförderten Forschungstätigkeit entstanden und in einer periodisch 
+                        mindestens zweimal jährlich erscheinenden Sammlung veröffentlicht worden sein, so können Sie 
+                        von den seit 1. Januar 2014 novellierten Schrankenregelungen in 
+                        <a href="https://www.gesetze-im-internet.de/urhg/__38.html">§ 38 Abs. 4 UrhG</a> profitieren. 
+                        Selbst wenn Sie einem Verlag ein ausschließliches Nutzungsrecht an einem solchen Beitrag 
+                        eingeräumt und anderweitige Vereinbarungen zu Ihrem Nachteil getroffen haben, sind Sie auf der 
+                        Grundlage dieser Norm nämlich frei, das Werk nach Ablauf von zwölf Monaten seit der 
+                        Erstveröffentlichung in der akzeptierten Manuskriptversion – also nicht im Verlagslayout – 
+                        öffentlich zugänglich zu machen, soweit dies keinem gewerblichen Zweck dient. Bitte beachten 
+                        Sie in diesem Zusammenhang auch die von der 
+                        <a href="https://gfzpublic.gfz-potsdam.de/pubman/item/item_2956897">Allianz der deutschen 
+                        Wissenschaftsorganisationen erarbeiteten FAQ</a> zum unabdingbaren Zweitveröffentlichungsrecht 
+                        sowie die entsprechenden 
+                        <a href="https://irights.info/wp-content/uploads/2017/09/zweitveroeffentlichungsrecht-20150425.pdf">
+                        Handlungsempfehlungen des iRights.Lab</a>.
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-8" lang="de">
+                <div class="h2" data-toggle="collapse" data-target="#license" aria-expanded="false" aria-controls="license">
+                    <h2>CrossAsia Open Access Repository- oder Open Content-Lizenz? <span class="fas fa-chevron-down toggle-icon" title="{i18n:mir.help.expand}" aria-hidden="true"></span></h2>
+                </div>
+                <div class="collapse" id="license">
+                    <p>
+                        Mit Upload des Dokuments auf unseren Server sowie auf Grundlage eines schriftlichen 
+                        <a href="./contract.xml">Publikationsvertrags</a> räumen Sie CrossAsia Open Access 
+                        Repository ein einfaches Nutzungsrecht zur Vervielfältigung, Verbreitung und öffentlichen 
+                        Zugänglichmachung Ihres Werks im Internet ein, sowie ergänzend das Recht, insbesondere für 
+                        Archivierungszwecke Änderungen am jeweiligen Dateiformat vorzunehmen (CrossAsia Open Access 
+                        Repository-Lizenz). Auf Grundlage dieser CrossAsia Open Access Repository-Lizenz ist eine 
+                        Nutzung Ihres auf CrossAsia Open Access Repository veröffentlichten Beitrags durch Dritte 
+                        allerdings nur im Rahmen des im deutschen Urheberrecht vorgesehenen Rahmens möglich – vor 
+                        allem in Hinblick auf eine Vervielfältigung zum wissenschaftlichen, privaten und sonstigen 
+                        eigenen Gebrauch (<a href="https://www.gesetze-im-internet.de/urhg/">§§ 53, 60c, 60d UrhG</a>. 
+                        Möchten Sie dagegen eine weitergehende Nutzung Ihres Werks ermöglichen, so empfiehlt Ihnen 
+                        CrossAsia in Übereinstimmung mit der 
+                        <a href="https://www.dfg.de/foerderung/info_wissenschaft/2014/info_wissenschaft_14_68/">
+                        Allianz der deutschen Wissenschaftsorganisationen</a> die Vergabe einer
+                        <a href="https://creativecommons.org/">Creative Commons-Lizenz</a>, mit der Sie Ihre Beiträge 
+                        auf CrossAsia Open Access Repository z.B. für die Bearbeitung und Weiterverbreitung durch 
+                        Dritte freigeben können. Bitte beachten Sie, dass die Vergabe von Creative Commons- oder 
+                        anderen Open Content-Lizenzen in der Regel nur für Erstveröffentlichungen auf CrossAsia Open 
+                        Access Repository möglich ist und dass die Vergabe nur für solche Werke möglich ist, an denen 
+                        Sie ein ausschließliches Nutzungsrecht besitzen. In allen anderen Fällen ist vor einer freien 
+                        Lizenzierung die Zustimmung des jeweils betroffenen Verlags einzuholen. Hingegen stehen alle 
+                        auf CrossAsia Open Access Repository veröffentlichten beschreibenden bibliographischen 
+                        Metadaten – mit Ausnahme der Abstracts – unter der
+                        <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.de">
+                        CC0 1.0 Universell-Lizenz</a> zur freien Weiterverwendung zur Verfügung.
+                    </p>
+                </div>
+            </div>
 
+            <div class="col-sm-12 col-md-8" lang="de">
+                <div class="h2" data-toggle="collapse" data-target="#support" aria-expanded="false" aria-controls="support">
+                    <h2>Unterstützung und Kontakt <span class="fas fa-chevron-down toggle-icon" title="{i18n:mir.help.expand}" aria-hidden="true"></span></h2>
+                </div>
+                <div class="collapse" id="support">
+                    <p>
+                        Auf Wunsch unterstützt Sie das Team von CrossAsia Open Access Repository bei der Klärung Ihrer Zweitveröffentlichungsrechte und steht Ihnen überdies bei allen Fragen zum Open-Access-Publizieren gerne zur Verfügung. Unsere Kontaktdaten finden Sie bitte <a href="../about/contact.xed">hier</a>. Unabhängig von der Inanspruchnahme dieses Beratungsangebots sind Sie vor einer Veröffentlichung auf CrossAsia Open Access Repository in jedem Fall dazu verpflichtet, sich sorgfältig zu vergewissern, dass die CrossAsia einzuräumenden Nutzungsrechte insbesondere zur öffentlichen Zugänglichmachung Ihres Werks tatsächlich bei Ihnen liegen. CrossAsia Open Access Repository behält sich u.a. in strafrechtlich relevanten Fällen das Recht vor, den Zugriff auf bereits veröffentliche Dokumente zu sperren.
+                    </p>
+                </div>
+            </div>
         </div>
     </section>
-    <meta>
-        <log lastEditor="admin" date="2020-12-01" time="13:04"/>
-    </meta>
+    <meta></meta>
 </MyCoReWebPage>
