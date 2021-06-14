@@ -82,7 +82,7 @@
             </div>
             <div class="col-sm-12 col-md-8" lang="de">
                 <div class="h2" data-toggle="collapse" data-target="#license" aria-expanded="false" aria-controls="license">
-                    <h2>CrossAsia Open Access Repository- oder Open Content-Lizenz? <span class="fas fa-chevron-down toggle-icon" title="{i18n:mir.help.expand}" aria-hidden="true"></span></h2>
+                    <h2 id="openaccess">CrossAsia Open Access Repository- oder Open Content-Lizenz? <span class="fas fa-chevron-down toggle-icon" title="{i18n:mir.help.expand}" aria-hidden="true"></span></h2>
                 </div>
                 <div class="collapse" id="license">
                     <p>
