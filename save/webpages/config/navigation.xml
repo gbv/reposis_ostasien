@@ -125,11 +125,11 @@
       <label xml:lang="de">Dokument einreichen</label>
       <label xml:lang="en">submit document</label>
     </item>
-    <item href="/servlets/MCRActionMappingServlet/mods/create" type="intern">
+    <item href="/content/publish/index.xml" type="intern">
       <label xml:lang="de">Dokument einreichen</label>
       <label xml:lang="en">submit document</label>
     </item>
-    <item href="/content/publish/importPPN.xml" type="intern">
+    <item href="/content/publish/publish_with_ppn.xml" type="intern">
       <label xml:lang="de">mit Metadatenübernahme</label>
       <label xml:lang="en">with metadata import</label>
     </item>
