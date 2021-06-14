@@ -22,6 +22,11 @@ $(document).ready(function() {
   var newHref = 'https://reposis-test.gbv.de/PROJECT/servlets/solr/select?q=createdby:' + userID + '&fq=objectType:mods';
   $("a[href='https://reposis-test.gbv.de/PROJECT/servlets/solr/select?q=createdby:USERNAME']").attr('href', newHref);
 
+  // toggle collapse text icon
+  $('div[data-toggle="collapse"]').click(function () {
+    $(this).find('span.toggle-icon').toggleClass('fa-chevron-down fa-chevron-up');
+  })
+
 });
 
 $( document ).ajaxComplete(function() {
