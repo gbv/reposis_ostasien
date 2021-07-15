@@ -22,17 +22,16 @@
       <div id="project_logo_box">
         <a href="{concat($WebApplicationBaseURL,substring($loaded_navigation_xml/@hrefStartingPage,2),$HttpSession)}"
            class="">
-          <span id="logo_mir">mir</span>
-          <span id="logo_modul">mycore</span>
-          <span id="logo_slogan">mods institutional repository</span>
+          <span id="logo_modul">CrossAsia</span>
+          <span id="logo_slogan">Open Access Repository</span>
         </a>
       </div>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="mir-main-nav bg-primary">
+    <div class="mir-main-nav">
       <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <nav class="navbar navbar-expand-lg navbar-dark">
 
           <button
             class="navbar-toggler"
@@ -81,7 +80,7 @@
                   <input name="owner" type="hidden" value="createdby:{$CurrentUser}" />
                 </xsl:when>
               </xsl:choose>
-              <button type="submit" class="btn btn-primary my-2 my-sm-0">
+              <button type="submit" class="btn btn-secondary my-2 my-sm-0">
                 <i class="fas fa-search"></i>
               </button>
             </form>
@@ -96,11 +95,6 @@
   <xsl:template name="mir.jumbotwo">
     <!-- show only on startpage -->
     <xsl:if test="//div/@class='jumbotwo'">
-      <div class="jumbotron">
-        <div class="container">
-          <h1>CrossAsia Open Access Repository</h1>
-        </div>
-      </div>
     </xsl:if>
   </xsl:template>
 
@@ -113,17 +107,23 @@
             <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='about']/*" />
           </ul>
         </div>
-        <div class="col-2">
+        <div class="col-3">
           <h4>Rechtliches</h4>
           <ul class="internal_links">
             <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='rights']/*" />
           </ul>
         </div>
-        <div class="col-2">
+        <div class="col-3">
           <h4>Technisches</h4>
           <ul class="internal_links">
             <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='technical']/*" />
           </ul>
+        </div>
+        <div class="col-3">
+          <h4>Ein Dienst der</h4>
+          <div class="logo-block-sbb">
+            <img src="{$WebApplicationBaseURL}mir-layout/images/LogoSBB.png" alt="" />
+          </div>
         </div>
       </div>
     </div>
@@ -131,10 +131,14 @@
 
   <xsl:template name="mir.powered_by">
     <xsl:variable name="mcr_version" select="concat('MyCoRe ',mcrver:getCompleteVersion())" />
-    <div id="powered_by">
-      <a href="http://www.mycore.de">
-        <img src="{$WebApplicationBaseURL}mir-layout/images/mycore_logo_small_invert.png" title="{$mcr_version}" alt="powered by MyCoRe" />
-      </a>
+    <div id="powered_by" >
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-right" title="{$mcr_version}">
+            <span>©2021 Copyright CrossAsia</span>
+          </div>
+        </div>
+      </div>
     </div>
   </xsl:template>
 

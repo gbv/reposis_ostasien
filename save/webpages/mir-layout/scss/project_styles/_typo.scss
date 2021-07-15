@@ -5,6 +5,11 @@
 // set the defaults for all responsive levels here
 // no (xl) media query necessary (desktop first)
 
+html {
+  font-family: Helvetica,Arial,sans-serif;
+}
+
+
 
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {

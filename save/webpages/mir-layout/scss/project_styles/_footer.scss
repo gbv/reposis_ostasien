@@ -6,6 +6,33 @@
 // set the defaults for all responsive levels here
 // no (xl) media query necessary (desktop first)
 
+.flatmir-footer {
+  border: none;
+  background-color: $xa-light-gray;
+  color: $xa-light-gray-text;
+  a {
+    color: $xa-light-gray-text;
+    &:hover {
+      color: $xa-red-link;
+      text-decoration: underline;
+      background-color: transparent;
+    }
+    &.dropdown-item {
+      padding: 0;
+    }
+  }
+  h4 {
+    color: $xa-light-gray-text;
+  }
+}
+.logo-block-sbb {
+  margin-top: 2rem;
+}
+#powered_by {
+  border: none;
+  background-color: $xa-dark-gray;
+  color: $xa-dark-gray-text;
+}
 
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {

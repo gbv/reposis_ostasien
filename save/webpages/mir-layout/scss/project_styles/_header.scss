@@ -7,7 +7,31 @@
 // no (xl) media query necessary (desktop first)
 
 // logo and menu container
-
+body > header {
+  color: white;
+  background-color: $primary;
+  top: 50px;
+  width: 100%;
+  z-index: 500 !important;
+  position: fixed;
+  padding-top: 0px;
+}
+.xabs div.container.default {
+  height: 250px !important;
+}
+#project_logo_box a {
+  font-size: 21px;
+}
+#logo_modul {
+  color: white;
+  font-weight: bold;
+  letter-spacing: normal;
+  padding-left: 0;
+  padding-right: 0.5rem;
+}
+#logo_slogan {
+  color: white;
+}
 
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {
