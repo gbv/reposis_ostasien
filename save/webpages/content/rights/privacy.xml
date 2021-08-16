@@ -1,141 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE MyCoReWebPage>
-<MyCoReWebPage>
-  <section xml:lang="de" title="Datenschutz (Privacy Policy) ">
+<MyCoReWebPage><section xml:lang="de" title="Datenschutz (Privacy Policy) "><div class="row">
+<div class="col-sm-12 col-md-8" lang="de">
+<h1>Datenschutz (Privacy Policy)</h1>
 
-    <div class="row">
-      <div class="col-sm-12 col-md-8" lang="de">
-        <h1>Datenschutz (Privacy Policy) </h1>
-        <p>
-            Als Trägerin des Fachportals CrossAsia ist es der Staatsbibliothek zu Berlin – Preußischer Kulturbesitz 
-            ein Anliegen, verantwortungsvoll mit Ihren persönlichen Daten umzugehen und bei allen 
-            Datenverarbeitungsprozessen die Prinzipien von Integrität, Vertraulichkeit, Zweckbindung und 
-            Datensparsamkeit zu beachten. Im Folgenden möchten wir Ihnen daher die wichtigsten datenschutzrechtlich 
-            relevanten Aspekte der Nutzung des Fachportals <a href="https://crossasia.org/">CrossAsia</a> sowie der 
-            dort verfügbaren Serviceangebote erläutern.
-        </p>
-        <p><a href="https://staatsbibliothek-berlin.de/extras/allgemeines/impressum/datenschutz-privacy-policy/">
-            Allgemeine Datenschutzaspekte der Staatsbibliothek zu Berlin</a> sowie der Nutzung des Fachportals 
-            CrossAsia 
-            (<a href="https://staatsbibliothek-berlin.de/extras/allgemeines/impressum/datenschutz-privacy-policy/datenschutz-speziell">
-            Spezifische Datenschutzaspekte</a>)
-        </p>
-       <h2>Spezifische Datenschutzaspekte der Nutzung von CrossAsia Open Access Repository</h2>
-        <p>
-            Zwar ist für Ansicht und Download der auf CrossAsia Open Access Repository publizierten Inhalte keine 
-            Registrierung erforderlich, dennoch werden dabei personenbezogene Daten in der Absicht gespeichert, 
-            statistische Informationen über die Häufigkeit des Zugriffs auf einzelne Beiträge zu gewinnen. Zu diesem 
-            Zweck nutzt CrossAsia Open Access Repository das von der Verbundzentrale des Gemeinsamen 
-            Bibliotheksverbunds (Platz der Göttinger Sieben 1, D-37073 Göttingen, 
-            <span class="madress">gbv [at] gbv.de</span>) betriebene Instrument 
-            <a href="https://www.gbv.de/news/neues-aus-der-verbundzentrale/2014/open-access-statistik">
-            Open-Access-Statistik</a>, dessen datenschutzrechtliche Unbedenklichkeit im Rahmen von Gutachten der 
-            Zentralen <a href="https://dini.de/fileadmin/oa-statistik/gutachten/ZENDAS_Gutachten_2011.pdf">
-            Datenschutzstelle der baden-württembergischen Universitäten</a> bestätigt wurde.
-        </p>
-        <p>
-            Für die Nutzung von CrossAsia Open Access Repository als Publikationsplattform für die 
-            Open-Access-Veröffentlichung ausschließlich von asienwissenschaftlichen Texten, Forschungsdaten, 
-            Videoaufzeichnungen und Ton- und Bilddokumenten ist eine persönliche Registrierung am Fachportal CrossAsia 
-            verpflichtend, die gemäß Art. 4 Nr. 11 der EU-Datenschutzgrundverordnung von der Staatsbibliothek zu 
-            Berlin – Preußischer Kulturbesitz als Einwilligung in die Verarbeitung der angegebenen personenbezogenen 
-            Daten betrachtet wird. Für die Registrierung bei CrossAsia sind Angaben zu Vor- und Nachname des/der 
-            Autor:in oder einer anderen Person, die mit der Veröffentlichung eines Beitrags betraut wurde (z.B. 
-            Sekretariat), Adressangaben und Geburtsdatum sowie die Nennung einer – idealerweise dienstlichen – 
-            E-Mail-Adresse zwingend notwendig. Zusätzlich werden serverseitig Datum und Uhrzeit des letzten Logins des 
-            jeweiligen Kontos protokolliert. Auf die personenbezogenen Daten in den serverbasierten Nutzungskonten 
-            haben neben den Verantwortlichen auf Seiten der Auftragsdatenverarbeitung auch Mitarbeiter:innen des 
-            Fachportals CrossAsia Zugriff, die mit Administratorrechten ausgestattet sind. Die im Zuge der 
-            Erstregistrierung versandten E-Mails sind dagegen von allen Angehörigen des CrossAsia Teams einsehbar. Da 
-            aus der Speicherung dieser personenbezogenen Daten mit größter Wahrscheinlichkeit kein hohes Risiko für 
-            Rechte und Freiheiten der betroffenen Person zu erwarten ist, kann eine Datenschutz-Folgenabschätzung hier 
-            unterbleiben. 
-        </p>
-        <p>
-            Daneben werden zum Zwecke der Open-Access-Publikation von Beiträgen diese formal wie inhaltlich 
-            beschreibende Metadaten abgefragt und gegebenenfalls mit der von der Deutschen Nationalbibliothek 
-            betriebenen allgemein zugänglichen <a href="https://swb.bsz-bw.de/DB=2.104">Gemeinsamen Normdatei</a> 
-            verknüpft. Sämtliche in diesem Zusammenhang zu machenden Angaben sind freiwillig und stehen mit der sich 
-            aus der Nutzung von CrossAsia Open Access Repository ergebenden Absicht, eigene Forschungsergebnisse der 
-            Öffentlichkeit bekannt zu machen, in Übereinstimmung. Die Erhebung sonstiger personenbezogener Daten im 
-            Rahmen des Anmeldevorgangs (IP-Adresse, Datum und Uhrzeit der Registrierung) dient dazu, Missbrauch der 
-            Dienste zu verhindern.
-        </p>
-        <p>
-            Rechtsgrundlage für die Verarbeitung der Anmeldedaten ist Art. 6 Abs. 1 lit. e DSGVO i.V.m. § 3 BDSG. Die 
-            vorübergehende Speicherung der IP-Adresse durch das System ist notwendig, um eine Auslieferung der Website 
-            an den Rechner des/der Nutzer:in zu ermöglichen. Hierfür muss die IP-Adresse des/der Nutzer:in für die 
-            Dauer der Sitzung gespeichert bleiben. Die Speicherung in Logfiles erfolgt, um die Funktionsfähigkeit der 
-            Website sicherzustellen. Zudem dienen die Daten zur Optimierung der Website und zur Sicherstellung der 
-            Sicherheit unserer informationstechnischen Systeme. Eine Auswertung der Daten zu Marketingzwecken findet 
-            in diesem Zusammenhang nicht statt. In diesen Zwecken liegt auch das berechtigte Interesse des Fachportals 
-            CrossAsia an der Datenverarbeitung nach Art. 6 Abs. 1 lit. f DSGVO vor.
-        </p>
-        <p>
-            Alle erhobenen personenbezogenen Daten werden auf Serverinfrastrukturen der Verbundzentrale des 
-            Gemeinsamen Bibliotheksverbunds (Platz der Göttinger Sieben 1, D-37073 Göttingen, 
-            <span class="madress">gbv [at] gbv.de</span>) gespeichert. Die gesamte Datenübertragung erfolgt 
-            abhörsicher verschlüsselt über den Internet-Kommunikationsstandard Hypertext Transfer Protocol Secure 
-            (HTTPS). Eine darüberhinausgehende Weitergabe personenbezogener Daten erfolgt nicht. Sämtliche 
-            personenbezogenen Daten werden auf unbestimmte Zeit, höchstens jedoch bis zum Widerruf der Einwilligung zu 
-            deren Nutzung – in der Regel in Form der Löschung des betreffenden Nutzungskontos – gespeichert. Die 
-            dauerhafte Löschung des eigenen Nutzungskontos bei CrossAsia kann jederzeit durch formlose Nachricht an 
-            die hier aufgeführten Kontaktadressen oder durch Mitteilung an die für die Datenerhebung verantwortliche 
-            Person beauftragt werden. Hierdurch wird ebenfalls ein Widerruf der Einwilligung der Speicherung der 
-            während des Registrierungsvorgangs erhobenen personenbezogenen Daten ermöglicht. Die sonstigen im Rahmen 
-            des Anmeldevorgangs erhobenen personenbezogenen Daten (IP-Adresse, Datum und Uhrzeit der Registrierung) 
-            werden in der Regel nach einer Frist von sieben Tagen nach der Anmeldung gelöscht.  
-        </p>
-        <p>
-            Für die Datenhebung im Rahmen der Nutzung von CrossAsia Open Access Repository als Publikationsplattform 
-            ist verantwortlich im Sinne der Datenschutz-Grundverordnung und sonstiger datenschutzrechtlicher 
-            Bestimmungen:
-        </p>
-        <p>
-            Stiftung Preußischer Kulturbesitz, gesetzlich vertreten durch ihren Präsidenten<br />
-            Prof. Dr. Hermann Parzinger<br />
-            Von-der-Heydt-Str. 16-18<br />
-            D-10785 Berlin<br />
-            +49 (0)30 / 266 411 401<br />
-            <span class="madress">info [at] sbb.spk-berlin.de</span>
-        </p>
-        <p>
-            Als behördliche Datenschutzbeauftragte der Staatsbibliothek zu Berlin steht Ihnen bei Rückfragen zur 
-            Verfügung:
-        </p>
-        <p>
-            Lara Rossi<br />
-            Stiftung Preußischer Kulturbesitz – Hauptverwaltung<br />
-            Von-der-Heydt-Str. 16-18<br />
-            D-10785 Berlin<br />
-            +49 (0)30 / 266 411 414<br />
-            <span class="madress">Datenschutzbeauftragte [at] hv.spk-berlin.de</span>
-        </p>
-        <p>
-            Als behördlicher Datenschutzbeauftragter des Gemeinsamen Bibliotheksverbunds steht Ihnen bei Rückfragen 
-            zur Verfügung:  
-        </p>
-        <p>
-            Marc-Josef Tegethoff<br />
-            Verbundzentrale des Gemeinsamen Bibliotheksverbunds<br />
-            Platz der Göttinger Sieben 1<br />
-            D-37073 Göttingen<br />
-            +49 (0)551 / 395 207<br />
-            <span class="madress">datenschutz [at] gbv.de</span>
-        </p>
-        <p>
-            Sie haben Anspruch auf Auskunft über die Sie betreffenden personenbezogenen Daten sowie auf Berichtigung 
-            oder Löschung oder auf Einschränkung der Verarbeitung oder – im Falle der Datenverarbeitung aufgrund Ihrer 
-            Einwilligung – ein Widerspruchsrecht gegen die Verarbeitung sowie gegebenenfalls ein Recht auf 
-            Datenübertragbarkeit.
-        </p>
-        <p>
-            Außerdem haben Sie das Recht zur Beschwerde bei unserer Datenschutz-Aufsichtsbehörde, der  
-            Bundesbeauftragten für den Datenschutz und die Informationsfreiheit, Husarenstr. 30, 53117 Bonn, E-Mail: 
-            <span class="madress">poststelle [at] bfdi.bund.de</span> 
-        </p>
-      </div>
-    </div>
-  </section>
-  <meta></meta>
-</MyCoReWebPage>
+<p>Als Trägerin des Fachportals CrossAsia ist es der Staatsbibliothek zu Berlin – Preußischer Kulturbesitz ein Anliegen, verantwortungsvoll mit Ihren persönlichen Daten umzugehen und bei allen Datenverarbeitungsprozessen die Prinzipien von Integrität, Vertraulichkeit, Zweckbindung und Datensparsamkeit zu beachten. Im Folgenden möchten wir Ihnen daher die wichtigsten datenschutzrechtlich relevanten Aspekte der Nutzung des Fachportals <a href="https://crossasia.org/">CrossAsia</a> sowie der dort verfügbaren Serviceangebote erläutern.</p>
+
+<p><a href="https://staatsbibliothek-berlin.de/extras/allgemeines/impressum/datenschutz-privacy-policy/">Allgemeine Datenschutzaspekte der Staatsbibliothek zu Berlin</a> sowie der Nutzung des Fachportals CrossAsia (<a href="https://staatsbibliothek-berlin.de/extras/allgemeines/impressum/datenschutz-privacy-policy/datenschutz-speziell">Spezifische Datenschutzaspekte</a>)</p>
+
+<h2>Spezifische Datenschutzaspekte der Nutzung von CrossAsia Open Access Repository</h2>
+
+<p>Zwar ist für Ansicht und Download der auf CrossAsia Open Access Repository publizierten Inhalte keine Registrierung erforderlich, dennoch werden dabei personenbezogene Daten in der Absicht gespeichert, statistische Informationen über die Häufigkeit des Zugriffs auf einzelne Beiträge zu gewinnen. Zu diesem Zweck nutzt CrossAsia Open Access Repository das von der Verbundzentrale des Gemeinsamen Bibliotheksverbunds (Platz der Göttinger Sieben 1, D-37073 Göttingen, <span class="madress">gbv [at] gbv.de</span>) betriebene Instrument <a href="https://www.gbv.de/news/neues-aus-der-verbundzentrale/2014/open-access-statistik"> Open-Access-Statistik</a>, dessen datenschutzrechtliche Unbedenklichkeit im Rahmen von Gutachten der Zentralen <a href="https://dini.de/fileadmin/oa-statistik/gutachten/ZENDAS_Gutachten_2011.pdf"> Datenschutzstelle der baden-württembergischen Universitäten</a> bestätigt wurde.</p>
+
+<p>Für die Nutzung von CrossAsia Open Access Repository als Publikationsplattform für die Open-Access-Veröffentlichung ausschließlich von asienwissenschaftlichen Texten, Forschungsdaten, Videoaufzeichnungen und Ton- und Bilddokumenten ist eine persönliche Registrierung am Fachportal CrossAsia verpflichtend, die gemäß Art. 4 Nr. 11 der EU-Datenschutzgrundverordnung von der Staatsbibliothek zu Berlin – Preußischer Kulturbesitz als Einwilligung in die Verarbeitung der angegebenen personenbezogenen Daten betrachtet wird. Für die Registrierung bei CrossAsia sind Angaben zu Vor- und Nachname des/der Autor:in oder einer anderen Person, die mit der Veröffentlichung eines Beitrags betraut wurde (z.B. Sekretariat), Adressangaben und Geburtsdatum sowie die Nennung einer – idealerweise dienstlichen – E-Mail-Adresse zwingend notwendig. Zusätzlich werden serverseitig Datum und Uhrzeit des letzten Logins des jeweiligen Kontos protokolliert. Auf die personenbezogenen Daten in den serverbasierten Nutzungskonten haben neben den Verantwortlichen auf Seiten der Auftragsdatenverarbeitung auch Mitarbeiter:innen des Fachportals CrossAsia Zugriff, die mit Administratorrechten ausgestattet sind. Die im Zuge der Erstregistrierung versandten E-Mails sind dagegen von allen Angehörigen des CrossAsia Teams einsehbar. Da aus der Speicherung dieser personenbezogenen Daten mit größter Wahrscheinlichkeit kein hohes Risiko für Rechte und Freiheiten der betroffenen Person zu erwarten ist, kann eine Datenschutz-Folgenabschätzung hier unterbleiben.</p>
+
+<p>Daneben werden zum Zwecke der Open-Access-Publikation von Beiträgen diese formal wie inhaltlich beschreibende Metadaten abgefragt und gegebenenfalls mit der von der Deutschen Nationalbibliothek betriebenen allgemein zugänglichen <a href="https://swb.bsz-bw.de/DB=2.104">Gemeinsamen Normdatei</a> verknüpft. Sämtliche in diesem Zusammenhang zu machenden Angaben sind freiwillig und stehen mit der sich aus der Nutzung von CrossAsia Open Access Repository ergebenden Absicht, eigene Forschungsergebnisse der Öffentlichkeit bekannt zu machen, in Übereinstimmung. Die Erhebung sonstiger personenbezogener Daten im Rahmen des Anmeldevorgangs (IP-Adresse, Datum und Uhrzeit der Registrierung) dient dazu, Missbrauch der Dienste zu verhindern.</p>
+
+<p>Rechtsgrundlage für die Verarbeitung der Anmeldedaten ist Art. 6 Abs. 1 lit. e DSGVO i.V.m. § 3 BDSG. Die vorübergehende Speicherung der IP-Adresse durch das System ist notwendig, um eine Auslieferung der Website an den Rechner des/der Nutzer:in zu ermöglichen. Hierfür muss die IP-Adresse des/der Nutzer:in für die Dauer der Sitzung gespeichert bleiben. Die Speicherung in Logfiles erfolgt, um die Funktionsfähigkeit der Website sicherzustellen. Zudem dienen die Daten zur Optimierung der Website und zur Sicherstellung der Sicherheit unserer informationstechnischen Systeme. Eine Auswertung der Daten zu Marketingzwecken findet in diesem Zusammenhang nicht statt. In diesen Zwecken liegt auch das berechtigte Interesse des Fachportals CrossAsia an der Datenverarbeitung nach Art. 6 Abs. 1 lit. f DSGVO vor.</p>
+
+<p>Alle erhobenen personenbezogenen Daten werden auf Serverinfrastrukturen der Verbundzentrale des Gemeinsamen Bibliotheksverbunds (Platz der Göttinger Sieben 1, D-37073 Göttingen, <span class="madress">gbv [at] gbv.de</span>) gespeichert. Die gesamte Datenübertragung erfolgt abhörsicher verschlüsselt über den Internet-Kommunikationsstandard Hypertext Transfer Protocol Secure (HTTPS). Eine darüberhinausgehende Weitergabe personenbezogener Daten erfolgt nicht. Sämtliche personenbezogenen Daten werden auf unbestimmte Zeit, höchstens jedoch bis zum Widerruf der Einwilligung zu deren Nutzung – in der Regel in Form der Löschung des betreffenden Nutzungskontos – gespeichert. Die dauerhafte Löschung des eigenen Nutzungskontos bei CrossAsia kann jederzeit durch formlose Nachricht an die hier aufgeführten Kontaktadressen oder durch Mitteilung an die für die Datenerhebung verantwortliche Person beauftragt werden. Hierdurch wird ebenfalls ein Widerruf der Einwilligung der Speicherung der während des Registrierungsvorgangs erhobenen personenbezogenen Daten ermöglicht. Die sonstigen im Rahmen des Anmeldevorgangs erhobenen personenbezogenen Daten (IP-Adresse, Datum und Uhrzeit der Registrierung) werden in der Regel nach einer Frist von sieben Tagen nach der Anmeldung gelöscht.</p>
+
+<p>Für die Datenhebung im Rahmen der Nutzung von CrossAsia Open Access Repository als Publikationsplattform ist verantwortlich im Sinne der Datenschutz-Grundverordnung und sonstiger datenschutzrechtlicher Bestimmungen:</p>
+
+<p>Stiftung Preußischer Kulturbesitz, gesetzlich vertreten durch ihren Präsidenten<br />
+Prof. Dr. Hermann Parzinger<br />
+Von-der-Heydt-Str. 16-18<br />
+D-10785 Berlin<br />
++49 (0)30 / 266 411 401<br />
+<span class="madress">info [at] sbb.spk-berlin.de</span></p>
+
+<p>Als behördliche Datenschutzbeauftragte der Staatsbibliothek zu Berlin steht Ihnen bei Rückfragen zur Verfügung:</p>
+
+<p>Barbara Kaspari<br />
+Stiftung Preußischer Kulturbesitz – Hauptverwaltung<br />
+Von-der-Heydt-Str. 16-18<br />
+D-10785 Berlin<br />
++49 (0)30 / 266 411 414<br />
+<span class="madress">Datenschutzbeauftragte [at] hv.spk-berlin.de</span></p>
+
+<p>Als behördlicher Datenschutzbeauftragter des Gemeinsamen Bibliotheksverbunds steht Ihnen bei Rückfragen zur Verfügung:</p>
+
+<p>Marc-Josef Tegethoff<br />
+Verbundzentrale des Gemeinsamen Bibliotheksverbunds<br />
+Platz der Göttinger Sieben 1<br />
+D-37073 Göttingen<br />
++49 (0)551 / 395 207<br />
+<span class="madress">datenschutz [at] gbv.de</span></p>
+
+<p>Sie haben Anspruch auf Auskunft über die Sie betreffenden personenbezogenen Daten sowie auf Berichtigung oder Löschung oder auf Einschränkung der Verarbeitung oder – im Falle der Datenverarbeitung aufgrund Ihrer Einwilligung – ein Widerspruchsrecht gegen die Verarbeitung sowie gegebenenfalls ein Recht auf Datenübertragbarkeit.</p>
+
+<p>Außerdem haben Sie das Recht zur Beschwerde bei unserer Datenschutz-Aufsichtsbehörde, der Bundesbeauftragten für den Datenschutz und die Informationsfreiheit, Husarenstr. 30, 53117 Bonn, E-Mail: <span class="madress">poststelle [at] bfdi.bund.de</span></p>
+</div>
+</div>
+</section><meta><log lastEditor="mkaun" date="2021-08-10" time="13:17" /></meta></MyCoReWebPage>

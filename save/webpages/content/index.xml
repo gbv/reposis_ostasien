@@ -1,46 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE MyCoReWebPage>
-<MyCoReWebPage>
-    <section title="Willkommen bei MIR!" xml:lang="de">
+<MyCoReWebPage><section xml:lang="de" title="Willkommen bei MIR!"><div class="jumbotwo">
+<div class="row">
+<div class="col-12">
+<h1>CrossAsia Open Access Repository</h1>
+</div>
+</div>
 
-        <div class="jumbotwo">
+<div class="row">
+<div class="col-md-4">
+<h3 class="text-secondary">Über uns</h3>
 
-            <div class="row">
-              <div class="col-12">
-                <h1>CrossAsia Open Access Repository</h1>
-              </div>
-            </div>
+<p>Das disziplinäre Open-Access-Repositorium CrossAsia Open Access Repository ist die zentrale Publikationsplattform des Fachportals CrossAsia und versteht sich als zentraler Beitrag zur Beförderung und Akzeptanzsteigerung des Open-Access-Paradigmas auf Seiten der asienwissenschaftlichen Wissenschaftsgemeinde.</p>
 
-            <div class="row">
-                <div class="col-md-4">
-                    <h3 class="text-secondary">Über uns</h3>
-                    <p>
-                        Das disziplinäre Open-Access-Repositorium CrossAsia Open Access Repository ist die zentrale Publikationsplattform
-                        des Fachportals CrossAsia und versteht sich als zentraler Beitrag zur Beförderung und Akzeptanzsteigerung des
-                        Open-Access-Paradigmas auf Seiten der asienwissenschaftlichen Wissenschaftsgemeinde.
-                    </p>
-                    <p><a class="btn btn-secondary" href="./about/about_us.xml" role="button">Über CrossAsia Open Access Repository »</a></p>
-                </div>
-                <div class="col-md-4">
-                    <h3 class="text-secondary">Sammelauftrag</h3>
-                    <p>
-                        CrossAsia Open Access Repository ist ein asienwissenschaftliches Fachrepositorium in Deutschland und ist dem Ziel
-                        verpflichtet, offenen und kostenfreien Zugang zu qualitätsgesicherten wissenschaftlichen Beiträgen aus allen Bereichen
-                        der asienbezogenen geistes- und sozialwissenschaftlichen Forschung dauerhaft sicherzustellen.
-                    </p>
-                    <p><a class="btn btn-secondary" href="./publish/guidelines.xml" role="button">Sammelauftrag »</a></p>
-                </div>
-                <div class="col-md-4">
-                    <h3 class="text-secondary">Publizieren</h3>
-                    <p>
-                        Als Serviceangebot von CrossAsia steht CrossAsia Open Access Repository als Plattform für das wissenschaftliche
-                        Open-Access-Publizieren allen Forschenden der asienbezogenen Wissenschaften und insbesondere den universitären wie
-                        außeruniversitären Forschungseinrichtungen offen.
-                    </p>
-                    <p><a class="btn btn-secondary" href="./about/policy.xml" role="button">Publizieren »</a></p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <meta></meta>
-</MyCoReWebPage>
+<p><a class="btn btn-secondary" href="./about/about_us.xml" role="button">Über CrossAsia OA Repository »</a></p>
+</div>
+
+<div class="col-md-4">
+<h3 class="text-secondary">Sammelauftrag</h3>
+
+<p>CrossAsia Open Access Repository ist ein asienwissenschaftliches Fachrepositorium in Deutschland und ist dem Ziel verpflichtet, offenen und kostenfreien Zugang zu qualitätsgesicherten wissenschaftlichen Beiträgen aus allen Bereichen der asienbezogenen geistes- und sozialwissenschaftlichen Forschung dauerhaft sicherzustellen.</p>
+
+<p><a class="btn btn-secondary" href="./publish/guidelines.xml" role="button">Sammelauftrag »</a></p>
+</div>
+
+<div class="col-md-4">
+<h3 class="text-secondary">Publizieren</h3>
+
+<p>Als Serviceangebot von CrossAsia steht CrossAsia Open Access Repository als Plattform für das wissenschaftliche Open-Access-Publizieren allen Forschenden der asienbezogenen Wissenschaften und insbesondere den universitären wie außeruniversitären Forschungseinrichtungen offen.</p>
+
+<p><a class="btn btn-secondary" href="./about/policy.xml" role="button">Publizieren »</a></p>
+</div>
+</div>
+</div>
+</section><meta><log lastEditor="mkaun" date="2021-08-10" time="13:17" /></meta></MyCoReWebPage>

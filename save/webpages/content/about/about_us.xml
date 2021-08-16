@@ -1,35 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MyCoReWebPage>
-    <section xml:lang="de" title="Über CrossAsia Open Access Repository">
-        <div class="row">
-            <div class="col-sm-12 col-md-8">
-                <h1>Über CrossAsia Open Access Repository</h1>
-                <p>
-                    Das disziplinäre Open-Access-Repositorium CrossAsia Open Access Repository ist die zentrale
-                    Publikationsplattform des Fachportals <a href="https://crossasia.org/">CrossAsia</a> und des
-                    von der <a href="https://www.dfg.de/">Deutschen Forschungsgemeinschaft</a> an der <a href="">Staatsbibliothek
-                    zu Berlin – Preußischer Kulturbesitz</a> eingerichteten <a href="">Fachinformationsdiensts Asien</a>.
-                </p>
-                <p>
-                    CrossAsia Open Access Repository versteht sich als zentraler Beitrag zur Beförderung und
-                    Akzeptanzsteigerung des <a href="https://open-access.net/">Open-Access-Paradigmas</a> auf Seiten der asienwissenschaftliche
-                    Wissenschaftsgemeinde. CrossAsia bekennt sich ausdrücklich zu den Inhalten der
-                    <i><a href="https://openaccess.mpg.de/Berliner-Erklaerung">Berliner Erklärung über den offenen Zugang zu wissenschaftlichem
-                    Wissen</a></i> sowie der von der <a href="http://www.preussischer-kulturbesitz.de/">Stiftung Preußischer Kulturbesitz</a>
-                    formulierten <i><a href="http://www.preussischer-kulturbesitz.de/schwerpunkte/digitalisierung/best-practice-empfehlung-zu-open-access.html">
-                    Empfehlung für die Umsetzung der Berliner Erklärung von 2003 im Bereich der unterzeichnenden Kultureinrichtungen</a></i>.
-                </p>
-                <p>
-                    In Übereinstimmung mit der Open-Access-Politik und der Open-Science-Politik von Wissenschafts- und
-                    Förderorganisationen wie der <a href="https://www.dfg.de/foerderung/faq/open_access_faq/index.html">Deutschen Forschungsgemeinschaft</a>, dem 
-                    <a href="https://www.bildung-forschung.digital/de/open-access-2833.html">Bundesministerium für Bildung</a>
-                    und Forschung, aber auch der <a href="https://ec.europa.eu/info/research-and-innovation/strategy/goals-research-and-innovation-policy/open-science_en">
-                    Europäischen Union</a> versteht sich CrossAsia Open Access Repository als  Beitrag zur <a href="https://open-access.net/">
-                    Förderung des offenen Zugangs zu wissenschaftlichem Wissen</a>.
-                </p>
-            </div>
-        </div>
-    </section>
-    <meta>
-    </meta>
-</MyCoReWebPage>
+<MyCoReWebPage><section xml:lang="de" title="Über CrossAsia Open Access Repository"><div class="row">
+<div class="col-sm-12 col-md-8">
+<h1>Über CrossAsia Open Access Repository</h1>
+
+<p>Das disziplinäre Open-Access-Repositorium CrossAsia Open Access Repository ist die zentrale Publikationsplattform des Fachportals <a href="https://crossasia.org/">CrossAsia</a> und des von der <a href="https://www.dfg.de/">Deutschen Forschungsgemeinschaft</a> an der <a href="https://staatsbibliothek-berlin.de/">Staatsbibliothek zu Berlin – Preußischer Kulturbesitz</a> eingerichteten <a href="https://blog.crossasia.org/about/fid-asien/">Fachinformationsdiensts Asien</a>.</p>
+
+<p>CrossAsia Open Access Repository versteht sich als zentraler Beitrag zur Beförderung und Akzeptanzsteigerung des <a href="https://open-access.net/">Open-Access-Paradigmas</a> auf Seiten der asienwissenschaftliche Wissenschaftsgemeinde. CrossAsia bekennt sich ausdrücklich zu den Inhalten der <i><a href="https://openaccess.mpg.de/Berliner-Erklaerung">Berliner Erklärung über den offenen Zugang zu wissenschaftlichem Wissen</a></i> sowie der von der <a href="http://www.preussischer-kulturbesitz.de/">Stiftung Preußischer Kulturbesitz</a> formulierten <i><a href="http://www.preussischer-kulturbesitz.de/schwerpunkte/digitalisierung/best-practice-empfehlung-zu-open-access.html"> Empfehlung für die Umsetzung der Berliner Erklärung von 2003 im Bereich der unterzeichnenden Kultureinrichtungen</a></i>.</p>
+
+<p>In Übereinstimmung mit der Open-Access-Politik und der Open-Science-Politik von Wissenschafts- und Förderorganisationen wie der <a href="https://www.dfg.de/foerderung/faq/open_access_faq/index.html">Deutschen Forschungsgemeinschaft</a>, dem <a href="https://www.bildung-forschung.digital/de/open-access-2833.html">Bundesministerium für Bildung und Forschung</a>, aber auch der <a href="https://ec.europa.eu/info/research-and-innovation/strategy/goals-research-and-innovation-policy/open-science_en"> Europäischen Union</a> versteht sich CrossAsia Open Access Repository als Beitrag zur <a href="https://open-access.net/"> Förderung des offenen Zugangs zu wissenschaftlichem Wissen</a>.</p>
+</div>
+</div>
+</section><meta><log lastEditor="mkaun" date="2021-08-10" time="13:17" /></meta></MyCoReWebPage>
