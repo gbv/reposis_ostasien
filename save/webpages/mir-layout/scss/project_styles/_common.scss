@@ -8,7 +8,24 @@
 // set the defaults for all responsive levels here
 // no (xl) media query necessary (desktop first)
 
-
+.h2 {
+  cursor: pointer;
+  margin-bottom: 1rem;
+  h2 {
+    display: flex;
+    align-items: center;
+  }
+  .fas {
+    font-size: 1.2rem;
+    padding-right: 0.5rem;
+    color: $xa-trans-gray;
+  }
+  &:hover {
+    .fas {
+      color: $xa-dark-black;
+    }
+  }
+}
 
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {

@@ -12,26 +12,7 @@
 
     <div id="header_box" class="clearfix container">
       <div id="options_nav_box" class="mir-prop-nav">
-        <nav>
-          <ul class="navbar-nav ml-auto flex-row">
-            <xsl:call-template name="mir.loginMenu" />
-            <xsl:call-template name="mir.languageMenu" />
-          </ul>
-        </nav>
-      </div>
-      <div id="project_logo_box">
-        <a href="{concat($WebApplicationBaseURL,substring($loaded_navigation_xml/@hrefStartingPage,2),$HttpSession)}"
-           class="">
-          <span id="logo_modul">CrossAsia</span>
-          <span id="logo_slogan">Open Access Repository</span>
-        </a>
-      </div>
-    </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="mir-main-nav">
-      <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark ml-auto flex-row">
 
           <button
             class="navbar-toggler"
@@ -48,7 +29,6 @@
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
               <xsl:for-each select="$loaded_navigation_xml/menu">
                 <xsl:choose>
-                  <!-- Ignore some menus, they are shown elsewhere in the layout -->
                   <xsl:when test="@id='about'"/>
                   <xsl:when test="@id='rights'"/>
                   <xsl:when test="@id='technical'"/>
@@ -59,35 +39,18 @@
                 </xsl:choose>
               </xsl:for-each>
               <xsl:call-template name="mir.basketMenu" />
+              <xsl:call-template name="mir.loginMenu" />
+              <xsl:call-template name="mir.languageMenu" />
             </ul>
-
-            <form
-              action="{$WebApplicationBaseURL}servlets/solr/find"
-              class="searchfield_box form-inline my-2 my-lg-0"
-              role="search">
-              <input
-                name="condQuery"
-                placeholder="{i18n:translate('mir.navsearch.placeholder')}"
-                class="form-control mr-sm-2 search-query"
-                id="searchInput"
-                type="text"
-                aria-label="Search" />
-              <xsl:choose>
-                <xsl:when test="contains($isSearchAllowedForCurrentUser, 'true')">
-                  <input name="owner" type="hidden" value="createdby:*" />
-                </xsl:when>
-                <xsl:when test="not(mcrxsl:isCurrentUserGuestUser())">
-                  <input name="owner" type="hidden" value="createdby:{$CurrentUser}" />
-                </xsl:when>
-              </xsl:choose>
-              <button type="submit" class="btn btn-secondary my-2 my-sm-0">
-                <i class="fas fa-search"></i>
-              </button>
-            </form>
-
           </div>
-
         </nav>
+      </div>
+      <div id="project_logo_box">
+        <a href="{concat($WebApplicationBaseURL,substring($loaded_navigation_xml/@hrefStartingPage,2),$HttpSession)}"
+           class="">
+          <span id="logo_modul">CrossAsia</span>
+          <span id="logo_slogan">Open Access Repository</span>
+        </a>
       </div>
     </div>
   </xsl:template>
@@ -104,25 +67,25 @@
         <div class="col-3">
           <h4>Über uns</h4>
           <ul class="internal_links">
-            <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='about']/*" />
+            <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='about']/*" mode="footerMenu"/>
           </ul>
         </div>
         <div class="col-3">
           <h4>Rechtliches</h4>
           <ul class="internal_links">
-            <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='rights']/*" />
+            <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='rights']/*" mode="footerMenu" />
           </ul>
         </div>
         <div class="col-3">
           <h4>Technisches</h4>
           <ul class="internal_links">
-            <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='technical']/*" />
+            <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='technical']/*" mode="footerMenu" />
           </ul>
         </div>
         <div class="col-3">
           <h4>Ein Dienst der</h4>
           <div class="logo-block-sbb">
-            <img src="{$WebApplicationBaseURL}mir-layout/images/LogoSBB.png" alt="" />
+            <img src="{$WebApplicationBaseURL}mir-layout/images/LogoSBB.png" alt="" mode="footerMenu" />
           </div>
         </div>
       </div>

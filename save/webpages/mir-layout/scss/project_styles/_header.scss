@@ -19,8 +19,11 @@ body > header {
 .xabs div.container.default {
   height: 250px !important;
 }
-#project_logo_box a {
-  font-size: 21px;
+#project_logo_box {
+  padding-top: 0.5rem;
+  a {
+    font-size: 21px;
+  }
 }
 #logo_modul {
   color: white;
@@ -31,6 +34,9 @@ body > header {
 }
 #logo_slogan {
   color: white;
+}
+#header_box {
+  margin-bottom: 0;
 }
 
 // Large devices (desktops) and below: <= 1200px

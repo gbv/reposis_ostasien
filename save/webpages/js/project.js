@@ -24,7 +24,7 @@ $(document).ready(function() {
 
   // toggle collapse text icon
   $('div[data-toggle="collapse"]').click(function () {
-    $(this).find('span.toggle-icon').toggleClass('fa-chevron-down fa-chevron-up');
+    $(this).find('span.toggle-icon').toggleClass('fa-chevron-circle-down fa-chevron-circle-up');
   })
 
 });

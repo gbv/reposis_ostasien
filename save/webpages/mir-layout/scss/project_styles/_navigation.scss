@@ -6,6 +6,32 @@
 // set the defaults for all responsive levels here
 // no (xl) media query necessary (desktop first)
 
+.mir-prop-nav {
+  .navbar {
+    padding: 0;
+  }
+  .navbar-nav {
+    padding: 0;
+    & > li > a {
+      font-size: 100%;
+      padding: 1rem;
+      &:hover,
+      &:focus {
+        background-color: $xa-dark-black;
+      }
+    }
+  }
+  .dropdown-toggle::after {
+    color: #96928E;
+  }
+}
+
+.internal_links {
+  .nav-link {
+    padding: 0;
+  }
+}
+
 
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {
