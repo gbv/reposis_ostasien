@@ -13,11 +13,12 @@
   margin-bottom: 1rem;
   h2 {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
   }
   .fas {
     font-size: 1.2rem;
     padding-right: 0.5rem;
+    padding-top: 0.35rem;
     color: $xa-trans-gray;
   }
   &:hover {

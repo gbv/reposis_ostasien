@@ -5,34 +5,14 @@
         <div class="row">
             <div class="col-sm-12 col-md-8" lang="de">
                 <h1>Urheberrecht</h1>
-                <p>
-                    Während die Erstpublikation von Originalbeiträgen auf CrossAsia Open Access Repository unter
-                    urheberrechtlichem Aspekt in aller Regel unproblematisch ist, ergeben sich bei der
-                    Zweitveröffentlichung zuvor bereits in gedruckter oder elektronischer Form in monographischen
-                    Sammelwerken – darunter Festschriften, Lexika, Kongressbände und Handbücher – oder
-                    abonnementpflichtigen Zeitschriften, Jahrbüchern und Zeitungen erschienener Aufsätze regelmäßig
-                    Fragen nach der Zulässigkeit.
-                </p>
+                <p>Während die Erstpublikation von Originalbeiträgen auf CrossAsia Open Access Repository unter urheberrechtlichem Aspekt in aller Regel unproblematisch ist, ergeben sich bei der Zweitveröffentlichung zuvor bereits in gedruckter oder elektronischer Form in monographischen Sammelwerken – darunter Festschriften, Lexika, Kongressbände und Handbücher – oder abonnementpflichtigen Zeitschriften, Jahrbüchern und Zeitungen erschienener Aufsätze regelmäßig Fragen nach der Zulässigkeit.</p>
             </div>
             <div class="col-sm-12 col-md-8" lang="de">
                 <div class="h2" data-toggle="collapse" data-target="#goodwill" aria-expanded="false" aria-controls="goodwill">
                     <h2><span class="fas fa-chevron-circle-down toggle-icon" title="{i18n:mir.help.expand}" aria-hidden="true"></span>Zweitveröffentlichungsrecht aus Kulanz</h2>
                 </div>
                 <div class="collapse" id="goodwill">
-                    <p>
-                        Bei der Klärung Ihrer Zweitveröffentlichungsrechte unterstützt Sie das nahtlos in das
-                        Upload-Verfahren von CrossAsia Open Access Repository eingebundene
-                        <a href="https://v2.sherpa.ac.uk/romeo/">SHERPA/RoMEO-Verzeichnis</a>, das die Bedingungen
-                        zahlreicher internationaler Wissenschaftsverlage und einzelner Fachzeitschriften in Hinblick
-                        auf eine mögliche Zweitveröffentlichung im Open-Access dokumentiert und nach einer
-                        vierteiligen Typologie klassifiziert. Dabei reicht das Spektrum von Verlagen, die eine
-                        nicht-kommerzielle Zweitveröffentlichung auf institutionellen oder disziplinären Repositorien
-                        prinzipiell verweigern, bis hin zu Zeitschriften, deren Inhalte für eine
-                        Open-Access-Publikation in der zum Druck akzeptierten Manuskriptversion oder sogar im
-                        tatsächlichen Verlagslayout freigegeben sind. Bitte beachten Sie, dass etwaige abweichende
-                        Vereinbarungen Ihres jeweiligen Verlagsvertrags von den rechtlich ohnehin unverbindlichen
-                        Angaben des SHERPA/RoMEO-Verzeichnisses in jedem Fall unberührt bleiben.
-                    </p>
+                  <p>Bei der Klärung Ihrer Zweitveröffentlichungsrechte unterstützt Sie das nahtlos in das Upload-Verfahren von CrossAsia Open Access Repository eingebundene <a href="https://v2.sherpa.ac.uk/romeo/">SHERPA/RoMEO-Verzeichnis</a>, das die Bedingungen zahlreicher internationaler Wissenschaftsverlage und einzelner Fachzeitschriften in Hinblick auf eine mögliche Zweitveröffentlichung im Open-Access dokumentiert und nach einer vierteiligen Typologie klassifiziert. Dabei reicht das Spektrum von Verlagen, die eine nicht-kommerzielle Zweitveröffentlichung auf institutionellen oder disziplinären Repositorien prinzipiell verweigern, bis hin zu Zeitschriften, deren Inhalte für eine Open-Access-Publikation in der zum Druck akzeptierten Manuskriptversion oder sogar im tatsächlichen Verlagslayout freigegeben sind. Bitte beachten Sie, dass etwaige abweichende Vereinbarungen Ihres jeweiligen Verlagsvertrags von den rechtlich ohnehin unverbindlichen Angaben des SHERPA/RoMEO-Verzeichnisses in jedem Fall unberührt bleiben.</p>
                 </div>
             </div>
             <div class="col-sm-12 col-md-8" lang="de">
@@ -40,19 +20,7 @@
                     <h2><span class="fas fa-chevron-circle-down toggle-icon" title="{i18n:mir.help.expand}" aria-hidden="true"></span>Abdingbares Zweitveröffentlichungsrecht</h2>
                 </div>
                 <div class="collapse" id="publication_right">
-                    <p>
-                        Wurde dagegen kein expliziter Verlagsvertrag geschlossen, so sind in diesem Zusammenhang
-                        vorrangig die Bestimmungen der Abätze eins und zwei des mit Wirkung zum 1. Januar 2014
-                        novellierten <a href="https://www.gesetze-im-internet.de/urhg/__38.html">§ 38 UrhG</a> zu
-                        berücksichtigen, die bei nicht finanziell honorierten Publikationen in monographischen, nicht
-                        periodisch erscheinenden Sammlungen – etwa Handbüchern, Lexika, Festschriften oder
-                        Kongressbänden – sowie bei Veröffentlichungen in Zeitschriften und Jahrbüchern zur Anwendung
-                        kommen. Gemäß dieser Norm erwirbt der Verlag für die Vervielfältigung, Verbreitung und
-                        öffentliche Zugänglichmachung eines entsprechenden Werks im Zweifel zwar ein ausschließliches
-                        Nutzungsrecht, dennoch aber dürfen Sie Ihren Beitrag nach Ablauf einer Embargofrist von zwölf
-                        Monaten anderweitig und damit also auch auf CrossAsia Open Access Repository zweitverwerten –
-                        unter dem Vorbehalt, dass mit dem betreffenden Verlag nichts anderes vereinbart wurde.
-                    </p>
+                  <p>Wurde dagegen kein expliziter Verlagsvertrag geschlossen, so sind in diesem Zusammenhang vorrangig die Bestimmungen der Abätze eins und zwei des mit Wirkung zum 1. Januar 2014 novellierten <a href="https://www.gesetze-im-internet.de/urhg/__38.html">§ 38 UrhG</a> zu berücksichtigen, die bei nicht finanziell honorierten Publikationen in monographischen, nicht periodisch erscheinenden Sammlungen – etwa Handbüchern, Lexika, Festschriften oder Kongressbänden – sowie bei Veröffentlichungen in Zeitschriften und Jahrbüchern zur Anwendung kommen. Gemäß dieser Norm erwirbt der Verlag für die Vervielfältigung, Verbreitung und öffentliche Zugänglichmachung eines entsprechenden Werks im Zweifel zwar ein ausschließliches Nutzungsrecht, dennoch aber dürfen Sie Ihren Beitrag nach Ablauf einer Embargofrist von zwölf Monaten anderweitig und damit also auch auf CrossAsia Open Access Repository zweitverwerten – unter dem Vorbehalt, dass mit dem betreffenden Verlag nichts anderes vereinbart wurde.</p>
                 </div>
             </div>
             <div class="col-sm-12 col-md-8" lang="de">
@@ -60,58 +28,23 @@
                     <h2><span class="fas fa-chevron-circle-down toggle-icon" title="{i18n:mir.help.expand}" aria-hidden="true"></span>Unabdingbares Zweitveröffentlichungsrecht</h2>
                 </div>
                 <div class="collapse" id="publication_right_2">
-                    <p>
-                        Sollte Ihr wissenschaftlicher Aufsatz allerdings im Rahmen einer mindestens zur Hälfte mit
-                        öffentlichen Mitteln geförderten Forschungstätigkeit entstanden und in einer periodisch
-                        mindestens zweimal jährlich erscheinenden Sammlung veröffentlicht worden sein, so können Sie
-                        von den seit 1. Januar 2014 novellierten Schrankenregelungen in
-                        <a href="https://www.gesetze-im-internet.de/urhg/__38.html">§ 38 Abs. 4 UrhG</a> profitieren.
-                        Selbst wenn Sie einem Verlag ein ausschließliches Nutzungsrecht an einem solchen Beitrag
-                        eingeräumt und anderweitige Vereinbarungen zu Ihrem Nachteil getroffen haben, sind Sie auf der
-                        Grundlage dieser Norm nämlich frei, das Werk nach Ablauf von zwölf Monaten seit der
-                        Erstveröffentlichung in der akzeptierten Manuskriptversion – also nicht im Verlagslayout –
-                        öffentlich zugänglich zu machen, soweit dies keinem gewerblichen Zweck dient. Bitte beachten
-                        Sie in diesem Zusammenhang auch die von der
-                        <a href="https://gfzpublic.gfz-potsdam.de/pubman/item/item_2956897">Allianz der deutschen
-                        Wissenschaftsorganisationen erarbeiteten FAQ</a> zum unabdingbaren Zweitveröffentlichungsrecht
-                        sowie die entsprechenden
-                        <a href="https://irights.info/wp-content/uploads/2017/09/zweitveroeffentlichungsrecht-20150425.pdf">
-                        Handlungsempfehlungen des iRights.Lab</a>.
-                    </p>
+                  <p>Sollte Ihr wissenschaftlicher Aufsatz allerdings im Rahmen einer mindestens zur Hälfte mit öffentlichen Mitteln geförderten Forschungstätigkeit entstanden und in einer periodisch mindestens zweimal jährlich erscheinenden Sammlung veröffentlicht worden sein, so können Sie von den seit 1. Januar 2014 novellierten Schrankenregelungen in <a href="https://www.gesetze-im-internet.de/urhg/__38.html">§ 38 Abs. 4 UrhG</a> profitieren. Selbst wenn Sie einem Verlag ein ausschließliches Nutzungsrecht an einem solchen Beitrag eingeräumt und anderweitige Vereinbarungen zu Ihrem Nachteil getroffen haben, sind Sie auf der Grundlage dieser Norm nämlich frei, das Werk nach Ablauf von zwölf Monaten seit der Erstveröffentlichung in der akzeptierten Manuskriptversion – also nicht im Verlagslayout – öffentlich zugänglich zu machen, soweit dies keinem gewerblichen Zweck dient. Bitte beachten Sie in diesem Zusammenhang auch die von der <a href="https://gfzpublic.gfz-potsdam.de/pubman/item/item_2956897">Allianz der deutschen Wissenschaftsorganisationen erarbeiteten FAQ</a> zum unabdingbaren Zweitveröffentlichungsrecht sowie die entsprechenden <a href="https://irights.info/wp-content/uploads/2017/09/zweitveroeffentlichungsrecht-20150425.pdf"> Handlungsempfehlungen des iRights.Lab</a>.</p>
                 </div>
+            </div>
+            <div class="col-sm-12 col-md-8" lang="de">
+              <div aria-controls="publication_right_2" aria-expanded="false" class="h2" data-target="#open_access_component" data-toggle="collapse">
+                <h2><span class="fas fa-chevron-circle-down toggle-icon" title="{i18n:mir.help.expand}" aria-hidden="true"></span>Open-Access-Komponente der Allianz-, National- und FID-Lizenzen</h2>
+              </div>
+              <div class="collapse" id="open_access_component">
+                <p>Unabhängig von den skizzierten Handlungsspielräumen des deutschen Urheberrechtsgesetzes können Sie gegebenenfalls auch diejenigen Open-Access-Rechte an Ihrem Werk verbindlich in Anspruch nehmen, von Allianz- und Nationallizenzen oder von den für die jeweilige Disziplin zuständigen <a href="https://www.fid-lizenzen.de/" target="_blank">Fachinformationsdiensten für die Wissenschaft</a> ausgehandelt wurden. So besteht für die verschiedenen internationalen Zeitschriftenpakete der mit Unterstützung der Deutschen Forschungsgemeinschaft erworbenen sogenannten <a href="https://www.nationallizenzen.de/open-access" target="_blank">Allianz-, National- und FID-Lizenzen</a> in der Regel die Möglichkeit, die darin enthaltenen Inhalte nach Ablauf einer variierenden Embargofrist in der zum Druck angenommenen Manuskriptversion und vielfach sogar im Verlagslayout in ein frei zu wählendes Repositorium – also auch in CrossAsia Open Access Repository – zu laden. Ob die von Ihnen zur Zweitveröffentlichung auf CrossAsia Open Access Repository vorgesehenen Zeitschriftaufsätze in den Geltungsbereich der Open-Access-Komponente der Allianz-, National- oder FID-Lizenzen fallen, überprüfen Sie bitte unverbindlich anhand dieser alle Disziplinen umfassenden <a href="https://www.nationallizenzen.de/open-access/open-access-rechte.xls/view" target="_blank">Übersicht</a>..</p>
+              </div>
             </div>
             <div class="col-sm-12 col-md-8" lang="de">
                 <div class="h2" data-toggle="collapse" data-target="#license" aria-expanded="false" aria-controls="license">
                     <h2 id="openaccess"><span class="fas fa-chevron-circle-down toggle-icon" title="{i18n:mir.help.expand}" aria-hidden="true"></span>CrossAsia Open Access Repository- oder Open Content-Lizenz?</h2>
                 </div>
                 <div class="collapse" id="license">
-                    <p>
-                        Mit Upload des Dokuments auf unseren Server sowie auf Grundlage eines schriftlichen
-                        <a href="./contract.xml">Publikationsvertrags</a> räumen Sie CrossAsia Open Access
-                        Repository ein einfaches Nutzungsrecht zur Vervielfältigung, Verbreitung und öffentlichen
-                        Zugänglichmachung Ihres Werks im Internet ein, sowie ergänzend das Recht, insbesondere für
-                        Archivierungszwecke Änderungen am jeweiligen Dateiformat vorzunehmen (CrossAsia Open Access
-                        Repository-Lizenz). Auf Grundlage dieser CrossAsia Open Access Repository-Lizenz ist eine
-                        Nutzung Ihres auf CrossAsia Open Access Repository veröffentlichten Beitrags durch Dritte
-                        allerdings nur im Rahmen des im deutschen Urheberrecht vorgesehenen Rahmens möglich – vor
-                        allem in Hinblick auf eine Vervielfältigung zum wissenschaftlichen, privaten und sonstigen
-                        eigenen Gebrauch (<a href="https://www.gesetze-im-internet.de/urhg/">§§ 53, 60c, 60d UrhG</a>.
-                        Möchten Sie dagegen eine weitergehende Nutzung Ihres Werks ermöglichen, so empfiehlt Ihnen
-                        CrossAsia in Übereinstimmung mit der
-                        <a href="https://www.dfg.de/foerderung/info_wissenschaft/2014/info_wissenschaft_14_68/">
-                        Allianz der deutschen Wissenschaftsorganisationen</a> die Vergabe einer
-                        <a href="https://creativecommons.org/">Creative Commons-Lizenz</a>, mit der Sie Ihre Beiträge
-                        auf CrossAsia Open Access Repository z.B. für die Bearbeitung und Weiterverbreitung durch
-                        Dritte freigeben können. Bitte beachten Sie, dass die Vergabe von Creative Commons- oder
-                        anderen Open Content-Lizenzen in der Regel nur für Erstveröffentlichungen auf CrossAsia Open
-                        Access Repository möglich ist und dass die Vergabe nur für solche Werke möglich ist, an denen
-                        Sie ein ausschließliches Nutzungsrecht besitzen. In allen anderen Fällen ist vor einer freien
-                        Lizenzierung die Zustimmung des jeweils betroffenen Verlags einzuholen. Hingegen stehen alle
-                        auf CrossAsia Open Access Repository veröffentlichten beschreibenden bibliographischen
-                        Metadaten – mit Ausnahme der Abstracts – unter der
-                        <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.de">
-                        CC0 1.0 Universell-Lizenz</a> zur freien Weiterverwendung zur Verfügung.
-                    </p>
+                    <p>Mit Upload des Dokuments auf unseren Server sowie auf Grundlage eines schriftlichen <a href="./contract.xml">Publikationsvertrags</a> räumen Sie CrossAsia Open Access Repository ein einfaches Nutzungsrecht zur Vervielfältigung, Verbreitung und öffentlichen Zugänglichmachung Ihres Werks im Internet ein, sowie ergänzend das Recht, insbesondere für Archivierungszwecke Änderungen am jeweiligen Dateiformat vorzunehmen (CrossAsia Open Access Repository-Lizenz). Auf Grundlage dieser CrossAsia Open Access Repository-Lizenz ist eine Nutzung Ihres auf CrossAsia Open Access Repository veröffentlichten Beitrags durch Dritte allerdings nur im Rahmen des im deutschen Urheberrecht vorgesehenen Rahmens möglich – vor allem in Hinblick auf eine Vervielfältigung zum wissenschaftlichen, privaten und sonstigen eigenen Gebrauch (<a href="https://www.gesetze-im-internet.de/urhg/">§§ 53, 60c, 60d UrhG</a>. Möchten Sie dagegen eine weitergehende Nutzung Ihres Werks ermöglichen, so empfiehlt Ihnen CrossAsia in Übereinstimmung mit der <a href="https://www.dfg.de/foerderung/info_wissenschaft/2014/info_wissenschaft_14_68/"> Allianz der deutschen Wissenschaftsorganisationen</a> die Vergabe einer <a href="https://creativecommons.org/">Creative Commons-Lizenz</a>, mit der Sie Ihre Beiträge auf CrossAsia Open Access Repository z.B. für die Bearbeitung und Weiterverbreitung durch Dritte freigeben können. Bitte beachten Sie, dass die Vergabe von Creative Commons- oder anderen Open Content-Lizenzen in der Regel nur für Erstveröffentlichungen auf CrossAsia Open Access Repository möglich ist und dass die Vergabe nur für solche Werke möglich ist, an denen Sie ein ausschließliches Nutzungsrecht besitzen. In allen anderen Fällen ist vor einer freien Lizenzierung die Zustimmung des jeweils betroffenen Verlags einzuholen. Hingegen stehen alle auf CrossAsia Open Access Repository veröffentlichten beschreibenden bibliographischen Metadaten – mit Ausnahme der Abstracts – unter der <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.de"> CC0 1.0 Universell-Lizenz</a> zur freien Weiterverwendung zur Verfügung.</p>
                 </div>
             </div>
 
@@ -120,9 +53,7 @@
                     <h2><span class="fas fa-chevron-circle-down toggle-icon" title="{i18n:mir.help.expand}" aria-hidden="true"></span>Unterstützung und Kontakt</h2>
                 </div>
                 <div class="collapse" id="support">
-                    <p>
-                        Auf Wunsch unterstützt Sie das Team von CrossAsia Open Access Repository bei der Klärung Ihrer Zweitveröffentlichungsrechte und steht Ihnen überdies bei allen Fragen zum Open-Access-Publizieren gerne zur Verfügung. Unsere Kontaktdaten finden Sie bitte <a href="../about/contact.xed">hier</a>. Unabhängig von der Inanspruchnahme dieses Beratungsangebots sind Sie vor einer Veröffentlichung auf CrossAsia Open Access Repository in jedem Fall dazu verpflichtet, sich sorgfältig zu vergewissern, dass die CrossAsia einzuräumenden Nutzungsrechte insbesondere zur öffentlichen Zugänglichmachung Ihres Werks tatsächlich bei Ihnen liegen. CrossAsia Open Access Repository behält sich u.a. in strafrechtlich relevanten Fällen das Recht vor, den Zugriff auf bereits veröffentliche Dokumente zu sperren.
-                    </p>
+                  <p>Auf Wunsch unterstützt Sie das Team von CrossAsia Open Access Repository bei der Klärung Ihrer Zweitveröffentlichungsrechte und steht Ihnen überdies bei allen Fragen zum Open-Access-Publizieren gerne zur Verfügung. Unsere Kontaktdaten finden Sie bitte <a href="../about/contact.xed">hier</a>. Unabhängig von der Inanspruchnahme dieses Beratungsangebots sind Sie vor einer Veröffentlichung auf CrossAsia Open Access Repository in jedem Fall dazu verpflichtet, sich sorgfältig zu vergewissern, dass die CrossAsia einzuräumenden Nutzungsrechte insbesondere zur öffentlichen Zugänglichmachung Ihres Werks tatsächlich bei Ihnen liegen. CrossAsia Open Access Repository behält sich u.a. in strafrechtlich relevanten Fällen das Recht vor, den Zugriff auf bereits veröffentliche Dokumente zu sperren.</p>
                 </div>
             </div>
         </div>
