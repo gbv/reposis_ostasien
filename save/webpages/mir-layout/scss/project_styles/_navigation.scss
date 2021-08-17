@@ -20,6 +20,11 @@
         background-color: $xa-dark-black;
       }
     }
+    & > li.active > a:hover,
+    & > li.active > a:focus {
+      color: white;
+      background-color: $xa-dark-black;
+    }
   }
   .dropdown-toggle::after {
     color: #96928E;
