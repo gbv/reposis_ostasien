@@ -103,10 +103,6 @@
       <label xml:lang="de">nach Dokumenttyp</label>
       <label xml:lang="en">by document typ</label>
     </item>
-    <item href="/content/browse/sdnb.xml" type="intern">
-      <label xml:lang="de">nach Sachgruppe</label>
-      <label xml:lang="en">by SNDB</label>
-    </item>
     <item href="/content/browse/ddc.xml" type="intern">
       <label xml:lang="de">nach DDC</label>
       <label xml:lang="en">by DDC</label>
