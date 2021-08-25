@@ -35,16 +35,10 @@
       </category>
     </category>
     <category ID="book">
-      <label xml:lang="de" text="Buch" />
-      <label xml:lang="en" text="Book" />
-      <label xml:lang="x-hosts" text="series standalone" />
+      <label xml:lang="de" text="Buch, Monographie" />
+      <label xml:lang="en" text="Book, Monograph" />
       <label xml:lang="x-mapping" text="marcgt:book diniPublType:book" />
-    </category>
-    <category ID="monograph">
-      <label xml:lang="de" text="Monographie" />
-      <label xml:lang="en" text="Monograph" />
       <label xml:lang="x-hosts" text="series standalone" />
-      <label xml:lang="x-mapping" text="marcgt:book diniPublType:book" />
     </category>
     <category ID="thesis">
       <label xml:lang="de" text="Hochschulschrift" />
@@ -116,8 +110,8 @@
       <label xml:lang="x-mapping" text="marcgt:database diniPublType:ResearchData" />
     </category>
     <category ID="poster">
-      <label xml:lang="de" text="Poster" />
-      <label xml:lang="en" text="Poster" />
+      <label xml:lang="de" text="Präsentation  (inkl. Posterpräsentation)" />
+      <label xml:lang="en" text="Presentation  (incl. Poster)" />
       <label xml:lang="x-hosts" text="proceedings standalone" />
       <label xml:lang="x-mapping" text="marcgt:technical_drawing diniPublType:ResearchData" />
     </category>
@@ -132,6 +126,12 @@
       <label xml:lang="en" text="Movie / Video" />
       <label xml:lang="x-hosts" text="standalone" />
       <label xml:lang="x-mapping" text="marcgt:motion_picture diniPublType:MovingImage" />
+    </category>
+    <category ID="picture">
+      <label xml:lang="x-hosts" text="standalone lecture" />
+      <label xml:lang="x-mapping" text="marcgt:picture diniPublType:StillImage" />
+      <label xml:lang="de" text="Bild / Foto" />
+      <label xml:lang="en" text="Picture" />
     </category>
   </categories>
 </mycoreclass>
