@@ -112,7 +112,7 @@
     <category ID="poster">
       <label xml:lang="de" text="Präsentation  (inkl. Posterpräsentation)" />
       <label xml:lang="en" text="Presentation  (incl. Poster)" />
-      <label xml:lang="x-hosts" text="proceedings standalone" />
+      <label xml:lang="x-hosts" text="standalone" />
       <label xml:lang="x-mapping" text="marcgt:technical_drawing diniPublType:ResearchData" />
     </category>
     <category ID="audio">
@@ -128,10 +128,16 @@
       <label xml:lang="x-mapping" text="marcgt:motion_picture diniPublType:MovingImage" />
     </category>
     <category ID="picture">
-      <label xml:lang="x-hosts" text="standalone lecture" />
-      <label xml:lang="x-mapping" text="marcgt:picture diniPublType:StillImage" />
-      <label xml:lang="de" text="Bild / Foto" />
+      <label xml:lang="de" text="Fotografie" />
       <label xml:lang="en" text="Picture" />
+      <label xml:lang="x-hosts" text="standalone" />
+      <label xml:lang="x-mapping" text="marcgt:picture diniPublType:StillImage" />
+    </category>
+    <category ID="picture.art">
+      <label xml:lang="de" text="Kunstwerk (Bild)" />
+      <label xml:lang="en" text="Artwork (Painting)" />
+      <label xml:lang="x-hosts" text="standalone" />
+      <label xml:lang="x-mapping" text="marcgt:picture diniPublType:StillImage" />
     </category>
   </categories>
 </mycoreclass>

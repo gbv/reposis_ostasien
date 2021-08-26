@@ -1,23 +1,570 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<xed:template xmlns:xed="http://www.mycore.de/xeditor" xmlns:mir="http://www.mycore.de/mir">
-
-  <!-- ========== extend editor-genres.xed ========== -->
+<xed:template xmlns:xed="http://www.mycore.de/xeditor" xmlns:mir="http://www.mycore.de/mir"
+              xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+  
+  <xed:param name="host" default="standalone" />
+  
+  
+  <!-- ========== hosts templates ========== -->
+  <xed:template id="hosts.blog">
+    <div class="mir-form-group-body">
+      <xed:bind xpath="mods:relatedItem[@type='host']">
+        <xed:bind xpath="@xlink:href" initially="mir_mods_00000000">
+          <input id="relItem-journal" type="hidden" />
+        </xed:bind>
+        <xed:include ref="title.blog.relItemsearch" />
+        <xed:include ref="identifier.issn.blog.relItemsearch" />
+        <xed:include ref="blog_link.relItemsearch" />
+        <xed:include ref="ddc" after="sdnb.repeat"/>
+      </xed:bind>
+    </div>
+  </xed:template>
+  
+  
+  <!-- ========== genres templates ========== -->
+  
+  <xed:template id="genres.av.common">
+    <xed:include ref="title.original" />
+    <xed:include ref="conference" />
+    <xed:include ref="producer.speaker.repeated" />
+    <xed:include ref="date.broadcasted" />
+    <xed:include ref="station" />
+    <xed:include ref="type.of.resource.audio" />
+    <xed:include ref="geographic" />
+    <xed:include ref="cartographics" />
+    <xed:include ref="language" />
+    <xed:include ref="link.repeated" />
+    <xed:include ref="ddc" />
+    <xed:include ref="subject_indexing" />
+    <xed:include ref="abstract.repeated" />
+    <xed:include ref="openAIRE" />
+    <xed:include ref="further_information" />
+  </xed:template>
+  
+  <xed:template id="genres.blog">
+    <xed:include ref="title" />
+    <xed:include ref="genres.journal.common" />
+  </xed:template>
+  
+  <xed:template id="genres.blog_entry">
+    <xed:include ref="title.original" />
+    <xed:include ref="author.repeated" />
+    <xed:include ref="date.issued.required" />
+    <xed:include ref="language" />
+    <xed:include ref="identifier.managed" />
+    <xed:include ref="doi.handle.urn.repeated" />
+    <xed:include ref="blog_entry_link" />
+    <xed:include ref="ddc" />
+    <xed:include ref="subject_indexing" />
+    <xed:include ref="abstract.repeated" />
+    <xed:include ref="embargo.datetimepicker" />
+    <xed:include ref="institutes" />
+    <xed:include ref="comment" />
+  </xed:template>
+  
+  <xed:template id="genres.book.common">
+    <xed:include ref="year.issued" />
+    <xed:include ref="place" />
+    <xed:include ref="publisher" />
+    <xed:include ref="edition" />
+    <xed:include ref="extent" />
+    <xed:include ref="language" />
+    <xed:include ref="identifier.isbn" />
+    <xed:include ref="identifier.managed" />
+    <xed:include ref="doi.handle.urn.repeated" />
+    <xed:include ref="link.repeated" />
+    <xed:include ref="ddc" />
+    <xed:include ref="abstract.repeated" />
+    <xed:include ref="subject_indexing" />
+    <xed:include ref="openAIRE" />
+    <xed:include ref="further_information" />
+  </xed:template>
+  
+  <xed:template id="genres.journal.common">
+    <xed:include ref="title.abbreviated" />
+    <xed:include ref="editor.repeated" />
+    <xed:include ref="place" />
+    <xed:include ref="publisher" />
+    <xed:include ref="date.onlyrange.issued.datetimepicker" />
+    <xed:include ref="language" />
+    <xed:include ref="link.repeated" />
+    <xed:include ref="ddc" />
+    <xed:include ref="subject_indexing" />
+    <xed:include ref="identifier.issn" />
+    <xed:include ref="identifier.zdbid" />
+    <xed:include ref="abstract.repeated" />
+    <xed:include ref="comment" />
+  </xed:template>
+  
+  <xed:template id="genres.picture">
+    <xed:include ref="type.of.resource.still_image" />
+    <xed:include ref="title.original" />
+    <xed:include ref="artist.photographer.repeated" />
+    <xed:include ref="date.created.datetimepicker" />
+    <xed:include ref="date.issued.datetimepicker" />
+    <xed:include ref="language" />
+    <xed:include ref="extent" />
+    <xed:include ref="identifier.managed" />
+    <xed:include ref="doi.handle.urn.repeated" />
+    <xed:include ref="ddc" />
+    <xed:include ref="subject_indexing" />
+    <xed:include ref="abstract.repeated" />
+    <xed:include ref="further_information" />
+  </xed:template>
+  
+  <xed:template id="genres.picture.art">
+    <xed:include ref="type.of.resource.still_image" />
+    <xed:include ref="title.original" />
+    <xed:include ref="artist.photographer.repeated" />
+    <xed:include ref="date.created.datetimepicker" />
+    <xed:include ref="date.issued.datetimepicker" />
+    <xed:include ref="language" />
+    <xed:include ref="extent" />
+    <xed:include ref="identifier.managed" />
+    <xed:include ref="doi.handle.urn.repeated" />
+    <xed:include ref="ddc" />
+    <xed:include ref="subject_indexing" />
+    <xed:include ref="abstract.repeated" />
+    <xed:include ref="further_information" />
+  </xed:template>
+  
+  <xed:template id="genres.poster">
+    <xed:include ref="title.original" />
+    <xed:if test="$host='standalone'">
+      <xed:include ref="conference" />
+    </xed:if>
+    <xed:include ref="author.repeated" />
+    <xed:if test="$host='standalone'">
+      <xed:include ref="year.issued" />
+      <xed:include ref="place" />
+      <xed:include ref="extent" />
+    </xed:if>
+    <xed:include ref="language" />
+    <xed:include ref="link.repeated" />
+    <xed:include ref="ddc" />
+    <xed:include ref="abstract.repeated" />
+    <xed:include ref="further_information.without_embargo" />
+    <xed:include ref="subject_indexing" />
+  </xed:template>
+  
+  <xed:template id="genres.publication.common">
+    <xed:include ref="title.original" />
+    <xed:include ref="author.repeated" />
+    <xed:if test="$host='standalone'">
+      <xed:include ref="year.issued" />
+      <xed:include ref="extent" />
+    </xed:if>
+    <xed:if test="$host='series'">
+      <xed:include ref="year.issued" after="author.repeated" />
+    </xed:if>
+    <xed:include ref="language" />
+    <xed:include ref="identifier.managed" />
+    <xed:include ref="doi.handle.urn.repeated" />
+    <xed:include ref="link.repeated" />
+    <xed:include ref="ddc" />
+    <xed:include ref="subject_indexing" />
+    <xed:include ref="abstract.repeated" />
+    <xed:include ref="openAIRE" />
+    <xed:include ref="further_information" />
+  </xed:template>
+  
+  <xed:template id="genres.report.common">
+    <xed:include ref="title.original" />
+    <xed:include ref="author.repeated" />
+    <xed:include ref="editor.repeated" />
+    <xed:include ref="year.issued" />
+    <xed:include ref="place" />
+    <xed:include ref="edition" />
+    <xed:include ref="extent" />
+    <xed:include ref="language" />
+    <xed:include ref="identifier.managed" />
+    <xed:include ref="link.repeated" />
+    <xed:include ref="ddc" />
+    <xed:include ref="subject_indexing" />
+    <xed:include ref="abstract.repeated" />
+    <xed:include ref="openAIRE" />
+    <xed:include ref="further_information" />
+  </xed:template>
+  
+  <xed:template id="genres.research_data">
+    <xed:include ref="title.original" />
+    <xed:include ref="research.data.person.repeated" />
+    <xed:include ref="research.data.date.repeated" />
+    <xed:include ref="type.of.resource" />
+    <xed:include ref="language" />
+    <xed:include ref="identifier.managed" />
+    <xed:include ref="doi.handle.urn.repeated" />
+    <xed:include ref="link.repeated" />
+    <xed:include ref="related.item.link" />
+    <xed:include ref="ddc" />
+    <xed:include ref="subject_indexing" />
+    <xed:include ref="physical.description.form" />
+    <xed:include ref="physical.description.note" />
+    <xed:include ref="abstract.repeated" />
+    <xed:include ref="openAIRE" />
+    <xed:include ref="further_information_with_copyrightMD" />
+  </xed:template>
+  
+  <xed:template id="genres.single_contribution">
+    <xed:include ref="title.original" />
+    <xed:include ref="author.repeated" />
+    <xed:include ref="year.issued" />
+    <xed:include ref="place" />
+    <xed:include ref="publisher" />
+    <xed:include ref="edition" />
+    <xed:include ref="extent" />
+    <xed:include ref="language" />
+    <xed:include ref="link.repeated" />
+    <xed:include ref="identifier.isbn" />
+    <xed:include ref="doi.handle.urn.repeated" />
+    <xed:include ref="ddc" />
+    <xed:include ref="subject_indexing" />
+    <xed:include ref="abstract.repeated" />
+    <xed:include ref="openAIRE" />
+    <xed:include ref="further_information" />
+  </xed:template>
+  
+  <!-- ToDo: Fix this in MIR-->
+  <xed:template id="genres.speech">
+    <xed:include ref="title.original" />
+    <xed:if test="$host='standalone'">
+      <xed:include ref="conference" />
+    </xed:if>
+    <xed:include ref="author.repeated" />
+    <xed:if test="$host='standalone'">
+      <xed:include ref="year.issued" />
+    </xed:if>
+    <xed:include ref="language" />
+    <xed:include ref="identifier.managed" />
+    <xed:include ref="doi.handle.urn.repeated" />
+    <xed:include ref="link.repeated" />
+    <xed:include ref="ddc" />
+    <xed:include ref="abstract.repeated" />
+    <xed:include ref="openAIRE" />
+    <xed:include ref="further_information" />
+  </xed:template>
+  
+  <xed:template id="genres.thesis.common">
+    <xed:include ref="creator.place.college" />
+    <xed:include ref="creator.college" />
+    <xed:include ref="place" />
+    <xed:include ref="publisher" />
+    <xed:include ref="extent" />
+    <xed:include ref="language" />
+    <xed:include ref="identifier.isbn" />
+    <xed:include ref="doi.handle.urn.repeated" />
+    <xed:include ref="link.repeated" />
+    <xed:include ref="ddc" />
+    <xed:include ref="abstract.repeated" />
+    <xed:include ref="subject_indexing" />
+    <xed:include ref="openAIRE" />
+    <xed:include ref="further_information" />
+  </xed:template>
+  
+  
+  <!-- ========== modified mir templates ========== -->
+  
   <xed:modify ref="admin.fields">
-    <!-- for details see
-         https://cmswiki.rrz.uni-hamburg.de/hummel/MyCoRe/Organisation/AnwenderWorkshop2018?action=AttachFile&do=view&target=MyCoRe+XEditor+Erweiterungen+2018-11-14.pdf
-         https://cmswiki.rrz.uni-hamburg.de/hummel/MyCoRe/Organisation/AnwenderWorkshop2018?action=AttachFile&do=view&target=MCR-Workshop2018_Rochowski_XEditor_Erweiterungen_Praxis.pdf
-    -->
+    <xed:remove ref="sdnb.repeat" />
   </xed:modify>
-
-
-
+  
+  <xed:modify ref="genres.thesis">
+    <xed:remove ref="classification" />
+  </xed:modify>
+  
+  <xed:modify ref="genres.other_thesis.common">
+    <xed:include ref="thesis.advisor.reviewer.reduced.repeated" before="thesis.advisor.reviewer.repeated" />
+    <xed:remove ref="thesis.advisor.reviewer.repeated" />
+  </xed:modify>
+  
+  <xed:modify ref="genres.dissertation">
+    <xed:include ref="thesis.advisor.reviewer.extented.repeated" before="thesis.advisor.reviewer.all.repeated" />
+    <xed:remove ref="thesis.advisor.reviewer.all.repeated" />
+    <xed:remove ref="shelfmark" />
+  </xed:modify>
+  
+  <xed:modify ref="genres.habilitation">
+    <xed:include ref="thesis.advisor.reviewer.extented.habil.repeated" before="thesis.advisor.reviewer.all.repeated" />
+    <xed:remove ref="thesis.advisor.reviewer.all.repeated" />
+    <xed:remove ref="shelfmark" />
+  </xed:modify>
+  
+  <xed:modify ref="genres.diploma_thesis">
+    <xed:include ref="thesis.advisor.reviewer.reduced.repeated" before="thesis.advisor.reviewer.all.repeated" />
+    <xed:remove ref="thesis.advisor.reviewer.all.repeated" />
+    <xed:include ref="date.submitted.datetimepicker" after="year.issued" />
+    <xed:include ref="date.accepted.datetimepicker" after="date.submitted.datetimepicker" />
+  </xed:modify>
+  
+  <xed:modify ref="genres.master_thesis">
+    <xed:include ref="thesis.advisor.reviewer.reduced.repeated" before="thesis.advisor.reviewer.all.repeated" />
+    <xed:remove ref="thesis.advisor.reviewer.all.repeated" />
+    <xed:include ref="date.submitted.datetimepicker" after="year.issued" />
+    <xed:include ref="date.accepted.datetimepicker" after="date.submitted.datetimepicker" />
+  </xed:modify>
+  
+  <xed:modify ref="hosts.journal">
+    <xed:remove ref="identifier.isbn.journal.relItemsearch" />
+    <xed:remove ref="shelfmark.journal.relItemsearch" />
+  </xed:modify>
+  
+  <xed:modify ref="hosts.book">
+    <xed:remove ref="shelfmark.book.relItemsearch" />
+  </xed:modify>
+  
+  
+  <!-- ========== field group templates ========== -->
+  
+  <xed:template id="subject_indexing">
+    <xed:include ref="subject.simple" />
+  </xed:template>
+  
+  <xed:template id="further_information">
+    <fieldset>
+      <legend class="mir-fieldset-legend">
+        <xed:output i18n="project.forms.further_information" />
+      </legend>
+      <div class="mir-fieldset-content">
+        <xed:include ref="rights" />
+        <xed:include ref="embargo.datetimepicker" />
+        <xed:include ref="institutes" />
+        <xed:include ref="comment" />
+      </div>
+    </fieldset>
+  </xed:template>
+  
+  <xed:template id="further_information.without_embargo">
+    <fieldset>
+      <legend class="mir-fieldset-legend">
+        <xed:output i18n="project.forms.further_information" />
+      </legend>
+      <div class="mir-fieldset-content">
+        <xed:include ref="rights" />
+        <xed:include ref="institutes" />
+        <xed:include ref="comment" />
+      </div>
+    </fieldset>
+  </xed:template>
+  
+  <xed:template id="further_information_with_copyrightMD">
+    <fieldset>
+      <legend class="mir-fieldset-legend">
+        <xed:output i18n="project.forms.further_information" />
+      </legend>
+      <div class="mir-fieldset-content">
+        <xed:include ref="rights" />
+        <xed:include ref="embargo.datetimepicker" />
+        <xed:include ref="copyrightMD" />
+        <xed:include ref="institutes" />
+        <xed:include ref="comment" />
+      </div>
+    </fieldset>
+  </xed:template>
+  
+  
+  <!-- ========== field templates ========== -->
+  
+  <!-- TODO: Fix in mir missing help text  -->
+  <xed:template id="identifier.isbn">
+    <mir:textfield xpath="mods:identifier[@type='isbn']" label="mir.identifier.isbn"
+                   help-text="{i18n:mir.help.identifier.isbn}" />
+  </xed:template>
+  
+  <!-- TODO: Fix in mir missing help text  -->
+  <xed:template id="identifier.issn">
+    <mir:textfield xpath="mods:identifier[@type='issn']" label="mir.identifier.issn" 
+                   help-text="{i18n:mir.help.identifier.issn}" />
+  </xed:template>
+  
+  <xed:template id="ddc">
+    <xed:bind xpath="mods:classification[@authority='ddc'][@displayLabel='ddc']">
+      <div class="form-group {$xed-validation-marker} row">
+        <label class="col-md-3 col-form-label text-right">
+          <xed:include uri="classification:editor[Text]:0:children:DDC" />
+          DDC:
+        </label>
+        <div class="col-md-6">
+          <select class="form-control form-control-inline">
+            <xed:include uri="xslStyle:items2options:classification:editor:-1:children:DDC" />
+          </select>
+        </div>
+        <mir:help-pmud help-text="{i18n:intr2dok.help.ddc}" pmud="false" />
+      </div>
+    </xed:bind>
+  </xed:template>
+  
+  <xed:template id="abstract.repeated">
+    <fieldset>
+      <legend class="mir-fieldset-legend">
+        <xed:output i18n="mir.abstract.text" />
+      </legend>
+      <xed:repeat xpath="mods:abstract" min="1" max="3">
+        <div class="mir-fieldset-content">
+          <div class="form-group row">
+            <label class="col-md-3 col-form-label text-right">
+              <xed:output i18n="mir.abstract.in" />
+            </label>
+            <div class="col-md-6">
+              <xed:bind xpath="@xml:lang" initially="de">
+                <xed:include ref="lang.list" />
+              </xed:bind>
+            </div>
+            <mir:help-pmud help-text="{i18n:mir.help.abstract.language}" pmud="true" />
+          </div>
+          <mir:textfield xpath="@xlink:href" label="mir.abstract.aslink" help-text="{i18n:mir.help.abstract.aslink}" placeholder="{i18n:mir.placeholder.abstract.link}" />
+          <mir:htmlArea xpath="." label="mir.abstract.ortext" help-text="{i18n:mir.help.abstract.ortext}" rows="5" />
+        </div>
+      </xed:repeat>
+    </fieldset>
+  </xed:template>
+  
+  <!-- overwrite: set field as required -->
+  <xed:template id="title.proceedings.relItemsearch">
+    <mir:relItemsearch searchengine="title" genre="proceedings" responsefield="mods.title"
+                       xpath="mods:titleInfo/mods:title" label="mir.title" class="required" required="true"
+                       required-i18n="mir.validation.title.proceedings" />
+  </xed:template>
+  
+  <xed:template id="blog_entry_link">
+    <mir:textfield xpath="mods:location/mods:url[@access='raw object']" label="mir.link.blog_entry"
+                   help-text="{i18n:mir.help.link.blog_entry}" class="required" required="true"
+                   required-i18n="mir.validation.link.blog_entry" />
+  </xed:template>
+  
+  <xed:template id="title.blog.relItemsearch">
+    <mir:relItemsearch searchengine="title" genre="blog" responsefield="mods.title"
+                       xpath="mods:titleInfo/mods:title" label="mir.title.blog" help-text="{i18n:mir.help.title.blog}"
+                       class="required" required="true" required-i18n="mir.validation.blog.title" />
+  </xed:template>
+  
+  <xed:template id="identifier.issn.blog.relItemsearch">
+    <mir:relItemsearch searchengine="issn" genre="blog" responsefield="identifier.type.issn"
+                       xpath="mods:identifier[@type='issn']" label="mir.identifier.issn"
+                       help-text="{i18n:mir.help.identifier.issn}" />
+  </xed:template>
+  
+  <xed:template id="blog_link.relItemsearch">
+    <mir:relItemsearch searchengine="empty" genre="blog" responsefield="url.access.raw_object"
+                       xpath="mods:location/mods:url[@access='raw object']" label="mir.link.blog" 
+                       help-text="{i18n:mir.help.link.blog}" />
+  </xed:template>
+  
+  <xed:template id="date.issued.required">
+    <mir:textfield xpath="mods:originInfo[@eventType='publication']/mods:dateIssued[@encoding='w3cdtf']"
+                   label="mir.date.issued.10" help-text="{i18n:mir.help.date.issued.10}" 
+                   placeholder="{i18n:mir.placeholder.date}" class="required" required="true"
+                   required-i18n="mir.validation.date.issued" />
+  </xed:template>
+  
+  <xed:template id="thesis.advisor.reviewer.extented.repeated">
+    <xed:bind xpath="mods:name[@type='personal'][mods:role/mods:roleTerm[@authority='marcrelator'][@type='code']='aut']" />
+    <xed:bind xpath="mods:name[@type='personal'][mods:role/mods:roleTerm[@authority='marcrelator'][@type='code']='ths']" />
+    <xed:bind xpath="mods:name[@type='personal'][mods:role/mods:roleTerm[@authority='marcrelator'][@type='code']='rev']" />
+    <mir:person.repeated help-text="{i18n:mir.help.thesis.advisor.reviewer}">
+      <option value="aut">
+        <xed:output i18n="project.role.thesis.habilitand" />
+      </option>
+      <option value="aut">
+        <xed:output i18n="mir.role.thesis" />
+      </option>
+      <option value="ths">
+        <xed:output i18n="mir.role.advisor" />
+      </option>
+      <option value="rev">
+        <xed:output i18n="mir.role.reviewer" />
+      </option>
+    </mir:person.repeated>
+  </xed:template>
+  
+  <xed:template id="thesis.advisor.reviewer.extented.habil.repeated">
+    <xed:bind xpath="mods:name[@type='personal'][mods:role/mods:roleTerm[@authority='marcrelator'][@type='code']='aut']" />
+    <xed:bind xpath="mods:name[@type='personal'][mods:role/mods:roleTerm[@authority='marcrelator'][@type='code']='ths']" />
+    <xed:bind xpath="mods:name[@type='personal'][mods:role/mods:roleTerm[@authority='marcrelator'][@type='code']='rev']" />
+    <mir:person.repeated help-text="{i18n:mir.help.thesis.advisor.reviewer}">
+      <option value="aut">
+        <xed:output i18n="mir.role.thesis" />
+      </option>
+      <option value="aut" selected="selected">
+        <xed:output i18n="project.role.thesis.habilitand" />
+      </option>
+      <option value="ths">
+        <xed:output i18n="mir.role.advisor" />
+      </option>
+      <option value="rev">
+        <xed:output i18n="mir.role.reviewer" />
+      </option>
+    </mir:person.repeated>
+  </xed:template>
+  
+  <xed:template id="thesis.advisor.reviewer.reduced.repeated">
+    <xed:bind xpath="mods:name[@type='personal'][mods:role/mods:roleTerm[@authority='marcrelator'][@type='code']='aut']" />
+    <xed:bind xpath="mods:name[@type='personal'][mods:role/mods:roleTerm[@authority='marcrelator'][@type='code']='ths']" />
+    <mir:person.repeated help-text="{i18n:mir.help.thesis.advisor}">
+      <xed:include uri="xslStyle:items2options:classification:editor:-1:children:marcrelator" />
+    </mir:person.repeated>
+  </xed:template>
+  
+  <!-- TODO: Add row to <div class="form-group"> in MIR -->
+  <xed:template id="research.data.date.repeated">
+    <xed:bind xpath="mods:originInfo[@eventType='creation']" />
+    <xed:bind xpath="mods:originInfo[@eventType='publication']" />
+    <xed:repeat xpath="mods:originInfo" min="1" max="6">
+      <div class="form-group row">
+        <div class="col-md-3">
+          <xed:bind xpath="@eventType" default="creation">
+            <select class="form-control form-control-inline date-select">
+              <option value="creation">
+                <xed:output i18n="mir.date.created" />
+              </option>
+              <option value="collection">
+                <xed:output i18n="mir.date.collected" />
+              </option>
+              <option value="publication">
+                <xed:output i18n="mir.date.issued.10" />
+              </option>
+              <option value="review">
+                <xed:output i18n="mir.date.reviewed" />
+              </option>
+              <option value="update">
+                <xed:output i18n="mir.date.updated" />
+              </option>
+            </select>
+          </xed:bind>
+        </div>
+        <mir:dateRangeInput xpath="mods:dateCreated[@encoding='w3cdtf']" class="datetimepicker date-changeable col-md-6" placeholder="{i18n:mir.placeholder.date}"
+                            type="creation" />
+        <mir:dateRangeInput xpath="mods:dateCaptured[@encoding='w3cdtf']" class="datetimepicker date-changeable d-none col-md-6" placeholder="{i18n:mir.placeholder.date}" 
+                            type="collection" />
+        <mir:dateRangeInput xpath="mods:dateIssued[@encoding='w3cdtf']" class="datetimepicker date-changeable d-none col-md-6" placeholder="{i18n:mir.placeholder.date}"
+                            type="publication" />
+        <mir:dateRangeInput xpath="mods:dateOther[@type='reviewed'][@encoding='w3cdtf']" class="datetimepicker date-changeable d-none col-md-6"
+                            placeholder="{i18n:mir.placeholder.date}" type="review" />
+        <mir:dateRangeInput xpath="mods:dateModified[@encoding='w3cdtf']" class="datetimepicker date-changeable d-none col-md-6" placeholder="{i18n:mir.placeholder.date}"
+                            type="update" />
+        <mir:help-pmud help-text="{i18n:mir.help.date.repeated}" pmud="true" />
+      </div>
+    </xed:repeat>
+  </xed:template>
+  
+  <xed:template id="producer.speaker.repeated">
+    <xed:bind xpath="mods:name[@type='personal'][mods:role/mods:roleTerm[@authority='marcrelator'][@type='code']='cre']" />
+    <xed:bind xpath="mods:name[@type='personal'][mods:role/mods:roleTerm[@authority='marcrelator'][@type='code']='pro']" />
+    <xed:bind xpath="mods:name[@type='personal'][mods:role/mods:roleTerm[@authority='marcrelator'][@type='code']='spk']" />
+    <mir:person.repeated help-text="{i18n:mir.help.producer.speaker}">
+      <option value="cre">
+        <xed:output i18n="mir.role.creator" />
+      </option>
+      <option value="pro">
+        <xed:output i18n="mir.role.producer" />
+      </option>
+      <option value="spk">
+        <xed:output i18n="mir.role.speaker" />
+      </option>
+    </mir:person.repeated>
+  </xed:template>
+  
+  
   <!-- ========== validation ========== -->
-
-
-
-  <!-- ========== project specific templates ========== -->
-
-
+  
 </xed:template>
-
