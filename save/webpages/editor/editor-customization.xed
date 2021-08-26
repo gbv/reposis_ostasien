@@ -16,7 +16,6 @@
         <xed:include ref="title.blog.relItemsearch" />
         <xed:include ref="identifier.issn.blog.relItemsearch" />
         <xed:include ref="blog_link.relItemsearch" />
-        <xed:include ref="ddc" after="sdnb.repeat"/>
       </xed:bind>
     </div>
   </xed:template>
@@ -24,15 +23,12 @@
   
   <!-- ========== genres templates ========== -->
   
-  <xed:template id="genres.av.common">
+  <xed:template id="genres.audio">
     <xed:include ref="title.original" />
-    <xed:include ref="conference" />
     <xed:include ref="producer.speaker.repeated" />
     <xed:include ref="date.broadcasted" />
     <xed:include ref="station" />
     <xed:include ref="type.of.resource.audio" />
-    <xed:include ref="geographic" />
-    <xed:include ref="cartographics" />
     <xed:include ref="language" />
     <xed:include ref="link.repeated" />
     <xed:include ref="ddc" />
@@ -41,7 +37,7 @@
     <xed:include ref="openAIRE" />
     <xed:include ref="further_information" />
   </xed:template>
-  
+
   <xed:template id="genres.blog">
     <xed:include ref="title" />
     <xed:include ref="genres.journal.common" />
@@ -58,7 +54,6 @@
     <xed:include ref="ddc" />
     <xed:include ref="subject_indexing" />
     <xed:include ref="abstract.repeated" />
-    <xed:include ref="embargo.datetimepicker" />
     <xed:include ref="institutes" />
     <xed:include ref="comment" />
   </xed:template>
@@ -75,8 +70,8 @@
     <xed:include ref="doi.handle.urn.repeated" />
     <xed:include ref="link.repeated" />
     <xed:include ref="ddc" />
-    <xed:include ref="abstract.repeated" />
     <xed:include ref="subject_indexing" />
+    <xed:include ref="abstract.repeated" />
     <xed:include ref="openAIRE" />
     <xed:include ref="further_information" />
   </xed:template>
@@ -143,9 +138,9 @@
     <xed:include ref="language" />
     <xed:include ref="link.repeated" />
     <xed:include ref="ddc" />
+    <xed:include ref="subject_indexing" />
     <xed:include ref="abstract.repeated" />
     <xed:include ref="further_information.without_embargo" />
-    <xed:include ref="subject_indexing" />
   </xed:template>
   
   <xed:template id="genres.publication.common">
@@ -240,9 +235,10 @@
     <xed:include ref="doi.handle.urn.repeated" />
     <xed:include ref="link.repeated" />
     <xed:include ref="ddc" />
+    <xed:include ref="subject_indexing" />
     <xed:include ref="abstract.repeated" />
     <xed:include ref="openAIRE" />
-    <xed:include ref="further_information" />
+    <xed:include ref="further_information.without_embargo" />
   </xed:template>
   
   <xed:template id="genres.thesis.common">
@@ -256,12 +252,26 @@
     <xed:include ref="doi.handle.urn.repeated" />
     <xed:include ref="link.repeated" />
     <xed:include ref="ddc" />
-    <xed:include ref="abstract.repeated" />
     <xed:include ref="subject_indexing" />
+    <xed:include ref="abstract.repeated" />
     <xed:include ref="openAIRE" />
     <xed:include ref="further_information" />
   </xed:template>
   
+  <xed:template id="genres.video">
+    <xed:include ref="title.original" />
+    <xed:include ref="conference" />
+    <xed:include ref="producer.speaker.repeated" />
+    <xed:include ref="date.broadcasted" />
+    <xed:include ref="station" />
+    <xed:include ref="language" />
+    <xed:include ref="link.repeated" />
+    <xed:include ref="ddc" />
+    <xed:include ref="subject_indexing" />
+    <xed:include ref="abstract.repeated" />
+    <xed:include ref="openAIRE" />
+    <xed:include ref="further_information" />
+  </xed:template>
   
   <!-- ========== modified mir templates ========== -->
   
@@ -563,7 +573,30 @@
       </option>
     </mir:person.repeated>
   </xed:template>
-  
+
+  <xed:template id="type.of.resource.audio">
+    <xed:bind xpath="mods:typeOfResource/@mcr:categId">
+      <div class="form-group row {$xed-validation-marker}">
+        <label class="col-md-3 control-label text-right required">
+          <xed:output i18n="mir.typeOfResource" />
+        </label>
+        <div class="col-md-6">
+          <select class="form-control form-control-inline">
+            <option value="typeOfResource:sound_recording">
+              Tonaufnahme
+            </option>
+            <option value="typeOfResource:sound_recording-musical">
+              Tonaufnahme (Musik)
+            </option>
+            <option value="typeOfResource:sound_recording-nonmusical">
+              Tonaufnahme (keine Musik)
+            </option>
+          </select>
+        </div>
+        <mir:help-pmud help-text="{i18n:mir.help.typeOfResource}" />
+      </div>
+    </xed:bind>
+  </xed:template>
   
   <!-- ========== validation ========== -->
   
