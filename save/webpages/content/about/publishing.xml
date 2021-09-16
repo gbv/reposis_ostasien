@@ -30,7 +30,7 @@
                 <h2>Dokumenten-Upload</h2>
                 <p>
                     Nach erfolgter Registrierung haben Sie als Inhaber:in der jeweiligen Urheberrechte die Möglichkeit,
-                    in Übereinstimmung mit dem <a href="../publish/guidelines.xml">Sammelauftrag</a> beliebig 
+                    in Übereinstimmung mit dem <a href="../publish/collection_scope.xml">Sammelauftrag</a> beliebig 
                     viele Texte auf CrossAsia Open Access Repository zu veröffentlichen. Den Publikationsvorgang 
                     starten Sie bitte durch Ihre <a href="https://crossasia.org/heimatinstitution/">Anmeldung</a> am
                     Portal. Nach Erfassung und Speicherung der bibliographischen Metadaten Ihres Beitrags laden Sie die
@@ -96,6 +96,45 @@
                     Sollten Sie weitere Rückfragen haben oder technische Schwierigkeiten während des Registrierungsvorgangs
                     auftreten, so stehen wir Ihnen jederzeit sehr gerne zur Verfügung. Unsere Kontaktdaten finden Sie bitte
                     <a href="../about/contact.xed">hier</a>.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section xml:lang="en" title="Publizieren in CrossAsia Open Access Repository">
+        <div class="row">
+            <div class="col-sm-12 col-md-8">
+                <h1>Publishing in CrossAsia Open Access Repository</h1>
+                <p>
+                    Read-only access to the content published in CrossAsia Open Access Repository is world-wide possible and without restrictions.
+                </p>
+                <p>
+                    As a service of CrossAsia, CrossAsia Open Access Repository serves as a hub for all scholarly Open Access publications of all researchers in Asian Studies. This especially means universities and other research institutions. For researchers in Asian Studies, CrossAsia Open Access Repository offers <a href="https://open-access.net/">Open Access</a> publishing services for scholarly original publications, for secondary publications of scholarly original publications that have already been published elsewhere, and for research materials.
+                </p>
+                <h2>Registration</h2>
+                <p>
+                    Before using the publishing service, registration for CrossAsia is necessary. To do that, please complete this registration form. You will then receive a link through your e-mail address, which activates your account. With that account, you can <a href="https://crossasia.org/mein-crossasia/registrierung/">log in</a> to CrossAsia and thus also to the publication server of CrossAsia Open Access Repository.
+                </p>
+                <h2>Document upload</h2>
+                <p>
+                    After successful registration, you can publish any number of texts on CrossAsia Open Access Repository that you hold the publishing rights to and that are in accordance with the Scope of the Collection. Please start the publishing process by <a href="https://crossasia.org/mein-crossasia/registrierung/">logging in</a> to CrossAsia. After completing and saving the input of bibliographical metadata of your contribution, upload the corresponding files into the repository via the submenus "Action" and "Add Data Object". Please use file formats such as PDF, ideally PDF/A (without password protection or writing protection), MP3, CSV, XML etc. Please note that your contribution will only be unlocked for publication after a review of formal and content criteria. You are responsible that no third-party copyright rights or publishing rights are infringed, especially in the case of publications with more than one contributor. 
+                </p>
+                <p>
+                    Through the upload of your document and through a <a href="../rights/CrossAsia-Repositorium_Autor_innen_Vertrag.pdf">Publication contract</a>, you transfer to CrossAsia Open Access the non-exclusive right of use regarding distribution of the work and its public availability on the Internet. It also includes the right to alter the respective file format, especially, for archiving purposes.  Please send the completed and signed publication contract in PDF format to: <span class="madress">x-asia [at] sbb.spk-berlin.de</span> via email. 
+                </p>
+                <p>
+                    If the materials to be published on CrossAsia Open Access Repository are an original (not yet published elsewhere) publication, usage rights remain with you, so that you can continue to make free use of your materials. In this context, please note the in-depth <a href="../rights/copyright.xml">copyright guidelines</a> for Open Access publishing on CrossAsia Open Access Repository, as well as our <a href="../rights/contract.xml">contract</a>. In the interest of non-ambiguous identification of authors, CrossAsia recommends that you use a free "Open Researcher and Contributor ID" (<a href="https://orcid.org/">ORCID</a>). If you need help, we will provide support with uploading your materials. Manuals and multi media guides for using CrossAsia Open Access Repository can be found <a href="https://www.gbv.de/Termine/2020/reposis-einsteigerschulung">here</a>.
+                </p>
+                <h2>Content visibility</h2>
+                <p>
+                    All text materials published on CrossAsia Open Access Repository are made searchable in full text through search engine technology. To guarantee thematic findability of all content in CrossAsia Open Access Repository, we ask you to describe your contribution through descriptive metadata. To do so, choose the relevant classes from the extending menu “DDC” (<a href="https://www.dnb.de/DE/Professionell/DDC-Deutsch/ddc-deutsch_node.html">Dewey Decimal Classification</a>) during the upload process. Furthermore, you can also use free and <a href="http://swb.bsz-bw.de/DB=2.104/">normed headwords</a> to describe the content of your materials. Please choose each class separately. If you want to use normed classes, check the conformity of the class with the normed classes of <a href="https://www.dnb.de/DE/Professionell/Standardisierung/GND/gnd_node.html">Gemeinsamen Normdatei</a> of Deutsche Nationalbibliothek through the "Suchen" (“search”) function. 
+                </p>
+                <h2>Changing and Deleting Materials</h2>
+                <p>
+                    CrossAsia reserves the right to refuse registration for CrossAsia, as well as publication of materials in CrossAsia Open Access Repository in justified exceptional cases. Changing and deleting of materials published in CrossAsia Open Access Repository is normally not possible. You may, of course, publish your materials again in a revised form. If access to published materials should have to be blocked – due to copyright or legal reasons – access to those materials will be blocked and a notification will be posted on the persistent web address of those materials.
+                </p>
+                <h2>Contact</h2>
+                <p>
+                    If you have any questions or if you encounter technical difficulties during registration, we are glad to help. Please contact us <a href="../about/contact.xed">here</a>.
                 </p>
             </div>
         </div>

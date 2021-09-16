@@ -65,25 +65,25 @@
     <div class="container">
       <div class="row">
         <div class="col-3">
-          <h4>Über uns</h4>
+          <h4><xsl:value-of select="i18n:translate('project.layout.footer.about')" /></h4>
           <ul class="internal_links">
             <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='about']/*" mode="footerMenu"/>
           </ul>
         </div>
         <div class="col-3">
-          <h4>Rechtliches</h4>
+          <h4><xsl:value-of select="i18n:translate('project.layout.footer.rights')" /></h4>
           <ul class="internal_links">
             <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='rights']/*" mode="footerMenu" />
           </ul>
         </div>
         <div class="col-3">
-          <h4>Technisches</h4>
+          <h4><xsl:value-of select="i18n:translate('project.layout.footer.technical')" /></h4>
           <ul class="internal_links">
             <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='technical']/*" mode="footerMenu" />
           </ul>
         </div>
         <div class="col-3">
-          <h4>Ein Dienst der</h4>
+          <h4><xsl:value-of select="i18n:translate('project.layout.footer.service')" /></h4>
           <div class="logo-block-sbb">
             <img src="{$WebApplicationBaseURL}mir-layout/images/LogoSBB.png" alt="" mode="footerMenu" />
           </div>

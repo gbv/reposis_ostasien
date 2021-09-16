@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MyCoReWebPage><section xml:lang="de" title="Willkommen bei MIR!"><div class="jumbotwo">
+<MyCoReWebPage><section xml:lang="de" title="Willkommen bei CrossAsia!"><div class="jumbotwo">
 <div class="row">
 <div class="col-12">
 <h1>CrossAsia Open Access Repository</h1>
@@ -20,7 +20,7 @@
 
 <p>CrossAsia Open Access Repository ist ein asienwissenschaftliches Fachrepositorium in Deutschland und ist dem Ziel verpflichtet, offenen und kostenfreien Zugang zu qualitätsgesicherten wissenschaftlichen Beiträgen aus allen Bereichen der asienbezogenen geistes- und sozialwissenschaftlichen Forschung dauerhaft sicherzustellen.</p>
 
-<p><a class="btn btn-secondary" href="./publish/guidelines.xml" role="button">Sammelauftrag »</a></p>
+<p><a class="btn btn-secondary" href="./publish/collection_scope.xml" role="button">Sammelauftrag »</a></p>
 </div>
 
 <div class="col-md-4">
@@ -28,8 +28,44 @@
 
 <p>Als Serviceangebot von CrossAsia steht CrossAsia Open Access Repository als Plattform für das wissenschaftliche Open-Access-Publizieren allen Forschenden der asienbezogenen Wissenschaften und insbesondere den universitären wie außeruniversitären Forschungseinrichtungen offen.</p>
 
-<p><a class="btn btn-secondary" href="./about/policy.xml" role="button">Publizieren »</a></p>
+<p><a class="btn btn-secondary" href="./about/publishing.xml" role="button">Publizieren »</a></p>
 </div>
 </div>
 </div>
-</section><meta><log lastEditor="mkaun" date="2021-08-10" time="13:17" /></meta></MyCoReWebPage>
+</section>
+    <section xml:lang="en" title="Welcome to CrossAsia!"><div class="jumbotwo">
+            <div class="row">
+                <div class="col-12">
+                    <h1>CrossAsia Open Access Repository</h1>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-4">
+                    <h3 class="text-secondary">About us</h3>
+                    
+                    <p>The disciplinary CrossAsia Open Access Repository is the central publication hub of the CrossAsia information service. It strives to promote and increase the acceptance of the Open Access paradigm in the Asian Studies research community. </p>
+                    
+                    <p><a class="btn btn-secondary" href="./about/about_us.xml" role="button">About CrossAsia OA Repository »</a></p>
+                </div>
+                
+                <div class="col-md-4">
+                    <h3 class="text-secondary">Scope of the Collection</h3>
+                    
+                    <p>CrossAsia Open Access Repository is an Asian Studies repository in Germany. Its goal is to provide open, free-of-charge and long-term access to quality scholarly materials from all fields of social sciences, cultural studies and humanities related to Asia.</p>
+                    
+                    <p><a class="btn btn-secondary" href="./publish/collection_scope.xml" role="button">Scope of the Collection »</a></p>
+                </div>
+                
+                <div class="col-md-4">
+                    <h3 class="text-secondary">Publishing</h3>
+                    
+                    <p>CrossAsia Open Access Repository is a service of CrossAsia. As such, this hub is open to all researchers who want to publish Open Access materials in Asian Studies. It also especially welcomes contributions from universities and other institutions in Asian Studies.</p>
+                    
+                    <p><a class="btn btn-secondary" href="./about/publishing.xml" role="button">Publishing »</a></p>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+<meta><log lastEditor="admin" date="2021-09-15" time="16:17" /></meta></MyCoReWebPage>
