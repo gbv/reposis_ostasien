@@ -4,6 +4,23 @@
 <div class="col-12">
 <h1>CrossAsia Open Access Repository</h1>
 </div>
+<div class="col-8 mb-5 mt-4">
+  <form action="../servlets/solr/find" id="project-searchMainPage" class="form-inline" role="search">
+    <div class="input-group input-group-lg w-100">
+      <input
+        name="condQuery"
+        placeholder="Suche in 16.000 Dokumenten"
+        class="form-control search-query"
+        id="project-searchInput"
+        type="text" />
+      <div class="input-group-append">
+        <button type="submit" class="btn btn-secondary">
+          <i class="fa fa-search"></i>
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
 </div>
 
 <div class="row">
@@ -32,6 +49,19 @@
 </div>
 </div>
 </div>
+<script src="../js/jquery.number.js"></script>
+<script>
+  $( document ).ready(function() {
+    $.ajax({
+      type: "GET",
+      url: "../api/v1/search?q=objectType:mods AND state:published&amp;rows=0&amp;wt=json&amp;json.wrf=?",
+      dataType: "jsonp",
+      success: function (data) {
+        $('#project-searchInput').attr('placeholder', 'Suche in ' + $.number(data.response.numFound,0, ',', '.') + ' Dokumenten');
+      },
+    });
+  });
+</script>
 </section>
     <section xml:lang="en" title="Welcome to CrossAsia!"><div class="jumbotwo">
             <div class="row">
@@ -39,33 +69,33 @@
                     <h1>CrossAsia Open Access Repository</h1>
                 </div>
             </div>
-            
+
             <div class="row">
                 <div class="col-md-4">
                     <h3 class="text-secondary">About us</h3>
-                    
+
                     <p>The disciplinary CrossAsia Open Access Repository is the central publication hub of the CrossAsia information service. It strives to promote and increase the acceptance of the Open Access paradigm in the Asian Studies research community. </p>
-                    
+
                     <p><a class="btn btn-secondary" href="./about/about_us.xml" role="button">About CrossAsia OA Repository »</a></p>
                 </div>
-                
+
                 <div class="col-md-4">
                     <h3 class="text-secondary">Scope of the Collection</h3>
-                    
+
                     <p>CrossAsia Open Access Repository is an Asian Studies repository in Germany. Its goal is to provide open, free-of-charge and long-term access to quality scholarly materials from all fields of social sciences, cultural studies and humanities related to Asia.</p>
-                    
+
                     <p><a class="btn btn-secondary" href="./publish/collection_scope.xml" role="button">Scope of the Collection »</a></p>
                 </div>
-                
+
                 <div class="col-md-4">
                     <h3 class="text-secondary">Publishing</h3>
-                    
+
                     <p>CrossAsia Open Access Repository is a service of CrossAsia. As such, this hub is open to all researchers who want to publish Open Access materials in Asian Studies. It also especially welcomes contributions from universities and other institutions in Asian Studies.</p>
-                    
+
                     <p><a class="btn btn-secondary" href="./about/publishing.xml" role="button">Publishing »</a></p>
                 </div>
             </div>
         </div>
-        
+
     </section>
 <meta><log lastEditor="admin" date="2021-09-15" time="16:17" /></meta></MyCoReWebPage>
