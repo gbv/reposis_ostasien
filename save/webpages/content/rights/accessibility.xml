@@ -1,23 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MyCoReWebPage>
 <MyCoReWebPage>
-    <section xml:lang="de" title="Publizieren in CrossAsia Open Access Repository">
+    <section xml:lang="de" title="Barrierefreiheitserklärung">
         <div class="row">
-            <div class="col-sm-12 col-md-8">
+            <div class="col-md-12" lang="de">
+                
                 <h1>Erklärung zur Barrierefreiheit</h1>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                    labore et dolore magna aliqua. Ullamcorper morbi tincidunt ornare massa eget egestas purus
-                    viverra. Vitae purus faucibus ornare suspendisse sed nisi lacus. Erat velit scelerisque in
-                    dictum non consectetur a erat. Faucibus et molestie ac feugiat sed lectus. Turpis in eu mi
-                    bibendum neque. At erat pellentesque adipiscing commodo elit at imperdiet dui. Ut porttitor leo
-                    a diam. Gravida cum sociis natoque penatibus et magnis dis parturient montes. Mollis nunc sed id
-                    semper risus in hendrerit gravida rutrum. Eget nunc scelerisque viverra mauris. Et ligula
-                    ullamcorper malesuada proin libero nunc. Felis donec et odio pellentesque. Quis ipsum
-                    suspendisse ultrices gravida dictum. Amet dictum sit amet justo donec enim diam vulputate ut.
-                    Consequat ac felis donec et odio pellentesque diam.
+                    Um eine weitestgehende Barrierefreiheit zu ermöglichen, ist die Staatsbibliothek zu Berlin –
+                    Preußischer Kulturbesitz bemüht, das Webangebot entsprechend zu optimieren. Rechtsgrundlagen
+                    sind das Behindertengleichstellungsgesetz (BGG) sowie die
+                    Barrierefreie-Informationstechnik-Verordnung (BITV).
+                </p>
+                <p>
+                    Bereits in der Vergangenheit haben wir, für unterschiedliche Bereiche dieser Website, ein
+                    entsprechendes Prüfverfahren durchführen lassen. Vor diesem Hintergrund wird für die Website
+                    der Staatsbibliothek zu Berlin baldmöglichst ein aktualisierter (manueller), von der W3C Web
+                    Accessibility Initiative (WAI) entwickelter, <a
+                            href="https://bik-fuer-alle.de/easy-checks.html" target="_blank" class="extern">Test
+                    </a> durchgeführt werden.
+                </p>
+
+                <h2>Stand der Vereinbarkeit mit den Anforderungen</h2>
+                <p>
+                  Diese Website befindet sich im Aufbau. Beim einen vorläufige BITV-Test über die funktionale Teile und 
+                  das Design sind unterschiedlichste technischen Defizite und Mängel
+                  identifiziert worden, die eine barrierefreie Nutzung der Webseite erschweren. Diese sind in dem 
+                  <a href="accessibility_test_mir.xml">Protokoll</a> vom Test aufgelistet und werden sukzessive behoben.
+                </p>
+               
+                <p>Diese Erklärung wurde am 27.09.2021 erstellt.</p>
+
+                <h2>Möglichkeiten der Kontaktaufnahme</h2>
+                
+                <p>
+                    Falls Sie der Meinung sind, dass die Barrierefreiheit in unserem Webangebot nicht ausreichend
+                    umgesetzt wurde, bitten wir Sie um Kontaktaufnahme. Wir versuchen, den Mangel
+                    schnellstmöglich zu beheben.
+                </p>
+                <p>
+                    Bitte wenden Sie sich dazu per E-Mail an:
+                    <a href="mailto:bitv@sbb.spk-berlin.de">bitv@sbb.spk-berlin.de</a>
+                </p>
+                <p>oder per Post an:<br/>
+                    Staatsbibliothek zu Berlin – Preußischer Kulturbesitz<br/>
+                    Abteilung IDM 3<br/>
+                    Potsdamer Str. 33<br/>
+                    10785 Berlin
                 </p>
             </div>
         </div>
     </section>
-    <meta></meta>
+    <meta>
+        <log lastEditor="administrator" date="2021-09-27" time="08:53"/>
+    </meta>
 </MyCoReWebPage>
