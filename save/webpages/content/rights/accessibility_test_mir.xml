@@ -18,7 +18,7 @@
             <li>Merkliste</li>
             <li>Browsing Seiten und Personensuche</li>
             <li>Eingabemasken für die Suche</li>
-            <li>Das von den Autoren nutzbare Erfassungsformular</li>
+            <li>Das von den Autor:innen nutzbare Erfassungsformular</li>
             <li>Datenschutzerklärung</li>
           </ul>
         </p>
@@ -122,7 +122,7 @@
         </p>
         <h3>9.1.3.1.h Beschriftung von Formularelementen programmatisch ermittelbar: eher erfüllt</h3>
         <p>
-          Die Erfassungsformulare für die Autoren haben die Feldbeschriftungen kein for-Attribute. Da
+          Die Erfassungsformulare für die Autor:innen haben die Feldbeschriftungen kein for-Attribute. Da
           der Kreis der Betroffen klein und der Aufwand das Problem zu beheben sehr groß ist, wird eine
           Beseitigung angestrebt aber vorerst nicht umgesetzt. 
         </p>
@@ -294,7 +294,7 @@
         <p>
           Folgende Formularelemente sind keine Standardelemente und werden nicht WAI-ARIA Attribute gekennzeichnet.
           <ul>
-            <li>Die Datumseingabe in den Autorenformularen</li>
+            <li>Die Datumseingabe in den Autor:innenformularen</li>
           </ul>
           In den Inhaltsseiten werden die mailto-Links durch Javascript erzeugt. Dies ist eine Sicherheitsmaßnahme
           um Spammern das automatische Harvesten der Mailadressen zu erschweren. Für Menschen ist auch ohne Javascript
@@ -309,9 +309,9 @@
         <p>
           Die Webseite ändert sich an Hand der Einstellungen im Browser.
         </p>
-        <h3>11.8.2 - 11.8.5 Autorenwerkzeuge: nicht anwendbar</h3>
+        <h3>11.8.2 - 11.8.5 Autor:innenwerkzeuge: nicht anwendbar</h3>
         <p>
-          Die Webseite bieten den Autoren keine Werkzeuge um Dokumente zu erstellen. 
+          Die Webseite bieten den Autor:innen keine Werkzeuge um Dokumente zu erstellen. 
           Das systeminterne WCMS zum Bearbeiten von statischen Webseiten ist nicht barrierefrei. 
           Aber das WCMS ist nur sehr wenigen Mitarbeiter zugänglich. 
         </p>
