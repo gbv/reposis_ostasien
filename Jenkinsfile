@@ -18,6 +18,12 @@ pipeline {
         }
 
         stage('Deploy') {
+            when {
+               anyOf {
+                    branch 'main'
+                    branch '2020.06'
+               }
+            }
             steps {
                     withMaven (maven: 'mvn', jdk: 'OJDK11', mavenSettingsConfig: 'maven-deploy-settings') {
                         withCredentials([
