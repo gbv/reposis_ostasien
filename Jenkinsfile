@@ -9,7 +9,7 @@ pipeline {
         stage('Build') {
             steps {
                     withMaven (maven: 'mvn', jdk: 'OJDK11') {
-                      sh "mvn clean verify"
+                      sh "mvn clean verify -U"
                     }
             }
         }
