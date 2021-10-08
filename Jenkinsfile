@@ -9,15 +9,27 @@ pipeline {
         stage('Build') {
             steps {
                     withMaven (maven: 'mvn', jdk: 'OJDK11') {
-                      sh "mvn clean verify -U"
+                        withCredentials([usernamePassword(credentialsId: 'gpg', passwordVariable: 'KEYPW_VAR', usernameVariable: 'KEYID_VAR')])
+                        {
+                            sh 'mvn clean verify -Dgpg.executable=gpg -Dgpg.keyname=${KEYID_VAR} -Dgpg.passphrase=${KEYPW_VAR}'
+                        }
                     }
             }
         }
 
-        stage('Clean') {
+        stage('Deploy') {
             steps {
-                cleanWs()
+                    withMaven (maven: 'mvn', jdk: 'OJDK11', mavenSettingsConfig: 'maven-deploy-settings') {
+                        withCredentials([
+                        usernamePassword(credentialsId: 'ossrhs01', passwordVariable: 'PASSWORD_VAR', usernameVariable: 'USERNAME_VAR'),
+                        usernamePassword(credentialsId: 'gpg', passwordVariable: 'KEYPW_VAR', usernameVariable: 'KEYID_VAR')
+                        ])
+                        {
+                            sh 'mvn deploy -Dgpg.executable=gpg -Dgpg.keyname=${KEYID_VAR} -Dgpg.passphrase=${KEYPW_VAR} -Dossrhs01.username=${USERNAME_VAR} -Dossrhs01.password=${PASSWORD_VAR}'
+                        }
+                    }
             }
         }
     }
+
 }
