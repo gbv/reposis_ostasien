@@ -19,12 +19,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>de.vzg.reposis</groupId>
+    <groupId>de.gbv.reposis</groupId>
     <artifactId>reposis_parent</artifactId>
     <version>2020.06-SNAPSHOT</version>
   </parent>
 
-  <groupId>de.gbv.ostasien</groupId>
+  <groupId>de.gbv.reposis.ostasien</groupId>
   <artifactId>reposis_ostasien</artifactId>
   <version>2020.06-SNAPSHOT</version>
   <properties>
