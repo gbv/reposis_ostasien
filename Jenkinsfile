@@ -11,7 +11,7 @@ pipeline {
                     withMaven (maven: 'mvn', jdk: 'OJDK11') {
                         withCredentials([usernamePassword(credentialsId: 'gpg', passwordVariable: 'KEYPW_VAR', usernameVariable: 'KEYID_VAR')])
                         {
-                            sh 'mvn clean verify -Dgpg.executable=gpg -Dgpg.keyname=${KEYID_VAR} -Dgpg.passphrase=${KEYPW_VAR}'
+                            sh 'mvn -U clean verify -Dgpg.executable=gpg -Dgpg.keyname=${KEYID_VAR} -Dgpg.passphrase=${KEYPW_VAR}'
                         }
                     }
             }
