@@ -59,7 +59,52 @@
             </div>
         </div>
     </section>
+    <section xml:lang="en" title="Imprint">
+        <div class="row">
+            <div class="col-sm-12 col-md-8" lang="en">
+                <h1>Imprint</h1>
+                <p>
+                    This website is published by Staatsbibliothek zu Berlin - Preußischer Kulturbesitz. 
+                </p>
+                <P>
+                    Stiftung Preußischer Kulturbesitz<br />
+                    Staatsbibliothek zu Berlin<br />
+                    Potsdamer Str. 33<br />
+                    D-10785 Berlin<br />
+                </P>
 
+                <h2>VAT identification number</h2>
+                <p>
+                    The VAT identification number of Staatsbibliothek zu Berlin – Preußischer Kulturbesitz is:
+                    <br />DE 81 117 697 6
+                </p>
+
+                <h2>Editor</h2>
+                <p>
+                    Staatsbibliothek zu Berlin – Preußischer Kulturbesitz<br />
+                    CrossAsia<br />
+                    Potsdamer Straße 33<br />
+                    D-10785 Berlin<br />
+                    <br />
+                    Email: <span class="madress">x-asia [at] sbb.spk-berlin.de</span><br />
+                    Tel.: +49 30 266 43 6001<br />
+                    <a href="https://crossasia.org/kontakt/">https://crossasia.org/kontakt</a>
+                </p>
+
+                <h2>Technical Operation</h2>
+                <p>
+                    Verbundzentrale des GBV (VZG)<br />
+                    Platz der Göttinger Sieben 1<br />
+                    D-37073 Göttingen<br />
+                    <br />
+                    Digitale Bibliothek, Reposis<br />
+                    Email: <span class="madress">dms-list [at] lists.gbv.de</span> <br />
+                    Tel.: +49 551 39 5398<br />
+                    <a href="https://www.gbv.de/Verbundzentrale/serviceangebote/reposis-repository-service">https://www.gbv.de/Verbundzentrale/serviceangebote/reposis-repository-service</a>
+                </p>
+            </div>
+        </div>
+    </section>
     <meta>
     </meta>
 </MyCoReWebPage>

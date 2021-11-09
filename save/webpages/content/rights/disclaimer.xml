@@ -47,7 +47,49 @@
             </div>
         </div>
     </section>
-
+    <section xml:lang="en" title="Disclaimer">
+        <div class="row">
+            <div class="col-sm-12 col-md-8" lang="en">
+                <h1>Haftungshinweise</h1>
+                <p>
+                    The provider of the CrossAsia services is Staatsbibliothek zu Berlin – Preußischer Kulturbesitz. 
+                    The provider takes care to ensure accurate and current information on this website, however, 
+                    mistakes and unclarities cannot always be avoided. For this reason, Staatsbibliothek zu Berlin – 
+                    Preußischer Kulturbesitz cannot guarantee the correct, current and complete character of 
+                    information provided on this website. Usage of the content of this website is at the user‘s own 
+                    risk. The same is true for content that is downloadable free of charge. All offered content is 
+                    nonbinding and without obligation. Staatsbibliothek zu Berlin – Preußischer Kulturbesitz reserves 
+                    the right to change or augment the whole or parts of these internet services without notice.
+                </p>
+                <p>
+                    The content of CrossAsia includes links to external third-party websites, the content of which 
+                    CrossAsia has no influence on. For this reason, CrossAsia cannot be held responsible for this 
+                    external content. The responsibility for the content of linked websites is always with the 
+                    providers of those sites. The linked sites have been checked for possible violations of the law 
+                    at the time of their linking. At the time of linking, no law-violating content was found. However, 
+                    permanent control of the content of linked sites, without specific reasons for suspecting a 
+                    violation of law, is not feasible. If law-violations are discovered, such links are deleted 
+                    immediately. It is expressly rejected that contact data that has been published to satisfy the 
+                    imprint obligation be used by a third party to send advertisement or information materials unless 
+                    expressly requested. The provider expressly reserves the right to file legal complaints against 
+                    unwanted delivery of advertisement information, through spam email or otherwise. In the case of 
+                    content not produced by the provider, the copyrights of third parties are respected. In particular, 
+                    content of third parties is indicated as such. 
+                </p>
+                <p>
+                    Should you nevertheless have noticed a violation of copyright, CrossAsia asks you to inform us. 
+                    Content that is in violation of the law will be deleted on notice.
+                </p>
+                <h2>Legal validity of this disclaimer</h2>
+                <p>
+                    This disclaimer is to be treated as a part of the internet service on this website. If parts of 
+                    this text do not conform, do not anymore conform, or do not fully conform to the currently 
+                    applicable legal situation, the rest of the text is not affected in its content and is especially
+                    not affected in its validity. 
+                </p>
+            </div>
+        </div>
+    </section>
     <meta>
     </meta>
 </MyCoReWebPage>
