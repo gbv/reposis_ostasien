@@ -51,9 +51,14 @@
 
         <div class="xabs">HTML-from-Page-Type-1001</div>
         <script>
+          window["isGuest"] = <xsl:value-of select="mcrxsl:isCurrentUserGuestUser()" />;
+           <![CDATA[
           $.ajax({
-            url: 'https://crossasia.org/?type=1001'
-          }).done(function(data) {
+             url: 'https://crossasia.org/?type=1001',
+             xhrFields: {
+               withCredentials: true
+             }
+           }).done(function(data,state,request) {
             // add content to container
             $(".xabs").html(data);
             // fix outdated fa icon
@@ -61,6 +66,36 @@
             $(".fa-file-alt").addClass("fas");
             $(".fa-file-alt").removeClass("fa");
             $(".fa-file-alt").removeClass("fa-file-text");
+            let shibbolethID = request.getResponseHeader("x-shibboleth-uid");
+            if(window["isGuest"] && shibbolethID != undefined && shibbolethID != null) {
+              // run auth
+              if(!sessionStorage) {
+                return;
+              }
+              const userKey = "_check_is_passive_user";
+              const urlKey = "_check_is_passive_location";
+              let passiveCheckUser = sessionStorage.getItem(userKey);
+              let passiveCheckUrl = sessionStorage.getItem(urlKey);
+
+              // Check for session cookie that contains the initial location
+             if(passiveCheckUrl != null && passiveCheckUrl != undefined && passiveCheckUser == shibbolethID){
+                  // If we have the opensaml::FatalProfileException GET arguments
+                  // redirect to initial location because isPassive failed
+                  if (
+                      window.location.search.search(/errorType/) >= 0
+                      && window.location.search.search(/RelayState/) >= 0
+                      && window.location.search.search(/requestURL/) >= 0
+                  ) {
+                      window.location = passiveCheckUrl;
+                  }
+              } else {
+                  // Mark browser as being isPassive checked
+                  sessionStorage.setItem(userKey, shibbolethID);
+                  sessionStorage.setItem(urlKey, window.location);
+                  // Redirect to Shibboleth handler
+                  window.location = "/Shibboleth.sso/Login?isPassive=true&target=" + encodeURIComponent(window.location);
+              }]]>
+            }
           });
         </script>
 
