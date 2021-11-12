@@ -125,10 +125,6 @@
       <label xml:lang="de">Dokument einreichen</label>
       <label xml:lang="en">submit document</label>
     </item>
-    <item href="/content/publish/publish_with_ppn.xml" type="intern">
-      <label xml:lang="de">mit Metadatenübernahme</label>
-      <label xml:lang="en">with metadata import</label>
-    </item>
     <item href="/editor/editor-admins.xed" type="intern" replaceMenu="false" constrainPopUp="false">
       <label xml:lang="de">Erfassung für Experten</label>
       <label xml:lang="en">submit as expert</label>
