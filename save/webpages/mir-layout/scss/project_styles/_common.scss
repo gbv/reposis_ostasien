@@ -8,6 +8,17 @@
 // set the defaults for all responsive levels here
 // no (xl) media query necessary (desktop first)
 
+#watermark_testenvironment {
+  position: fixed;
+  top: 10px;
+  right: 300px;
+  opacity: 0.5;
+  z-index: 200;
+  color: #2eee28;
+  font-size: 32px;
+  font-weight: bold;
+}
+
 .h2 {
   cursor: pointer;
   margin-bottom: 1rem;
