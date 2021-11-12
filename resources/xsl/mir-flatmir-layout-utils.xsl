@@ -39,7 +39,9 @@
                 </xsl:choose>
               </xsl:for-each>
               <xsl:call-template name="mir.basketMenu" />
-              <xsl:call-template name="mir.loginMenu" />
+              <xsl:if test="not(mcrxsl:isCurrentUserGuestUser())">
+                <xsl:call-template name="mir.loginMenu" />
+              </xsl:if>
               <xsl:call-template name="mir.languageMenu" />
             </ul>
           </div>
