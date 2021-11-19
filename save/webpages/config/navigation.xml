@@ -125,10 +125,6 @@
       <label xml:lang="de">Dokument einreichen</label>
       <label xml:lang="en">submit document</label>
     </item>
-    <item href="/content/publish/publish_with_ppn.xml" type="intern">
-      <label xml:lang="de">mit Metadatenübernahme</label>
-      <label xml:lang="en">with metadata import</label>
-    </item>
     <item href="/editor/editor-admins.xed" type="intern" replaceMenu="false" constrainPopUp="false">
       <label xml:lang="de">Erfassung für Experten</label>
       <label xml:lang="en">submit as expert</label>
@@ -150,17 +146,9 @@
     <label xml:lang="de">Nutzermenü</label>
     <label xml:lang="en">User menu</label>
     <group id="thisuser">
-      <item href="/servlets/MCRUserServlet?action=changeMyPassword" type="extern">
-        <label xml:lang="de">Passwort ändern</label>
-        <label xml:lang="en">Change Password</label>
-      </item>
       <item href="/servlets/MCRUserServlet?action=show" type="extern">
         <label xml:lang="de">Benutzerdaten anzeigen</label>
         <label xml:lang="en">Show User Data</label>
-      </item>
-      <item href="/authorization/change-current-user.xed?action=saveCurrentUser" type="extern">
-        <label xml:lang="de">Kontaktdaten ändern</label>
-        <label xml:lang="en">Change user contact</label>
       </item>
     </group>
     <group id="contentadmin">
@@ -171,20 +159,6 @@
       <item href="/rsc/ACLE/start" type="extern">
         <label xml:lang="de">ACL-Editor</label>
         <label xml:lang="en">ACL Editor</label>
-      </item>
-    </group>
-    <group id="useradmin">
-      <item href="/servlets/MCRUserServlet" type="extern">
-        <label xml:lang="de">Nutzerverwaltung</label>
-        <label xml:lang="en">Admin Users</label>
-      </item>
-      <item href="/authorization/new-user.xed?action=save" type="intern">
-        <label xml:lang="de">Nutzer anlegen</label>
-        <label xml:lang="en">Create User</label>
-      </item>
-      <item href="/authorization/roles-editor.xml" type="extern">
-        <label xml:lang="de">Rollen administrieren</label>
-        <label xml:lang="en">Manage roles</label>
       </item>
     </group>
     <group id="miscadmin">

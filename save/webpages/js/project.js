@@ -19,18 +19,15 @@ $(document).ready(function() {
 
   // replace placeholder USERNAME with username
   var userID = $("#currentUser strong").html();
-  var newHref = 'https://reposis-test.gbv.de/PROJECT/servlets/solr/select?q=createdby:' + userID + '&fq=objectType:mods';
-  $("a[href='https://reposis-test.gbv.de/PROJECT/servlets/solr/select?q=createdby:USERNAME']").attr('href', newHref);
+  var newTestHref = 'https://reposis-test.gbv.de/ostasien/servlets/solr/select?q=createdby:' + userID + '&fq=objectType:mods';
+  $("a[href='https://reposis-test.gbv.de/ostasien/servlets/solr/select?q=createdby:USERNAME']").attr('href', newTestHref);
+
+  var newProdHref = 'https://repository.crossasia.org/servlets/solr/select?q=createdby:' + userID + '&fq=objectType:mods';
+  $("a[href='https://repository.crossasia.org/servlets/solr/select?q=createdby:USERNAME']").attr('href', newProdHref);
 
   // toggle collapse text icon
   $('div[data-toggle="collapse"]').click(function () {
     $(this).find('span.toggle-icon').toggleClass('fa-chevron-circle-down fa-chevron-circle-up');
   })
 
-});
-
-$( document ).ajaxComplete(function() {
-  // remove series and journal as option from publish/index.xml
-  $("select#genre option[value='series']").remove();
-  $("select#genre option[value='journal']").remove();
 });

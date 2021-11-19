@@ -7,7 +7,8 @@
     exclude-result-prefixes="i18n mcrver mcrxsl">
 
   <xsl:import href="resource:xsl/layout/mir-common-layout.xsl" />
-
+  <xsl:param name="MIR.TestInstance" select="'true'"/>
+  
   <xsl:template name="mir.navigation">
 
     <div id="header_box" class="clearfix container">
@@ -39,7 +40,9 @@
                 </xsl:choose>
               </xsl:for-each>
               <xsl:call-template name="mir.basketMenu" />
-              <xsl:call-template name="mir.loginMenu" />
+              <xsl:if test="not(mcrxsl:isCurrentUserGuestUser())">
+                <xsl:call-template name="mir.loginMenu" />
+              </xsl:if>
               <xsl:call-template name="mir.languageMenu" />
             </ul>
           </div>
@@ -103,6 +106,9 @@
         </div>
       </div>
     </div>
+    <xsl:if test="contains($MIR.TestInstance, 'true')">
+      <div id="watermark_testenvironment">Testumgebung</div>
+    </xsl:if>
   </xsl:template>
 
 </xsl:stylesheet>
