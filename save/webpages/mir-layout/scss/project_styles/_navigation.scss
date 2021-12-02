@@ -36,7 +36,9 @@
     padding: 0;
   }
 }
-
+li.dropdown-divider:last-child {
+  display: none;
+}
 
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {
