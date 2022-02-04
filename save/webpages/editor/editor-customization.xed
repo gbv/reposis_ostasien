@@ -79,6 +79,26 @@
     <xed:include ref="genres_upload_hint" />
   </xed:template>
   
+  <xed:template id="genres.issue">
+    <xed:include ref="title.original" />
+    <xed:include ref="author.repeated" />
+    <xed:include ref="editor.repeated" />
+    <xed:include ref="year.issued" />
+    <xed:include ref="place" />
+    <xed:include ref="publisher"  />
+    <xed:include ref="edition" />
+    <xed:include ref="extent" />
+    <xed:include ref="language" />
+    <xed:include ref="identifier.isbn.fixed" />
+    <xed:include ref="doi.handle.urn.repeated" />
+    <xed:include ref="link.repeated" />
+    <xed:include ref="ddc" />
+    <xed:include ref="subject_indexing" />
+    <xed:include ref="abstract.repeated" />
+    <xed:include ref="openAIRE" />
+    <xed:include ref="further_information.without_embargo" />
+  </xed:template>
+
   <xed:template id="genres.journal.common">
     <xed:include ref="title.abbreviated" />
     <xed:include ref="editor.repeated" />
