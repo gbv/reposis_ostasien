@@ -1,95 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MyCoReWebPage>
-    <section xml:lang="de" title="Haftungshinweise">
-        <div class="row">
-            <div class="col-sm-12 col-md-8" lang="de">
-                <h1>Haftungshinweise</h1>
-                <p>
-                    Als Trägerin des Fachportals CrossAsia ist die Staatsbibliothek zu Berlin – Preußischer 
-                    Kulturbesitz um Richtigkeit und Aktualität der auf dieser Internetpräsenz bereitgestellten 
-                    Informationen bemüht. Trotzdem können Fehler und Unklarheiten nicht vollständig ausgeschlossen 
-                    werden. Die Staatsbibliothek zu Berlin – Preußischer Kulturbesitz übernimmt daher keinerlei Gewähr 
-                    für die Aktualität, Korrektheit, Vollständigkeit oder Qualität der bereitgestellten Informationen. 
-                    Die Nutzung der Inhalte der Website erfolgt auf eigene Gefahr des/der Nutzer:in. Gleiches gilt für 
-                    kostenlos zum Download bereitgehaltene Inhalte. Alle Angebote sind freibleibend und unverbindlich. 
-                    Die Staatsbibliothek zu Berlin – Preußischer Kulturbesitz behält es sich explizit vor, Teile des 
-                    Internetangebotes oder das gesamte Angebot ohne gesonderte Ankündigung zu verändern oder zu 
-                    ergänzen.
-                </p>
-                <p>
-                    Das Angebot von CrossAsia enthält Links zu externen Webseiten Dritter, auf deren Inhalte CrossAsia 
-                    keinen Einfluss hat. Deshalb kann CrossAsia für diese fremden Inhalte keine Gewähr übernehmen. Für 
-                    die Inhalte der verlinkten Seiten sind stets die jeweiligen Anbieter:innen oder Betreiber:innen 
-                    der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche 
-                    Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht 
-                    erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete 
-                    Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen 
-                    werden derartige Links umgehend entfernt. Der Nutzung von im Rahmen der Impressumspflicht 
-                    veröffentlichten Kontaktdaten durch Dritte zur Übersendung von nicht ausdrücklich angeforderter 
-                    Werbung und Informationsmaterialien wird hiermit ausdrücklich widersprochen. Die Betreiberin der 
-                    Seiten behält sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von 
-                    Werbeinformationen, etwa durch Spam-Mails, vor. Soweit die Inhalte auf dieser Seite nicht von der 
-                    Betreiberin erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden 
-                    Inhalte Dritter als solche gekennzeichnet.
-                </p>
-                <p>
-                    Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bittet CrossAsia um einen 
-                    entsprechenden Hinweis. Bei Kenntnis von Rechtsverletzungen werden derartige Inhalte entfernt.
-                </p>
-                <h2>Rechtswirksamkeit dieses Haftungsausschlusses</h2>
-                <p>
-                    Der im Vorstehenden formulierte Haftungsausschluss ist als Teil des Internetangebotes zu 
-                    betrachten, von dem aus auf diese Seite verwiesen wurde. Insofern Teile oder einzelne 
-                    Formulierungen dieses Textes der aktuell geltenden Rechtslage nicht, nicht mehr oder nicht 
-                    vollständig entsprechen sollten, bleiben die übrigen Teile des Dokumentes in Hinblick sowohl auf 
-                    ihren Inhalt als auch und vor allem auf ihre Gültigkeit davon unberührt.
-                </p>
-            </div>
-        </div>
-    </section>
-    <section xml:lang="en" title="Disclaimer">
-        <div class="row">
-            <div class="col-sm-12 col-md-8" lang="en">
-                <h1>Haftungshinweise</h1>
-                <p>
-                    The provider of the CrossAsia services is Staatsbibliothek zu Berlin – Preußischer Kulturbesitz. 
-                    The provider takes care to ensure accurate and current information on this website, however, 
-                    mistakes and unclarities cannot always be avoided. For this reason, Staatsbibliothek zu Berlin – 
-                    Preußischer Kulturbesitz cannot guarantee the correct, current and complete character of 
-                    information provided on this website. Usage of the content of this website is at the user‘s own 
-                    risk. The same is true for content that is downloadable free of charge. All offered content is 
-                    nonbinding and without obligation. Staatsbibliothek zu Berlin – Preußischer Kulturbesitz reserves 
-                    the right to change or augment the whole or parts of these internet services without notice.
-                </p>
-                <p>
-                    The content of CrossAsia includes links to external third-party websites, the content of which 
-                    CrossAsia has no influence on. For this reason, CrossAsia cannot be held responsible for this 
-                    external content. The responsibility for the content of linked websites is always with the 
-                    providers of those sites. The linked sites have been checked for possible violations of the law 
-                    at the time of their linking. At the time of linking, no law-violating content was found. However, 
-                    permanent control of the content of linked sites, without specific reasons for suspecting a 
-                    violation of law, is not feasible. If law-violations are discovered, such links are deleted 
-                    immediately. It is expressly rejected that contact data that has been published to satisfy the 
-                    imprint obligation be used by a third party to send advertisement or information materials unless 
-                    expressly requested. The provider expressly reserves the right to file legal complaints against 
-                    unwanted delivery of advertisement information, through spam email or otherwise. In the case of 
-                    content not produced by the provider, the copyrights of third parties are respected. In particular, 
-                    content of third parties is indicated as such. 
-                </p>
-                <p>
-                    Should you nevertheless have noticed a violation of copyright, CrossAsia asks you to inform us. 
-                    Content that is in violation of the law will be deleted on notice.
-                </p>
-                <h2>Legal validity of this disclaimer</h2>
-                <p>
-                    This disclaimer is to be treated as a part of the internet service on this website. If parts of 
-                    this text do not conform, do not anymore conform, or do not fully conform to the currently 
-                    applicable legal situation, the rest of the text is not affected in its content and is especially
-                    not affected in its validity. 
-                </p>
-            </div>
-        </div>
-    </section>
-    <meta>
-    </meta>
-</MyCoReWebPage>
+<MyCoReWebPage><section xml:lang="de" title="Haftungshinweise"><div class="row">
+<div class="col-sm-12 col-md-8" lang="de">
+<h1>Haftungshinweise</h1>
+
+<p>Als Trägerin des Fachportals CrossAsia ist die Staatsbibliothek zu Berlin – Preußischer Kulturbesitz um Richtigkeit und Aktualität der auf dieser Internetpräsenz bereitgestellten Informationen bemüht. Trotzdem können Fehler und Unklarheiten nicht vollständig ausgeschlossen werden. Die Staatsbibliothek zu Berlin – Preußischer Kulturbesitz übernimmt daher keinerlei Gewähr für die Aktualität, Korrektheit, Vollständigkeit oder Qualität der bereitgestellten Informationen. Die Nutzung der Inhalte der Website erfolgt auf eigene Gefahr des/der Nutzer:in. Gleiches gilt für kostenlos zum Download bereitgehaltene Inhalte. Alle Angebote sind freibleibend und unverbindlich. Die Staatsbibliothek zu Berlin – Preußischer Kulturbesitz behält es sich explizit vor, Teile des Internetangebotes oder das gesamte Angebot ohne gesonderte Ankündigung zu verändern oder zu ergänzen.</p>
+
+<p>Das Angebot von CrossAsia enthält Links zu externen Webseiten Dritter, auf deren Inhalte CrossAsia keinen Einfluss hat. Deshalb kann CrossAsia für diese fremden Inhalte keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten sind stets die jeweiligen Anbieter:innen oder Betreiber:innen der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden derartige Links umgehend entfernt. Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten durch Dritte zur Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit ausdrücklich widersprochen. Die Betreiberin der Seiten behält sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-Mails, vor. Soweit die Inhalte auf dieser Seite nicht von der Betreiberin erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet.</p>
+
+<p>Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bittet CrossAsia um einen entsprechenden Hinweis. Bei Kenntnis von Rechtsverletzungen werden derartige Inhalte entfernt.</p>
+
+<h2>Rechtswirksamkeit dieses Haftungsausschlusses</h2>
+
+<p>Der im Vorstehenden formulierte Haftungsausschluss ist als Teil des Internetangebotes zu betrachten, von dem aus auf diese Seite verwiesen wurde. Insofern Teile oder einzelne Formulierungen dieses Textes der aktuell geltenden Rechtslage nicht, nicht mehr oder nicht vollständig entsprechen sollten, bleiben die übrigen Teile des Dokumentes in Hinblick sowohl auf ihren Inhalt als auch und vor allem auf ihre Gültigkeit davon unberührt.</p>
+</div>
+</div>
+</section><section xml:lang="en" title="Disclaimer"><div class="row">
+<div class="col-sm-12 col-md-8" lang="en">
+<h1>Disclaimer</h1>
+
+<p>The provider of the CrossAsia services is Staatsbibliothek zu Berlin – Preußischer Kulturbesitz. The provider takes care to ensure accurate and current information on this website, however, mistakes and unclarities cannot always be avoided. For this reason, Staatsbibliothek zu Berlin – Preußischer Kulturbesitz cannot guarantee the correct, current and complete character of information provided on this website. Usage of the content of this website is at the user‘s own risk. The same is true for content that is downloadable free of charge. All offered content is nonbinding and without obligation. Staatsbibliothek zu Berlin – Preußischer Kulturbesitz reserves the right to change or augment the whole or parts of these internet services without notice.</p>
+
+<p>The content of CrossAsia includes links to external third-party websites, the content of which CrossAsia has no influence on. For this reason, CrossAsia cannot be held responsible for this external content. The responsibility for the content of linked websites is always with the providers of those sites. The linked sites have been checked for possible violations of the law at the time of their linking. At the time of linking, no law-violating content was found. However, permanent control of the content of linked sites, without specific reasons for suspecting a violation of law, is not feasible. If law-violations are discovered, such links are deleted immediately. It is expressly rejected that contact data that has been published to satisfy the imprint obligation be used by a third party to send advertisement or information materials unless expressly requested. The provider expressly reserves the right to file legal complaints against unwanted delivery of advertisement information, through spam email or otherwise. In the case of content not produced by the provider, the copyrights of third parties are respected. In particular, content of third parties is indicated as such.</p>
+
+<p>Should you nevertheless have noticed a violation of copyright, CrossAsia asks you to inform us. Content that is in violation of the law will be deleted on notice.</p>
+
+<h2>Legal validity of this disclaimer</h2>
+
+<p>This disclaimer is to be treated as a part of the internet service on this website. If parts of this text do not conform, do not anymore conform, or do not fully conform to the currently applicable legal situation, the rest of the text is not affected in its content and is especially not affected in its validity.</p>
+</div>
+</div>
+</section><meta><log lastEditor="fsiegmund@crossasia.org" date="2022-03-03" time="12:49" /></meta></MyCoReWebPage>
