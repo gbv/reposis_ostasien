@@ -68,8 +68,24 @@
                 <div class="col-12">
                     <h1>CrossAsia Open Access Repository</h1>
                 </div>
+                <div class="col-8 mb-5 mt-4">
+                  <form action="../servlets/solr/find" id="project-searchMainPage" class="form-inline" role="search">
+                    <div class="input-group input-group-lg w-100">
+                      <input
+                        name="condQuery"
+                        placeholder="Search in 16.000 documents"
+                        class="form-control search-query"
+                        id="project-searchInput"
+                        type="text" />
+                      <div class="input-group-append">
+                        <button type="submit" class="btn btn-secondary">
+                          <i class="fa fa-search"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
             </div>
-
             <div class="row">
                 <div class="col-md-4">
                     <h3 class="text-secondary">About us</h3>
