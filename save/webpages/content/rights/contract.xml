@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE MyCoReWebPage>
 <MyCoReWebPage>
   <section xml:lang="de" title="Vertragsbedingungen">
 
@@ -39,5 +38,40 @@
       </div>
     </div>
   </section>
-  <meta></meta>
+  <section xml:lang="en" title="Terms &amp; Conditions">
+
+    <div class="row">
+      <div class="col-sm-12 col-md-8" lang="de">
+        <h1>Terms &amp; Conditions</h1>
+        <p>
+          By signing this <a href="../rights/CrossAsia-Repositorium_Autor_innen_Vertrag.pdf"><b>publication agreement</b></a>,
+          I grant the Staatsbibliothek zu Berlin - Preußischer Kulturbesitz the non-exclusive (simple) rights of use,
+          free of charge and unlimited in terms of space and time, to reproduce the relevant work and all supplementary
+          formal- and content-description data provided on the servers of CrossAsia and the Staatsbibliothek zu Berlin -
+          Preußischer Kulturbesitz, to multiply and permanently store it electronically, to distribute it and to make it
+          publicly accessible as a digital publication on the Internet free of charge and to integrate it into the various
+          services of CrossAsia. In the course of making the works publicly available, third parties are permitted to use
+          and reproduce the works published on CrossAsia exclusively for academic, private and other personal use (§§ 53,
+          60c, 60d UrhG). In particular for purposes of long-term digital archiving, the Staatsbibliothek zu Berlin -
+          Preußischer Kulturbesitz is entitled to make technical changes to the format of the file(s) supplied by me as
+          well as to fulfill its delivery obligations for net publications to the German National Library (§ 16 DNBG). All
+          other exploitation rights remain unaffected by this, including the right to grant an
+          <a href="./copyright.xml#openaccess"><b>Open-Content-License</b></a>.
+        </p>
+        <p>
+          With your (digital) signature, you confirm that you are authorized to grant the listed rights of use to the
+          corresponding work to the Staatsbibliothek zu Berlin - Preußischer Kulturbesitz, and that its publication on
+          CrossAsia and the Staatsbibliothek zu Berlin does not violate any legal regulations or the rights of third parties.
+          In particular, in the case of collective works, you affirm that you, as the signing publisher, have obtained permission
+          from the authors involved to use their contributions in the manner explained above. You undertake to indemnify
+          the Staatsbibliothek zu Berlin - Preußischer Kulturbesitz against all claims of third parties, and affirm that
+          you have obtained the consent of all persons involved in its creation, to use the respective work based on this
+          declaration. As the author (or publisher) of the work in question, you will inform the Staatsbibliothek zu Berlin -
+          Preußischer Kulturbesitz without delay if alleged or actual infringements of the rights of third parties for which
+          you are responsible are asserted.
+        </p>
+      </div>
+    </div>
+  </section>
+  <meta><log lastEditor="Oliver_E_Kuehne@crossasia.org" date="2022-03-29" time="14:07" /></meta>
 </MyCoReWebPage>

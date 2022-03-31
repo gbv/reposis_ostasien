@@ -32,5 +32,30 @@
             </div>
         </div>
     </section>
-    <meta></meta>
+    <section xml:lang="en" title="Basics">
+        <div class="row">
+            <div class="col-sm-12 col-md-8" lang="en">
+                <h1>Basics</h1>
+                <p>
+                    The CrossAsia Open Access Repository is operated on the basis of the software framework
+                    <a href="http://www.mycore.de/">MyCoRe</a> as part of its hosting service "Reposis" by the
+                    <a href="https://www.gbv.de/Verbundzentrale/serviceangebote/reposis-repository-service/">Head Office
+                    of the GBV Common Library Network</a> which also guarantees archiving the published content on this
+                    repository for at least five years. In addition, the content published on the CrossAsia Open Access
+                    Repository is archived long term by the German National Library (Deutsche Nationalbibliothek) as part
+                    of its statutory collection mandate for digital media and net publications. Also in cooperation with
+                    the German National Library, the electronic documents published on the CrossAsia Open Access Repository
+                    receive unique persistent identifiers - so-called Uniform Resource Names - which ensure reliable referencing
+                    of digital objects and thus their permanent citability. In addition, Digital Object Identifiers are assigned
+                    in conjunction with DataCite - a well-established international alternative system for the persistent
+                    identification of network content. As a data provider under the international Open Archives Initiative (OAI),
+                    the CrossAsia Open Access Repository exposes formal and content metadata about published articles via a
+                    standardised interface (OAI-PMH 2.0) registered with established scholarly search engines - including OAIster,
+                    BASE, CORE, as well as CrossAsia Search. The global visibility of articles published on the CrossAsia Open
+                    Access Repository is also further increased via indexing by Google Scholar.
+                </p>
+            </div>
+        </div>
+    </section>
+    <meta><log lastEditor="Oliver_E_Kuehne@crossasia.org" date="2022-03-31" time="11:07" /></meta>
 </MyCoReWebPage>
