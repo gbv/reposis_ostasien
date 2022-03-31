@@ -68,13 +68,20 @@
             $(".fa-file-alt").removeClass("fa");
             $(".fa-file-alt").removeClass("fa-file-text");
             let shibbolethID = request.getResponseHeader("x-shibboleth-uid");
+            const userKey = "_check_is_passive_user";
+            const urlKey = "_check_is_passive_location";
+
+            if(shibbolethID == null && sessionStorage){
+              // this should make it possible to login again after logout
+              sessionStorage.removeItem(userKey);
+              sessionStorage.removeItem(urlKey);
+            }
             if(window["isGuest"] && shibbolethID != undefined && shibbolethID != null) {
               // run auth
               if(!sessionStorage) {
                 return;
               }
-              const userKey = "_check_is_passive_user";
-              const urlKey = "_check_is_passive_location";
+
               let passiveCheckUser = sessionStorage.getItem(userKey);
               let passiveCheckUrl = sessionStorage.getItem(urlKey);
 
