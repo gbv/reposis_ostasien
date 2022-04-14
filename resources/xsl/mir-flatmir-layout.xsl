@@ -55,7 +55,11 @@
           window["isGuest"] = <xsl:value-of select="mcrxsl:isCurrentUserGuestUser()" />;
            <![CDATA[
           $.ajax({
-             url: 'https://crossasia.org/?type=1001',
+             url: 'https://crossasia.org/',
+             data: {
+               type: "1001",
+               source: window.location.href
+             },
              xhrFields: {
                withCredentials: true
              }
