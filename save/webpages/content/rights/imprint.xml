@@ -3,7 +3,7 @@
 <MyCoReWebPage>
     <section xml:lang="de" title="Impressum">
         <div class="row">
-            <div class="col-sm-12 col-md-8" lang="de">
+            <div class="col-md-10" lang="de">
                 <h1>Impressum</h1>
                 <p>
                     Die nachstehenden Informationen enthalten die gesetzlich vorgesehenen Pflichtangaben zur
@@ -61,7 +61,7 @@
     </section>
     <section xml:lang="en" title="Imprint">
         <div class="row">
-            <div class="col-sm-12 col-md-8" lang="en">
+            <div class="col-md-10" lang="en">
                 <h1>Imprint</h1>
                 <p>
                     This website is published by Staatsbibliothek zu Berlin - Preußischer Kulturbesitz. 

@@ -3,7 +3,7 @@
     <section xml:lang="de" title="Technische Grundlagen">
 
         <div class="row">
-            <div class="col-sm-12 col-md-8" lang="de">
+            <div class="col-md-10" lang="de">
                 <h1>Technische Grundlagen</h1>
                 <p>
                     CrossAsia Open Access Repository wird auf Basis des Software-Frameworks
@@ -34,7 +34,7 @@
     </section>
     <section xml:lang="en" title="Basics">
         <div class="row">
-            <div class="col-sm-12 col-md-8" lang="en">
+            <div class="col-md-10" lang="en">
                 <h1>Basics</h1>
                 <p>
                     The CrossAsia Open Access Repository is operated on the basis of the software framework

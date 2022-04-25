@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MyCoReWebPage><section xml:lang="de" title="Barrierefreiheitserklärung"><div class="row">
-<div class="col-md-12" lang="de">
+<div class="col-md-10" lang="de">
 <h1>Erklärung zur Barrierefreiheit</h1>
 
 <p>Um eine weitestgehende Barrierefreiheit zu ermöglichen, ist die Staatsbibliothek zu Berlin – Preußischer Kulturbesitz bemüht, das Webangebot entsprechend zu optimieren. Rechtsgrundlagen sind das Behindertengleichstellungsgesetz (BGG) sowie die Barrierefreie-Informationstechnik-Verordnung (BITV).</p>
@@ -26,8 +26,8 @@ Potsdamer Str. 33<br />
 10785 Berlin</p>
 </div>
 </div>
-</section><section xml:lang="all" title="Accessibility (en)"><div class="row">
-<div class="col-md-12" lang="de">
+</section><section xml:lang="en" title="Accessibility (en)"><div class="row">
+<div class="col-md-10" lang="en">
 <h1>Declaration on Accessibility</h1>
 
 <p>The Staatsbibliothek zu Berlin - Preußischer Kulturbesitz (Berlin State Library - Prussian Cultural Heritage) endeavours to optimise its website to ensure the greatest possible accessibility. The legal basis for this is the Disability Equality Act (BGG) and the Barrier-Free Information Technology Ordinance (BITV).</p>

@@ -3,12 +3,12 @@
     <section xml:lang="de" title="Sammelauftrag">
 
         <div class="row">
-            <div class="col-sm-12 col-md-8" lang="de">
+            <div class="col-md-10" lang="de">
                 <h1>Der Sammelauftrag von CrossAsia Open Access Repository</h1>
                 <p>Als zentrales asienwissenschaftliches Fachrepositorium in Deutschland ist CrossAsia Open Access Repository dem Ziel verpflichtet, offenen, kostenfreien und dauerhaft adressierbaren Zugang zu qualitätsgesicherten Forschungsergebnissen aus allen Bereichen der geistes- und sozialwissenschaftlichen Forschung mit Asienbezug sicherzustellen.</p>
                 <p>Mit seinem Publikationsservice CrossAsia Open Access Repository möchte CrossAsia die Angehörigen der asienwissenschaftlichen Fachwelt zudem bei der Erfüllung von Open-Access-Mandaten unterstützen, die gerade im Kontext der drittmittelfinanzierten Projektforschung – so z.B. auch innerhalb des Europäischen Forschungsrahmenprogramms <a href="https://ec.europa.eu/research/participants/data/ref/h2020/grants_manual/hi/oa_pilot/h2020-hi-oa-pilot-guide_en.pdf">Horizon 2020</a> – zunehmend an Bedeutung gewinnen. Sollte Ihre Publikation mit Mitteln der Europäischen Kommission entstanden sein, so garantiert CrossAsia Open Access Repository – wie von den EU-Förderrichtlinien verlangt – deren automatische Meldung an das Forschungsinformationssystem <a href="https://www.openaire.eu/">OpenAIRE</a> (Open Access Infrastructure for Research in Europe). Über die Open-Access-Politik der internationalen Forschungsfördereinrichtungen informiert das <a href="https://v2.sherpa.ac.uk/juliet/">SHERPA/JULIET-Verzeichnis</a> . Alle auf CrossAsia Open Access Repository veröffentlichten Beiträge sind im Volltext durchsuchbar und zusätzlich auf Basis der Dewey-Dezimalklassifikation sowie durch frei zu vergebende <a href="http://swb.bsz-bw.de/DB=2.104/">Schlagwörter</a> inhaltlich erschlossen. Zur Gewährleistung ihrer optimalen globalen Sichtbarkeit werden die auf CrossAsia Open Access Repository verfügbaren Inhalte über die wissenschaftlichen Suchmaschinen <a href="http://scholar.google.de/">Google Scholar</a> , <a href="http://www.base-search.net/">BASE</a> , <a href="https://oaister.worldcat.org/">WorldCat/OAIster</a> , <a href="https://core.ac.uk/">CORE</a> sowie der <a href="https://crossasia.org/ressourcen/crossasia-suche/">CrossAsia Suche</a> recherchierbar gemacht.</p>
             </div>
-            <div class="col-sm-12 col-md-8" lang="de">
+            <div class="col-md-10" lang="de">
                 <div class="h2" data-toggle="collapse" data-target="#formal" aria-expanded="false" aria-controls="formal">
                     <h2><span class="fas fa-chevron-circle-down toggle-icon" title="{i18n:mir.help.expand}" aria-hidden="true"></span>Sammelprofil – formal</h2>
                 </div>
@@ -17,7 +17,7 @@
                   <p>Studentische Qualifikationsschriften werden nur in Ausnahmefällen und ausschließlich auf Basis schriftlicher Gutachten von Hochschullehrenden zur Veröffentlichung auf CrossAsia Open Access Repository zugelassen. Formale Restriktionen bezüglich der akzeptierten Textsorten – von Monographien bis zu Konferenzbeiträgen und Blogposts – bestehen dagegen nicht. Allerdings wird bei zuvor bereits in Zeitschriften und Sammelwerken publizierten Aufsätzen die Selbstarchivierung der paginierten Verlagsversion oder zumindest eines Postprints der tatsächlich erschienenen Textfassung gegenüber der Veröffentlichung eines nicht inhaltsidentischen Preprints bevorzugt. Bitte beachten Sie in diesem Zusammenhang auch die Informationen des <a href="https://v2.sherpa.ac.uk/romeo/">SHERPA/RoMEO-Verzeichnisses</a> zur Open-Access-Politik internationaler Verlage sowie ergänzend unsere <a href="../rights/copyright.xml">Hinweise zu den urheberrechtlichen Rahmenbedingungen</a> des elektronischen Publizierens.</p>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-8" lang="de">
+            <div class="col-md-10" lang="de">
                 <div class="h2" data-toggle="collapse" data-target="#content" aria-expanded="false" aria-controls="content">
                     <h2><span class="fas fa-chevron-circle-down toggle-icon" title="{i18n:mir.help.expand}" aria-hidden="true"></span>Sammelprofil – inhaltlich</h2>
                 </div>
@@ -31,7 +31,7 @@
     <section xml:lang="en" title="Scope of the Collection">
         
         <div class="row">
-            <div class="col-sm-12 col-md-8" lang="en">
+            <div class="col-md-10" lang="en">
                 <h1>Scope of the CrossAsia Open Access Repository Collection</h1>
                 <p>
                     CrossAsia Open Access Repository is an Asian Studies repository in Germany. Its goal is to provide open, free-of-cost and long-term access to quality scholarly material from all fields of social sciences and humanities related to Asia.
@@ -40,7 +40,7 @@
                     With its publication server CrossAsia Open Access Repository, CrossAsia assists the Asian Studies community in fulfilling mandatory Open Access publications, which are increasingly important in the context of third-party-funded research projects, such as the EU programme <a href="https://ec.europa.eu/research/participants/data/ref/h2020/grants_manual/hi/oa_pilot/h2020-hi-oa-pilot-guide_en.pdf">Horizon 2020</a>. If your publication has been produced with funding by the European Commission, during the publication process in the CrossAsia Open Access Repository, your publication will be automatically registered with the <a href="https://www.openaire.eu/">OpenAIRE</a> system (Open Access Infrastructure for Research in Europe), in accordance with the EU funding guidelines requirements. You can find information on the Open Access policy of international research funding organisations in the <a href="https://v2.sherpa.ac.uk/juliet/">SHERPA/JULIET directory</a>. All material published on CrossAsia Open Access Repository is searchable in full text. Additionally, the repository uses the Dewey Decimal Classification system (DDC) and <a href="http://swb.bsz-bw.de/DB=2.104/">keywords</a> for indexing. To guarantee optimal global visibility of the material in CrossAsia Open Access Repository, metadata is searchable through <a href="http://scholar.google.de/">Google Scholar</a> , <a href="http://www.base-search.net/">BASE</a> , <a href="https://oaister.worldcat.org/">WorldCat/OAIster</a> , <a href="https://core.ac.uk/">CORE</a> as well as through the <a href="https://crossasia.org/ressourcen/crossasia-suche/">CrossAsia Search</a>.
                 </p>
             </div>
-            <div class="col-sm-12 col-md-8" lang="en">
+            <div class="col-md-10" lang="en">
                 <div class="h2" data-toggle="collapse" data-target="#formal" aria-expanded="false" aria-controls="formal">
                     <h2><span class="fas fa-chevron-circle-down toggle-icon" title="{i18n:mir.help.expand}" aria-hidden="true"></span>Scope of the Collection – formal </h2>
                 </div>
@@ -53,7 +53,7 @@
                     </p>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-8" lang="en">
+            <div class="col-md-10" lang="en">
                 <div class="h2" data-toggle="collapse" data-target="#content" aria-expanded="false" aria-controls="content">
                     <h2><span class="fas fa-chevron-circle-down toggle-icon" title="{i18n:mir.help.expand}" aria-hidden="true"></span>Scope of the Collection – content</h2>
                 </div>
