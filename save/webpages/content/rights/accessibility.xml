@@ -1,57 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE MyCoReWebPage>
-<MyCoReWebPage>
-    <section xml:lang="de" title="Barrierefreiheitserklärung">
-        <div class="row">
-            <div class="col-md-12" lang="de">
-                
-                <h1>Erklärung zur Barrierefreiheit</h1>
-                <p>
-                    Um eine weitestgehende Barrierefreiheit zu ermöglichen, ist die Staatsbibliothek zu Berlin –
-                    Preußischer Kulturbesitz bemüht, das Webangebot entsprechend zu optimieren. Rechtsgrundlagen
-                    sind das Behindertengleichstellungsgesetz (BGG) sowie die
-                    Barrierefreie-Informationstechnik-Verordnung (BITV).
-                </p>
-                <p>
-                    Bereits in der Vergangenheit haben wir, für unterschiedliche Bereiche dieser Website, ein
-                    entsprechendes Prüfverfahren durchführen lassen. Vor diesem Hintergrund wird für die Website
-                    der Staatsbibliothek zu Berlin baldmöglichst ein aktualisierter (manueller), von der W3C Web
-                    Accessibility Initiative (WAI) entwickelter, <a
-                            href="https://bik-fuer-alle.de/easy-checks.html" target="_blank" class="extern">Test
-                    </a> durchgeführt werden.
-                </p>
+<MyCoReWebPage><section xml:lang="de" title="Barrierefreiheitserklärung"><div class="row">
+<div class="col-md-12" lang="de">
+<h1>Erklärung zur Barrierefreiheit</h1>
 
-                <h2>Stand der Vereinbarkeit mit den Anforderungen</h2>
-                <p>
-                  Diese Website befindet sich im Aufbau. Beim einen vorläufige BITV-Test über die funktionale Teile und 
-                  das Design sind unterschiedlichste technischen Defizite und Mängel
-                  identifiziert worden, die eine barrierefreie Nutzung der Webseite erschweren. Diese sind in dem 
-                  <a href="accessibility_test_mir.xml">Protokoll</a> vom Test aufgelistet und werden sukzessive behoben.
-                </p>
-               
-                <p>Diese Erklärung wurde am 27.09.2021 erstellt.</p>
+<p>Um eine weitestgehende Barrierefreiheit zu ermöglichen, ist die Staatsbibliothek zu Berlin – Preußischer Kulturbesitz bemüht, das Webangebot entsprechend zu optimieren. Rechtsgrundlagen sind das Behindertengleichstellungsgesetz (BGG) sowie die Barrierefreie-Informationstechnik-Verordnung (BITV).</p>
 
-                <h2>Möglichkeiten der Kontaktaufnahme</h2>
-                
-                <p>
-                    Falls Sie der Meinung sind, dass die Barrierefreiheit in unserem Webangebot nicht ausreichend
-                    umgesetzt wurde, bitten wir Sie um Kontaktaufnahme. Wir versuchen, den Mangel
-                    schnellstmöglich zu beheben.
-                </p>
-                <p>
-                    Bitte wenden Sie sich dazu per E-Mail an:
-                    <a href="mailto:bitv@sbb.spk-berlin.de">bitv@sbb.spk-berlin.de</a>
-                </p>
-                <p>oder per Post an:<br/>
-                    Staatsbibliothek zu Berlin – Preußischer Kulturbesitz<br/>
-                    Abteilung IDM 3<br/>
-                    Potsdamer Str. 33<br/>
-                    10785 Berlin
-                </p>
-            </div>
-        </div>
-    </section>
-    <meta>
-        <log lastEditor="administrator" date="2021-09-27" time="08:53"/>
-    </meta>
-</MyCoReWebPage>
+<p>Bereits in der Vergangenheit haben wir, für unterschiedliche Bereiche dieser Website, ein entsprechendes Prüfverfahren durchführen lassen. Vor diesem Hintergrund wird für die Website der Staatsbibliothek zu Berlin baldmöglichst ein aktualisierter (manueller), von der W3C Web Accessibility Initiative (WAI) entwickelter, <a class="extern" href="https://bik-fuer-alle.de/easy-checks.html" target="_blank">Test </a> durchgeführt werden.</p>
+
+<h2>Stand der Vereinbarkeit mit den Anforderungen</h2>
+
+<p>Diese Website befindet sich im Aufbau. Beim einen vorläufige BITV-Test über die funktionale Teile und das Design sind unterschiedlichste technischen Defizite und Mängel identifiziert worden, die eine barrierefreie Nutzung der Webseite erschweren. Diese sind in dem <a href="accessibility_test_mir.xml">Protokoll</a> vom Test aufgelistet und werden sukzessive behoben.</p>
+
+<p>Diese Erklärung wurde am 27.09.2021 erstellt.</p>
+
+<h2>Möglichkeiten der Kontaktaufnahme</h2>
+
+<p>Falls Sie der Meinung sind, dass die Barrierefreiheit in unserem Webangebot nicht ausreichend umgesetzt wurde, bitten wir Sie um Kontaktaufnahme. Wir versuchen, den Mangel schnellstmöglich zu beheben.</p>
+
+<p>Bitte wenden Sie sich dazu per E-Mail an: <a href="mailto:bitv@sbb.spk-berlin.de">bitv@sbb.spk-berlin.de</a></p>
+
+<p>oder per Post an:<br />
+Staatsbibliothek zu Berlin – Preußischer Kulturbesitz<br />
+Abteilung IDM 3<br />
+Potsdamer Str. 33<br />
+10785 Berlin</p>
+</div>
+</div>
+</section><section xml:lang="all" title="Accessibility (en)"><div class="row">
+<div class="col-md-12" lang="de">
+<h1>Declaration on Accessibility</h1>
+
+<p>The Staatsbibliothek zu Berlin - Preußischer Kulturbesitz (Berlin State Library - Prussian Cultural Heritage) endeavours to optimise its website to ensure the greatest possible accessibility. The legal basis for this is the Disability Equality Act (BGG) and the Barrier-Free Information Technology Ordinance (BITV).</p>
+
+<p>Recently, we had a corresponding test procedure carried out for different areas of this website. Based on the results, an updated (manual) <a href="http://bik-fuer-alle.de/easy-checks.html">test </a>developed by the W3C Web Accessibility Initiative (WAI) will be carried out for the website of the Staatsbibliothek zu Berlin in the near future.</p>
+
+<h2>Status of compatibility with the requirements</h2>
+
+<p>This website is under construction. During a preliminary BITV test of the functional parts and the design, various technical <a>deficienci</a> were identified that make a barrier-free navigating of the website difficult. They are listed in the <a href="http://accessibility_test_mir.xml">protocol</a> of the test and will be successively eliminated.</p>
+
+<p>This statement was created on 27.09.2021</p>
+
+<h2>Ways to contact us</h2>
+
+<p>If you should find aspects of the implementation of accessibility on our website insufficient, please contact us. We will try to eliminate any insufficiencies as quickly as possible.</p>
+
+<p>Please contact us by e-mail at: <strong><a href="mailto:bitv@sbb.spk-berlin.de">bitv@sbb.spk-berlin.de</a></strong></p>
+
+<p>or via mail:<br />
+Staatsbibliothek zu Berlin – Preußischer Kulturbesitz<br />
+Abteilung IDM 3<br />
+Potsdamer Str. 33<br />
+10785 Berlin</p>
+</div>
+</div>
+</section><meta><log lastEditor="Oliver_E_Kuehne@crossasia.org" date="2022-04-20" time="13:55" /></meta></MyCoReWebPage>
