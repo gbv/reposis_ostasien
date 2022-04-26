@@ -101,7 +101,7 @@
       <div class="container">
         <div class="row">
           <div class="col-12 text-right" title="{$mcr_version}">
-            <span>©2021 Copyright CrossAsia</span>
+            <span>©2022 Copyright CrossAsia</span>
           </div>
         </div>
       </div>
