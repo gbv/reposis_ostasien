@@ -8,7 +8,7 @@
 
   <xsl:import href="resource:xsl/layout/mir-common-layout.xsl" />
   <xsl:param name="MIR.TestInstance" select="'true'"/>
-  
+
   <xsl:template name="mir.navigation">
 
     <div id="header_box" class="clearfix container">
@@ -52,7 +52,7 @@
         <a href="{concat($WebApplicationBaseURL,substring($loaded_navigation_xml/@hrefStartingPage,2),$HttpSession)}"
            class="">
           <span id="logo_modul">CrossAsia</span>
-          <span id="logo_slogan">Open Access Repository</span>
+          <span id="logo_slogan">E-Publishing</span>
         </a>
       </div>
     </div>
