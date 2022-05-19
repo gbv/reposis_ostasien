@@ -89,11 +89,11 @@
         <label xml:lang="en">Browse</label>
         <item href="/content/browse/institutes.xml" type="intern" replaceMenu="false" constrainPopUp="false">
             <label xml:lang="de">nach Forschungseinrichtung</label>
-            <label xml:lang="en">by institutions</label>
+            <label xml:lang="en">by institution</label>
         </item>
         <item href="/content/browse/genres.xml" type="intern" replaceMenu="false" constrainPopUp="false">
             <label xml:lang="de">nach Dokumenttyp</label>
-            <label xml:lang="en">by document typ</label>
+            <label xml:lang="en">by document type</label>
         </item>
         <item href="/content/browse/ddc.xml" type="intern" replaceMenu="false" constrainPopUp="false">
             <label xml:lang="de">nach DDC</label>
