@@ -1,0 +1,12 @@
+User-agent: *
+Crawl-delay: 10
+Allow: /servlets/MCRFileNodeServlet/
+Allow: /rsc/sass/
+Allow: /rsc/locale/
+Allow: /api/v1/objects/
+Disallow: /*?
+Disallow: /servlets/
+Disallow: /browse/
+Disallow: /rsc/
+Disallow: /api/
+Sitemap: https://repository.crossasia.org/sitemap_google.xml
