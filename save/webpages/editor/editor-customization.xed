@@ -309,6 +309,7 @@
   <!-- ========== modified mir templates ========== -->
   
   <xed:modify ref="admin.fields">
+    <xed:include ref="ddc" after="sdnb.repeat"/>
     <xed:remove ref="sdnb.repeat" />
   </xed:modify>
   
@@ -435,17 +436,19 @@
   
   <xed:template id="ddc">
     <xed:bind xpath="mods:classification[@authority='ddc'][@displayLabel='ddc']">
-      <div class="form-group {$xed-validation-marker} row">
+      <div class="form-group row {$xed-validation-marker}">
         <label class="col-md-3 col-form-label text-right">
-          <xed:include uri="classification:editor[Text]:0:children:DDC" />
-          DDC:
+          <xed:output i18n="project.form.label.ddc" />
         </label>
         <div class="col-md-6">
           <select class="form-control form-control-inline">
+            <option value="">
+              <xed:output i18n="mir.select.optional" />
+            </option>
             <xed:include uri="xslStyle:items2options:classification:editor:-1:children:DDC" />
           </select>
         </div>
-        <mir:help-pmud help-text="{i18n:intr2dok.help.ddc}" pmud="false" />
+        <mir:help-pmud help-text="{i18n:project.help.ddc}" pmud="false" />
       </div>
     </xed:bind>
   </xed:template>

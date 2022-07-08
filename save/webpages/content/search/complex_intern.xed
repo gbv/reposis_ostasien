@@ -85,11 +85,11 @@
                     xpath="condition[@field='category.top'][1]/@value" id="inputInst1"
                     i18n="editor.search.mir.institute" tooltip="editor.search.mir.institute.tooltip"
                     uri="xslStyle:items2options:classification:editorComplete:-1:children:mir_institutes" />
-                  <!-- DNB Sachgruppe -->
+                  <!-- DDC -->
                   <mir:template name="selectInput"
-                    xpath="condition[@field='category.top'][2]/@value" id="inputSDNB1"
-                    i18n="editor.search.mir.sdnb" tooltip="editor.search.mir.sdnb.tooltip"
-                    uri="xslStyle:items2options:classification:editorComplete:-1:children:SDNB" />
+                    xpath="condition[@field='category.top'][2]/@value" id="inputDDC1"
+                    i18n="editor.search.mir.ddc" tooltip="editor.search.mir.ddc.tooltip"
+                    uri="xslStyle:items2options:classification:editorComplete:-1:children:DDC" />
                   <!-- Genre -->
                   <mir:template name="selectInput"
                     xpath="condition[@field='category.top'][3]/@value" id="inputGenre1"
