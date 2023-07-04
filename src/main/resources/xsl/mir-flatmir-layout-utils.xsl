@@ -9,6 +9,7 @@
 
   <xsl:import href="resource:xsl/layout/mir-common-layout.xsl" />
   <xsl:param name="MIR.TestInstance" select="'true'"/>
+  <xsl:param name="MIR.Matomo" select="false" />
 
   <xsl:template name="mir.navigation">
 
@@ -111,6 +112,25 @@
     <xsl:if test="contains($MIR.TestInstance, 'true')">
       <div id="watermark_testenvironment">Testumgebung</div>
     </xsl:if>
+
+    <!-- Matomo -->
+    <!-- #OSTA-66 -->
+    <xsl:if test="contains($MIR.Matomo, 'true')">
+      <script type="text/javascript">
+        var _paq = window._paq = window._paq || [];
+        _paq.push(['disableCookies']);
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function() {
+        var u="https://webstats.sbb.berlin/";
+        _paq.push(['setTrackerUrl', u+'matomo.php']);
+        _paq.push(['setSiteId', '82']);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+        })();
+      </script>
+    </xsl:if>
+
   </xsl:template>
 
 </xsl:stylesheet>
