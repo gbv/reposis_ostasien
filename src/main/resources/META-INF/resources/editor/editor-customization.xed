@@ -56,8 +56,8 @@
     <xed:include ref="ddc" />
     <xed:include ref="subject_indexing" />
     <xed:include ref="abstract.repeated" />
-    <xed:include ref="institutes" />
-    <xed:include ref="comment" />
+    <xed:include ref="further_information.without_embargo" />
+    <xed:include ref="genres_upload_hint" />
   </xed:template>
   
   <xed:template id="genres.book.common">
