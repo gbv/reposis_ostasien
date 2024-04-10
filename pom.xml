@@ -27,7 +27,6 @@
         <version>2022.06-SNAPSHOT</version>
     </parent>
 
-    <groupId>de.gbv.ostasien</groupId>
     <artifactId>reposis_ostasien</artifactId>
     <version>2022.06-SNAPSHOT</version>
     <properties>
