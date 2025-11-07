@@ -42,9 +42,8 @@
         </xsl:if>
         <xsl:call-template name="mir.prop4js" />
 
-        <link href="https://crossasia.org/sheader/css/bootstrap-xasia.min.css" rel="stylesheet" />
-        <link href="https://crossasia.org/sheader/css/style-xabs.css" rel="stylesheet" />
-        <script src="https://crossasia.org/sheader/js/jsfunc.validateform.js"></script>
+        <link href="https://crossasia.org/resources/sheader/css/bootstrap-xasia.min.css" rel="stylesheet" />
+        <link href="https://crossasia.org/resources/sheader/css/style-xabs.css" rel="stylesheet" />
 
       </head>
 
