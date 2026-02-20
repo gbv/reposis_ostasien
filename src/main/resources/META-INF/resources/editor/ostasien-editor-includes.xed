@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xed:template xmlns:xed="http://www.mycore.de/xeditor" xmlns:mir="http://www.mycore.de/mir">
+
+  <xed:param name="host" default="standalone" />
+
+  <xed:template id="date.issued.required">
+    <mir:textfield
+      xpath="mods:originInfo[@eventType='publication']/mods:dateIssued[@encoding='w3cdtf']"
+      label="mir.date.issued.10"
+      help-text="{i18n:mir.help.date.issued.10}"
+      placeholder="{i18n:mir.placeholder.date}"
+      class="required"
+      required="true"
+      required-i18n="mir.validation.date.issued" />
+  </xed:template>
+
+  <xed:template id="ddc">
+    <xed:bind xpath="mods:classification[@authority='ddc'][@displayLabel='ddc']">
+      <div class="form-group row {$xed-validation-marker}">
+        <label class="col-md-3 col-form-label text-right">
+          <xed:output i18n="project.form.label.ddc" />
+        </label>
+        <div class="col-md-6">
+          <select class="form-control form-control-inline">
+            <option value="">
+              <xed:output i18n="mir.select.optional" />
+            </option>
+            <xed:include uri="xslStyle:items2options:classification:editor:-1:children:DDC" />
+          </select>
+        </div>
+        <mir:help-pmud help-text="{i18n:project.help.ddc}" pmud="false" />
+      </div>
+    </xed:bind>
+  </xed:template>
+
+  <xed:template id="further_information">
+    <fieldset>
+      <legend class="mir-fieldset-legend">
+        <xed:output i18n="project.forms.further_information" />
+      </legend>
+      <div class="mir-fieldset-content">
+        <xed:include ref="rights" />
+        <xed:include ref="embargo.datetimepicker" />
+        <xed:include ref="institutes" />
+        <xed:include ref="comment" />
+      </div>
+    </fieldset>
+  </xed:template>
+
+  <xed:template id="further_information_with_copyrightMD">
+    <fieldset>
+      <legend class="mir-fieldset-legend">
+        <xed:output i18n="project.forms.further_information" />
+      </legend>
+      <div class="mir-fieldset-content">
+        <xed:include ref="rights" />
+        <xed:include ref="embargo.datetimepicker" />
+        <xed:include ref="copyrightMD" />
+        <xed:include ref="institutes" />
+        <xed:include ref="comment" />
+      </div>
+    </fieldset>
+  </xed:template>
+
+  <xed:template id="further_information.without_embargo">
+    <fieldset>
+      <legend class="mir-fieldset-legend">
+        <xed:output i18n="project.forms.further_information" />
+      </legend>
+      <div class="mir-fieldset-content">
+        <xed:include ref="rights" />
+        <xed:include ref="institutes" />
+        <xed:include ref="comment" />
+      </div>
+    </fieldset>
+  </xed:template>
+
+  <xed:template id="genres_upload_hint">
+    <xed:if test="$host='standalone'">
+      <div class="col-md-9 mb-3">
+        <xed:output i18n="project.forms.hint" />
+      </div>
+    </xed:if>
+  </xed:template>
+
+  <xed:template id="hosts_upload_hint">
+    <div class="col-md-9 pt-3" style="position: absolute;">
+      <xed:output i18n="project.forms.hint" />
+    </div>
+    <div class="mb-5 pt-1" />
+  </xed:template>
+
+  <xed:template id="identifier.issn.blog.relItemsearch">
+    <mir:relItemsearch
+      searchengine="issn"
+      genre="blog"
+      responsefield="identifier.type.issn"
+      xpath="mods:identifier[@type='issn']"
+      label="mir.identifier.issn"
+      help-text="{i18n:mir.help.identifier.issn}" />
+  </xed:template>
+
+  <xed:template id="subject_indexing">
+    <xed:include ref="subject.simple" />
+  </xed:template>
+
+  <xed:template id="thesis.advisor.reviewer.extented.habil.repeated">
+    <xed:bind xpath="mods:name[@type='personal'][mods:role/mods:roleTerm[@authority='marcrelator'][@type='code']='aut']" />
+    <xed:bind xpath="mods:name[@type='personal'][mods:role/mods:roleTerm[@authority='marcrelator'][@type='code']='ths']" />
+    <xed:bind xpath="mods:name[@type='personal'][mods:role/mods:roleTerm[@authority='marcrelator'][@type='code']='rev']" />
+    <mir:person.repeated help-text="{i18n:mir.help.thesis.advisor.reviewer}">
+      <option value="aut">
+        <xed:output i18n="mir.role.thesis" />
+      </option>
+      <option value="aut" selected="selected">
+        <xed:output i18n="project.role.thesis.habilitand" />
+      </option>
+      <option value="ths">
+        <xed:output i18n="mir.role.advisor" />
+      </option>
+      <option value="rev">
+        <xed:output i18n="mir.role.reviewer" />
+      </option>
+    </mir:person.repeated>
+  </xed:template>
+
+  <xed:template id="thesis.advisor.reviewer.extented.repeated">
+    <xed:bind
+      xpath="mods:name[@type='personal'][mods:role/mods:roleTerm[@authority='marcrelator'][@type='code']='aut']" />
+    <xed:bind
+      xpath="mods:name[@type='personal'][mods:role/mods:roleTerm[@authority='marcrelator'][@type='code']='ths']" />
+    <xed:bind
+      xpath="mods:name[@type='personal'][mods:role/mods:roleTerm[@authority='marcrelator'][@type='code']='rev']" />
+    <mir:person.repeated help-text="{i18n:mir.help.thesis.advisor.reviewer}">
+      <option value="aut">
+        <xed:output i18n="project.role.thesis.habilitand" />
+      </option>
+      <option value="aut">
+        <xed:output i18n="mir.role.thesis" />
+      </option>
+      <option value="ths">
+        <xed:output i18n="mir.role.advisor" />
+      </option>
+      <option value="rev">
+        <xed:output i18n="mir.role.reviewer" />
+      </option>
+    </mir:person.repeated>
+  </xed:template>
+
+  <xed:template id="thesis.advisor.reviewer.reduced.repeated">
+    <xed:bind
+      xpath="mods:name[@type='personal'][mods:role/mods:roleTerm[@authority='marcrelator'][@type='code']='aut']" />
+    <xed:bind
+      xpath="mods:name[@type='personal'][mods:role/mods:roleTerm[@authority='marcrelator'][@type='code']='ths']" />
+    <mir:person.repeated help-text="{i18n:mir.help.thesis.advisor}">
+      <xed:include uri="xslStyle:items2options:classification:editor:-1:children:marcrelator" />
+    </mir:person.repeated>
+  </xed:template>
+
+  <xed:template id="type.of.resource.audio">
+    <xed:bind xpath="mods:typeOfResource/@mcr:categId">
+      <div class="form-group row {$xed-validation-marker}">
+        <label class="col-md-3 control-label text-right required">
+          <xed:output i18n="mir.typeOfResource" />
+        </label>
+        <div class="col-md-6">
+          <select class="form-control form-control-inline">
+            <option value="typeOfResource:sound_recording">
+              Tonaufnahme
+            </option>
+            <option value="typeOfResource:sound_recording-musical">
+              Tonaufnahme (Musik)
+            </option>
+            <option value="typeOfResource:sound_recording-nonmusical">
+              Tonaufnahme (keine Musik)
+            </option>
+          </select>
+        </div>
+        <mir:help-pmud help-text="{i18n:mir.help.typeOfResource}" />
+      </div>
+    </xed:bind>
+  </xed:template>
+
+</xed:template>
