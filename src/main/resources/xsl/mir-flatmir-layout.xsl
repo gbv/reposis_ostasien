@@ -5,14 +5,13 @@
 <xsl:stylesheet version="1.0"
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   xmlns:xlink="http://www.w3.org/1999/xlink"
-  xmlns:mcrxsl="xalan://org.mycore.common.xml.MCRXMLFunctions"
   xmlns:i18n="xalan://org.mycore.services.i18n.MCRTranslation"
   exclude-result-prefixes="xlink i18n">
 
-  <xsl:output method="html" indent="yes" omit-xml-declaration="yes" media-type="text/html"
-    version="5" />
+  <xsl:output method="html" indent="yes" omit-xml-declaration="yes" media-type="text/html" version="5" />
   <xsl:strip-space elements="*" />
   <xsl:include href="resource:xsl/mir-flatmir-layout-utils.xsl"/>
+  <xsl:include href="resource:xsl/mir-flatmir-layout-meta-tags.xsl"/>
   <xsl:param name="MIR.DefaultLayout.CSS" />
   <xsl:param name="MIR.CustomLayout.CSS" select="''" />
   <xsl:param name="MIR.CustomLayout.JS" select="''" />
@@ -26,6 +25,7 @@
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <xsl:call-template name="mir-flatmir-layout-meta-tags"/>
         <title>
           <xsl:value-of select="$PageTitle" />
         </title>
@@ -42,16 +42,17 @@
         </xsl:if>
         <xsl:call-template name="mir.prop4js" />
 
+        <!-- START ostasien adjustments -->
         <link href="https://crossasia.org/resources/sheader/css/bootstrap-xasia.min.css" rel="stylesheet" />
         <link href="https://crossasia.org/resources/sheader/css/style-xabs.css" rel="stylesheet" />
-
+        <!-- END ostasien adjustments -->
       </head>
 
       <body>
-
+        <!-- START ostasien adjustments -->
         <div class="xabs">HTML-from-Page-Type-1001</div>
         <script>
-          window["isGuest"] = <xsl:value-of select="mcrxsl:isCurrentUserGuestUser()" />;
+          window["isGuest"] = <xsl:value-of select="$CurrentUser='guest'" />;
            <![CDATA[
           $.ajax({
              url: 'https://crossasia.org/',
@@ -108,6 +109,7 @@
               }]]>
             }
           });
+          <!-- END ostasien adjustments -->
         </script>
 
         <xsl:if test="//div/@class='jumbotwo'">
