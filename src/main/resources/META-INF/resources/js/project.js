@@ -1,33 +1,49 @@
-
-$(document).ready(function() {
-
-  // spam protection for mails
-  $('span.madress').each(function(i) {
-      var text = $(this).text();
-      var address = text.replace(" [at] ", "@");
-      $(this).after('<a href="mailto:'+address+'">'+ address +'</a>')
-      $(this).remove();
+function replaceMaskedEmails() {
+  document.querySelectorAll('span.madress').forEach(span => {
+    const address = span.textContent.replace(' [at] ', '@');
+    const link = document.createElement('a');
+    link.href = `mailto:${address}`;
+    link.textContent = address;
+    span.replaceWith(link);
   });
+}
 
-  // activate empty search on start page
-  $("#project-searchMainPage").submit(function (evt) {
-    $(this).find(":input").filter(function () {
-          return !this.value;
-      }).attr("disabled", true);
-    return true;
+function ignoreEmptyFieldsOnSubmit(event) {
+  const form = event.currentTarget;
+  const inputs = form.querySelectorAll('input');
+  inputs.forEach(input => {
+    if (!input.value) {
+      input.dataset.nameBackup = input.name;
+      input.removeAttribute('name');
+    }
   });
+  // Restore field names after the form is submitted
+  // setTimeout ensures this runs after the submit event completes
+  setTimeout(() => {
+    inputs.forEach(input => {
+      if (input.dataset.nameBackup) {
+        input.name = input.dataset.nameBackup;
+        delete input.dataset.nameBackup;
+      }
+    });
+  }, 0);
+}
 
-  // replace placeholder USERNAME with username
-  var userID = $("#currentUser strong").html();
-  var newTestHref = 'https://reposis-test.gbv.de/ostasien/servlets/solr/select?q=createdby:' + userID + '&fq=objectType:mods';
-  $("a[href='https://reposis-test.gbv.de/ostasien/servlets/solr/select?q=createdby:USERNAME']").attr('href', newTestHref);
+function toggleCollapseIcon(event) {
+  const icon = event.currentTarget.querySelector('.toggle-icon');
+  if (!icon){
+    return;
+  }
+  icon.classList.toggle('fa-chevron-circle-down');
+  icon.classList.toggle('fa-chevron-circle-up');
+}
 
-  var newProdHref = 'https://repository.crossasia.org/servlets/solr/select?q=createdby:' + userID + '&fq=objectType:mods';
-  $("a[href='https://repository.crossasia.org/servlets/solr/select?q=createdby:USERNAME']").attr('href', newProdHref);
+function init() {
+  replaceMaskedEmails();
+  document.getElementById('project-searchMainPage')?.addEventListener('submit', ignoreEmptyFieldsOnSubmit);
+  document.querySelectorAll('div[data-toggle="collapse"]').forEach(div => {
+    div.addEventListener('click', toggleCollapseIcon);
+  });
+}
 
-  // toggle collapse text icon
-  $('div[data-toggle="collapse"]').click(function () {
-    $(this).find('span.toggle-icon').toggleClass('fa-chevron-circle-down fa-chevron-circle-up');
-  })
-
-});
+document.addEventListener("DOMContentLoaded", init);
