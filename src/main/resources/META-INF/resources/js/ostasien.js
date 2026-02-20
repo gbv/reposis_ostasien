@@ -40,10 +40,9 @@ function toggleCollapseIcon(event) {
 
 function init() {
   replaceMaskedEmails();
-  document.getElementById('project-searchMainPage')?.addEventListener('submit', ignoreEmptyFieldsOnSubmit);
   document.querySelectorAll('div[data-toggle="collapse"]').forEach(div => {
     div.addEventListener('click', toggleCollapseIcon);
   });
 }
 
-document.addEventListener("DOMContentLoaded", init);
+document.addEventListener('DOMContentLoaded', init);
