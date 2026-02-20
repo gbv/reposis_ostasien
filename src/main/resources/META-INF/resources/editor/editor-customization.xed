@@ -22,6 +22,7 @@
   <xed:modify ref="admin.fields">
     <xed:include ref="ddc" after="sdnb.repeat" />
     <xed:remove ref="sdnb.repeat" />
+    <xed:remove ref="related.item.other.search.of.all.items" />
   </xed:modify>
 
   <!-- ========== Host: Overrides ========== -->
