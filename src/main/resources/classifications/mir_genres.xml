@@ -106,7 +106,7 @@
     <category ID="research_data">
       <label xml:lang="de" text="Forschungsdaten" />
       <label xml:lang="en" text="Research Data" />
-      <label xml:lang="x-hosts" text="journal series collection proceedings standalone" />
+      <label xml:lang="x-hosts" text="journal series collection proceedings habilitation dissertation article book chapter report speech standalone" />
       <label xml:lang="x-mapping" text="marcgt:database diniPublType:ResearchData diniPublType2022:ResearchData" />
     </category>
     <category ID="poster">
