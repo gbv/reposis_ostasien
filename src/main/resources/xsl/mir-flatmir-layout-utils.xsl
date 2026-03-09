@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0"
-  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   xmlns:date="http://exslt.org/dates-and-times"
-  exclude-result-prefixes="date">
+  xmlns:mcracl="xalan://org.mycore.common.xml.MCRXMLFunctions"
+  xmlns:mcri18n="xalan://org.mycore.services.i18n.MCRTranslation"
+  xmlns:mcrversion="xalan://org.mycore.common.MCRCoreVersion"
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+  exclude-result-prefixes="date mcracl mcri18n mcrversion">
 
   <xsl:import href="resource:xsl/layout/mir-common-layout.xsl" />
 
@@ -69,7 +72,7 @@
       <div class="row">
         <div class="col-3">
           <h4>
-            <xsl:value-of select="document('i18n:project.layout.footer.about')/i18n/text()" />
+            <xsl:value-of select="mcri18n:translate('project.layout.footer.about')" />
           </h4>
           <ul class="internal_links">
             <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='about']/*" mode="footerMenu" />
@@ -77,7 +80,7 @@
         </div>
         <div class="col-3">
           <h4>
-            <xsl:value-of select="document('i18n:project.layout.footer.rights')/i18n/text()" />
+            <xsl:value-of select="mcri18n:translate('project.layout.footer.rights')" />
           </h4>
           <ul class="internal_links">
             <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='rights']/*" mode="footerMenu" />
@@ -85,7 +88,7 @@
         </div>
         <div class="col-3">
           <h4>
-            <xsl:value-of select="document('i18n:project.layout.footer.technical')/i18n/text()" />
+            <xsl:value-of select="mcri18n:translate('project.layout.footer.technical')" />
           </h4>
           <ul class="internal_links">
             <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='technical']/*" mode="footerMenu" />
@@ -93,7 +96,7 @@
         </div>
         <div class="col-3">
           <h4>
-            <xsl:value-of select="document('i18n:project.layout.footer.service')/i18n/text()" />
+            <xsl:value-of select="mcri18n:translate('project.layout.footer.service')" />
           </h4>
           <div class="logo-block-sbb">
             <img src="{$WebApplicationBaseURL}mir-layout/images/LogoSBB.png" alt="" mode="footerMenu" />
@@ -104,11 +107,11 @@
   </xsl:template>
 
   <xsl:template name="mir.powered_by">
-    <xsl:variable name="mcr-version" select="document('version:full')/version/text()" />
+    <xsl:variable name="version" select="concat('MyCoRe ', mcrversion:getCompleteVersion())" />
     <div id="powered_by">
       <div class="container">
         <div class="row">
-          <div class="col-12 text-right" title="{$mcr-version}">
+          <div class="col-12 text-right" title="{$version}">
             <span>
               <xsl:value-of select="concat('©', date:year(date:date()), ' Copyright CrossAsia')" />
             </span>

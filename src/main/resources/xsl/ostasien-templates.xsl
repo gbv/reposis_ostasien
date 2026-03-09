@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:stylesheet version="1.0"
+  xmlns:mcri18n="xalan://org.mycore.services.i18n.MCRTranslation"
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+  exclude-result-prefixes="mcri18n">
 
   <xsl:template match="index-search-form">
     <form action="../servlets/solr/find" id="project-searchMainPage" class="form-inline" role="search">
       <div class="input-group input-group-lg w-100">
         <input
           name="condQuery"
-          placeholder="{document('i18n:ostasien.index.search.placeholder.default')/i18n/text()}"
+          placeholder="{mcri18n:translate('ostasien.index.search.placeholder.default')}"
           class="form-control search-query"
           id="project-searchInput"
           type="text" />
