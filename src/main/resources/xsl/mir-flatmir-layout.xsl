@@ -72,15 +72,20 @@
             $(".fa-file-alt").removeClass("fa");
             $(".fa-file-alt").removeClass("fa-file-text");
             let shibbolethID = request.getResponseHeader("x-shibboleth-uid");
+            console.debug('isGuest?', window["isGuest"]);
+            console.debug('shibbolethID', shibbolethID);
+            console.debug('sessionStorage', sessionStorage);
             const userKey = "_check_is_passive_user";
             const urlKey = "_check_is_passive_location";
 
             if(shibbolethID == null && sessionStorage){
+              console.debug('cleaning session storage...');
               // this should make it possible to login again after logout
               sessionStorage.removeItem(userKey);
               sessionStorage.removeItem(urlKey);
             }
             if(window["isGuest"] && shibbolethID != undefined && shibbolethID != null) {
+              console.debug('Running auth...');
               // run auth
               if(!sessionStorage) {
                 return;
@@ -89,8 +94,12 @@
               let passiveCheckUser = sessionStorage.getItem(userKey);
               let passiveCheckUrl = sessionStorage.getItem(urlKey);
 
+              console.debug('passiveCheckUser', passiveCheckUser);
+              console.debug('passiveCheckUrl', passiveCheckUrl);
+
               // Check for session cookie that contains the initial location
              if(passiveCheckUrl != null && passiveCheckUrl != undefined && passiveCheckUser == shibbolethID){
+                  console.debug('checking auth...');
                   // If we have the opensaml::FatalProfileException GET arguments
                   // redirect to initial location because isPassive failed
                   if (
@@ -98,13 +107,16 @@
                       && window.location.search.search(/RelayState/) >= 0
                       && window.location.search.search(/requestURL/) >= 0
                   ) {
+                      console.debug('passive failed!');
                       window.location = passiveCheckUrl;
                   }
               } else {
+                  console.debug('isPassive checked');
                   // Mark browser as being isPassive checked
                   sessionStorage.setItem(userKey, shibbolethID);
                   sessionStorage.setItem(urlKey, window.location);
                   // Redirect to Shibboleth handler
+                  console.debug('redirecting to shibboleth handler...');
                   window.location = "/Shibboleth.sso/Login?isPassive=true&target=" + encodeURIComponent(window.location);
               }]]>
             }
