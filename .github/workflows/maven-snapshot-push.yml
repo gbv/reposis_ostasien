@@ -1,0 +1,15 @@
+name: Maven Snapshot Deploy
+
+on:
+  push:
+    branches:
+      - 'main'
+
+jobs:
+  deploy-snapshot-on-push:
+    uses: gbv/reposis_workflows/.github/workflows/maven-snapshot.yml@v1
+    with:
+      java-version: '17'
+    secrets:
+      MAVEN_USERNAME: ${{ secrets.OSSRH_USERNAME }}
+      MAVEN_PASSWORD: ${{ secrets.OSSRH_TOKEN }}

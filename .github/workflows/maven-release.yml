@@ -1,0 +1,14 @@
+name: Maven Release Deploy
+
+on:
+  release:
+    types: [created]
+
+jobs:
+  deploy:
+    uses: gbv/reposis_workflows/.github/workflows/maven-release.yml@v1
+    with:
+      java-version: '17'
+    secrets:
+      MAVEN_USERNAME: ${{ secrets.OSSRH_USERNAME }}
+      MAVEN_PASSWORD: ${{ secrets.OSSRH_TOKEN }}

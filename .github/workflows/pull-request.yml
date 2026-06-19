@@ -1,0 +1,10 @@
+name: Pull Request Checks
+
+on:
+  [ pull_request ]
+
+jobs:
+  build:
+    uses: gbv/reposis_workflows/.github/workflows/maven-build.yml@v1
+    with:
+      java-version: '17'
