@@ -16,7 +16,6 @@ jobs:
     uses: gbv/reposis_workflows/.github/workflows/maven-snapshot-payload.yml@v1
     with:
       actor: ${{ github.actor }}
-      debug: true
       java-version: '21'
       payload: ${{ github.event.pull_request.body }}
     secrets:
