@@ -1,0 +1,24 @@
+name: Maven Snapshot Deploy (PR)
+
+on:
+  pull_request:
+    types: [opened, edited, synchronize]
+
+jobs:
+  deploy-pr:
+    if: |
+      github.event_name == 'pull_request' &&
+      contains(github.event.pull_request.body, 'deploy.name') &&
+      (
+        github.event.action != 'synchronize' ||
+        contains(github.event.pull_request.body, 'deploy.auto: true')
+      )
+    uses: gbv/reposis_workflows/.github/workflows/maven-snapshot-payload.yml@v1
+    with:
+      actor: ${{ github.actor }}
+      debug: true
+      java-version: '21'
+      payload: ${{ github.event.pull_request.body }}
+    secrets:
+      MAVEN_USERNAME: ${{ secrets.SONATYPE_USERNAME }}
+      MAVEN_PASSWORD: ${{ secrets.SONATYPE_PASSWORD }}
