@@ -100,10 +100,6 @@
       help-text="{i18n:mir.help.identifier.issn}" />
   </xed:template>
 
-  <xed:template id="subject_indexing">
-    <xed:include ref="subject.simple" />
-  </xed:template>
-
   <xed:template id="thesis.advisor.reviewer.extented.habil.repeated">
     <xed:bind xpath="mods:name[@type='personal'][mods:role/mods:roleTerm[@authority='marcrelator'][@type='code']='aut']" />
     <xed:bind xpath="mods:name[@type='personal'][mods:role/mods:roleTerm[@authority='marcrelator'][@type='code']='ths']" />

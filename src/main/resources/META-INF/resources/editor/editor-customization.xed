@@ -74,7 +74,7 @@
     <xed:include ref="language" />
     <xed:include ref="link.repeated" />
     <xed:include ref="ddc" />
-    <xed:include ref="subject_indexing" />
+    <xed:include ref="subject.complex" />
     <xed:include ref="abstract.repeated" />
     <xed:include ref="openAIRE" />
     <xed:include ref="further_information" />
@@ -95,7 +95,7 @@
     <xed:include ref="doi.handle.urn.repeated" />
     <xed:include ref="blog_entry_link" />
     <xed:include ref="ddc" />
-    <xed:include ref="subject_indexing" />
+    <xed:include ref="subject.complex" />
     <xed:include ref="abstract.repeated" />
     <xed:include ref="further_information.without_embargo" />
     <xed:include ref="genres_upload_hint" />
@@ -113,7 +113,7 @@
     <xed:include ref="doi.handle.urn.repeated" />
     <xed:include ref="link.repeated" />
     <xed:include ref="ddc" />
-    <xed:include ref="subject_indexing" />
+    <xed:include ref="subject.complex" />
     <xed:include ref="abstract.repeated" />
     <xed:include ref="openAIRE" />
     <xed:include ref="further_information" />
@@ -153,7 +153,7 @@
     <xed:include ref="doi.handle.urn.repeated" />
     <xed:include ref="link.repeated" />
     <xed:include ref="ddc" />
-    <xed:include ref="subject_indexing" />
+    <xed:include ref="subject.complex" />
     <xed:include ref="abstract.repeated" />
     <xed:include ref="openAIRE" />
     <xed:include ref="further_information.without_embargo" />
@@ -168,7 +168,7 @@
     <xed:include ref="language" />
     <xed:include ref="link.repeated" />
     <xed:include ref="ddc" />
-    <xed:include ref="subject_indexing" />
+    <xed:include ref="subject.complex" />
     <xed:include ref="identifier.issn" />
     <xed:include ref="identifier.zdbid" />
     <xed:include ref="abstract.repeated" />
@@ -198,7 +198,7 @@
     <xed:include ref="identifier.managed" />
     <xed:include ref="doi.handle.urn.repeated" />
     <xed:include ref="ddc" />
-    <xed:include ref="subject_indexing" />
+    <xed:include ref="subject.complex" />
     <xed:include ref="abstract.repeated" />
     <xed:include ref="further_information" />
     <xed:include ref="genres_upload_hint" />
@@ -215,7 +215,7 @@
     <xed:include ref="identifier.managed" />
     <xed:include ref="doi.handle.urn.repeated" />
     <xed:include ref="ddc" />
-    <xed:include ref="subject_indexing" />
+    <xed:include ref="subject.complex" />
     <xed:include ref="abstract.repeated" />
     <xed:include ref="further_information" />
     <xed:include ref="genres_upload_hint" />
@@ -235,7 +235,7 @@
     <xed:include ref="language" />
     <xed:include ref="link.repeated" />
     <xed:include ref="ddc" />
-    <xed:include ref="subject_indexing" />
+    <xed:include ref="subject.complex" />
     <xed:include ref="abstract.repeated" />
     <xed:include ref="further_information.without_embargo" />
     <xed:include ref="genres_upload_hint" />
@@ -256,7 +256,7 @@
     <xed:include ref="doi.handle.urn.repeated" />
     <xed:include ref="link.repeated" />
     <xed:include ref="ddc" />
-    <xed:include ref="subject_indexing" />
+    <xed:include ref="subject.complex" />
     <xed:include ref="abstract.repeated" />
     <xed:include ref="openAIRE" />
     <xed:include ref="further_information" />
@@ -275,7 +275,7 @@
     <xed:include ref="identifier.managed" />
     <xed:include ref="link.repeated" />
     <xed:include ref="ddc" />
-    <xed:include ref="subject_indexing" />
+    <xed:include ref="subject.complex" />
     <xed:include ref="abstract.repeated" />
     <xed:include ref="openAIRE" />
     <xed:include ref="further_information" />
@@ -293,7 +293,7 @@
     <xed:include ref="link.repeated" />
     <xed:include ref="related.item.link" />
     <xed:include ref="ddc" />
-    <xed:include ref="subject_indexing" />
+    <xed:include ref="subject.complex" />
     <xed:include ref="physical.description.form" />
     <xed:include ref="physical.description.note" />
     <xed:include ref="abstract.repeated" />
@@ -315,7 +315,7 @@
     <xed:include ref="identifier.isbn" />
     <xed:include ref="doi.handle.urn.repeated" />
     <xed:include ref="ddc" />
-    <xed:include ref="subject_indexing" />
+    <xed:include ref="subject.complex" />
     <xed:include ref="abstract.repeated" />
     <xed:include ref="openAIRE" />
     <xed:include ref="further_information" />
@@ -337,7 +337,7 @@
     <xed:include ref="doi.handle.urn.repeated" />
     <xed:include ref="link.repeated" />
     <xed:include ref="ddc" />
-    <xed:include ref="subject_indexing" />
+    <xed:include ref="subject.complex" />
     <xed:include ref="abstract.repeated" />
     <xed:include ref="openAIRE" />
     <xed:include ref="further_information.without_embargo" />
@@ -359,7 +359,7 @@
     <xed:include ref="doi.handle.urn.repeated" />
     <xed:include ref="link.repeated" />
     <xed:include ref="ddc" />
-    <xed:include ref="subject_indexing" />
+    <xed:include ref="subject.complex" />
     <xed:include ref="abstract.repeated" />
     <xed:include ref="openAIRE" />
     <xed:include ref="further_information" />
@@ -375,7 +375,7 @@
     <xed:include ref="language" />
     <xed:include ref="link.repeated" />
     <xed:include ref="ddc" />
-    <xed:include ref="subject_indexing" />
+    <xed:include ref="subject.complex" />
     <xed:include ref="abstract.repeated" />
     <xed:include ref="openAIRE" />
     <xed:include ref="further_information" />
