@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="rfc5646">
+<mycoreclass ID="rfc5646"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="MCRClassification.xsd">
   <label xml:lang="en" text="Language" description="as defined in RFC 5646"/>
   <label xml:lang="x-auth" text="rfc5646"/>
   <label xml:lang="de" text="Sprache" description="nach RFC 5646"/>

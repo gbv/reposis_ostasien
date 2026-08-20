@@ -30,7 +30,9 @@
 
   <xsl:template match="mycoreobject" mode="email">
     <xsl:choose>
+      <!-- START ostasien adjustments -->
       <xsl:when test="not(mcrxsl:isCurrentUserInRole('admin')) and ($action='create')">
+      <!-- END ostasien adjustments -->
         <!-- SEND EMAIL -->
         <xsl:apply-templates select="." mode="mailReceiver" />
         <subject>
@@ -167,7 +169,7 @@
     <xsl:variable name="categurl">
       <xsl:if test="url">
         <xsl:choose>
-            <!-- MCRObjectID should not contain a ':' so it must be an external link then -->
+          <!-- MCRObjectID should not contain a ':' so it must be an external link then -->
           <xsl:when test="contains(url/@xlink:href,':')">
             <xsl:value-of select="url/@xlink:href" />
           </xsl:when>
@@ -231,7 +233,7 @@
     <xsl:value-of select="concat(' (',@valueURI,')')" />
   </xsl:template>
 
-<!-- Names -->
+  <!-- Names -->
   <xsl:template match="mods:name" mode="printName">
     <xsl:choose>
       <xsl:when test="mods:namePart">
