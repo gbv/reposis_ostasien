@@ -11,7 +11,7 @@
 
   <xsl:param name="WebApplicationBaseURL" />
 
-  <xsl:param name="MIR.TestInstance" select="'true'" />
+  <xsl:param name="REP.ProductionMode" select="'false'" />
   <xsl:param name="MIR.Matomo" select="false" />
 
   <xsl:template name="mir.navigation">
@@ -118,7 +118,7 @@
         </div>
       </div>
     </div>
-    <xsl:if test="contains($MIR.TestInstance, 'true')">
+    <xsl:if test="$REP.ProductionMode = 'false'">
       <div id="watermark_testenvironment">Testumgebung</div>
     </xsl:if>
     <!-- Matomo -->
