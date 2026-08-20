@@ -23,6 +23,8 @@
     <xed:include ref="ddc" after="sdnb.repeat" />
     <xed:remove ref="sdnb.repeat" />
     <xed:remove ref="related.item.other.search.of.all.items" />
+    <xed:include ref="physical.description.form" after="subject.complex" />
+    <xed:include ref="physical.description.note" after="physical.description.form" />
   </xed:modify>
 
   <!-- ========== Host: Overrides ========== -->
