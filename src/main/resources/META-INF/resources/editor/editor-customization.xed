@@ -403,7 +403,7 @@
               <xed:output i18n="button.saveandredirect" />
             </button>
             <button type="submit" class="btn btn-primary" xed:target="servlet" xed:href="CreateObjectServlet">
-              <xed:output i18n="project.editor.button.save" />
+              <xed:output i18n="ostasien.editor.button.save" />
             </button>
           </xed:when>
           <xed:otherwise>
@@ -427,7 +427,7 @@
           <!-- xed:when test="/mycoreobject/@ID = 'mir_mods_00000000'" -->
           <xed:when test="contains(/mycoreobject/@ID, '_00000000')">
             <button type="submit" class="btn btn-primary" xed:target="servlet" xed:href="CreateObjectServlet">
-              <xed:output i18n="project.editor.button.save" />
+              <xed:output i18n="ostasien.editor.button.save" />
             </button>
           </xed:when>
           <xed:otherwise>
@@ -452,7 +452,7 @@
           <!-- xed:when test="/mycoreobject/@ID = 'mir_mods_00000000'" -->
           <xed:when test="contains(/mycoreobject/@ID, '_00000000')">
             <button type="submit" class="btn btn-primary" xed:target="servlet" xed:href="CreateObjectServlet">
-              <xed:output i18n="project.editor.button.save" />
+              <xed:output i18n="ostasien.editor.button.save" />
             </button>
           </xed:when>
           <xed:otherwise>

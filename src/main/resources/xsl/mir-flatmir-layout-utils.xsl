@@ -72,7 +72,7 @@
       <div class="row">
         <div class="col-3">
           <h4>
-            <xsl:value-of select="mcri18n:translate('project.layout.footer.about')" />
+            <xsl:value-of select="mcri18n:translate('ostasien.layout.footer.about')" />
           </h4>
           <ul class="internal_links">
             <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='about']/*" mode="footerMenu" />
@@ -80,7 +80,7 @@
         </div>
         <div class="col-3">
           <h4>
-            <xsl:value-of select="mcri18n:translate('project.layout.footer.rights')" />
+            <xsl:value-of select="mcri18n:translate('ostasien.layout.footer.rights')" />
           </h4>
           <ul class="internal_links">
             <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='rights']/*" mode="footerMenu" />
@@ -88,7 +88,7 @@
         </div>
         <div class="col-3">
           <h4>
-            <xsl:value-of select="mcri18n:translate('project.layout.footer.technical')" />
+            <xsl:value-of select="mcri18n:translate('ostasien.layout.footer.technical')" />
           </h4>
           <ul class="internal_links">
             <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='technical']/*" mode="footerMenu" />
@@ -96,7 +96,7 @@
         </div>
         <div class="col-3">
           <h4>
-            <xsl:value-of select="mcri18n:translate('project.layout.footer.service')" />
+            <xsl:value-of select="mcri18n:translate('ostasien.layout.footer.service')" />
           </h4>
           <div class="logo-block-sbb">
             <img src="{$WebApplicationBaseURL}mir-layout/images/LogoSBB.png" alt="" mode="footerMenu" />

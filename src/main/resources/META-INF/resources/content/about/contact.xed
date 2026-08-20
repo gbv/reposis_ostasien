@@ -113,7 +113,7 @@
                 </xed:if>
 
                 <!-- Hidden parameters for MCRMailer -->
-                <input type="hidden" value="../content/below/contact.xed?XSL.Status.Style=success&amp;XSL.Status.Message=kartdok.contact.success" name="goto" /> <!-- where to go after sending mail -->
+                <input type="hidden" value="../content/below/contact.xed?XSL.Status.Style=success&amp;XSL.Status.Message=ostasien.contact.success" name="goto" /> <!-- where to go after sending mail -->
                 <input type="hidden" value="e-mail-contact" name="xsl" /> <!-- specify xsl to convert mail to for MCRMailer -->
 
                 <!-- Buttons -->
@@ -238,7 +238,7 @@
                 </xed:if>
 
                 <!-- Hidden parameters for MCRMailer -->
-                <input type="hidden" value="../content/below/contact.xed?XSL.Status.Style=success&amp;XSL.Status.Message=kartdok.contact.success" name="goto" /> <!-- where to go after sending mail -->
+                <input type="hidden" value="../content/below/contact.xed?XSL.Status.Style=success&amp;XSL.Status.Message=ostasien.contact.success" name="goto" /> <!-- where to go after sending mail -->
                 <input type="hidden" value="e-mail-contact" name="xsl" /> <!-- specify xsl to convert mail to for MCRMailer -->
 
                 <!-- Buttons -->
