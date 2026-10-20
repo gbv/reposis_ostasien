@@ -14,6 +14,7 @@
     version="5" />
   <xsl:strip-space elements="*" />
   <xsl:include href="resource:xsl/mir-flatmir-layout-utils.xsl"/>
+  <xsl:include href="resource:xsl/mir-flatmir-layout-meta-tags.xsl"/>
   <xsl:param name="MIR.DefaultLayout.CSS" />
   <xsl:param name="MIR.CustomLayout.CSS" select="''" />
   <xsl:param name="MIR.CustomLayout.JS" select="''" />
@@ -27,6 +28,7 @@
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <xsl:call-template name="mir-flatmir-layout-meta-tags"/>
         <title>
           <xsl:value-of select="$PageTitle" />
         </title>
