@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="DDC">
-  <label xml:lang="x-auth" text="ddc" />
+<mycoreclass ID="DDC"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="MCRClassification.xsd">
   <label xml:lang="de" text="Dewey Dezimal-Klassifikation (DDC)" />
+  <label xml:lang="x-auth" text="ddc" />
   <label xml:lang="x-uri" text="http://www.mycore.org/classifications/DDC" />
   <categories>
     <category ID="0">
@@ -14,9 +16,9 @@
         <category ID="001">
           <label xml:lang="de" text="001 Wissen" />
           <category ID="001.09">
+            <label xml:lang="de" text="001.09 Ideen- und Geistesgeschichte" />
             <label xml:lang="en" text="001.09 Intellectual History" />
             <label xml:lang="fr" text="001.09 Histoire intellectuelle" />
-            <label xml:lang="de" text="001.09 Ideen- und Geistesgeschichte" />
           </category>
         </category>
         <category ID="002">
@@ -453,9 +455,9 @@
         <category ID="150">
           <label xml:lang="de" text="150 Psychologie" />
           <category ID="150.9">
-            <label xml:lang="fr" text="150.9 Histoire de la psychologie" />
             <label xml:lang="de" text="150.9 Geschichte der Psychologie" />
             <label xml:lang="en" text="150.9 History of psychology" />
+            <label xml:lang="fr" text="150.9 Histoire de la psychologie" />
           </category>
         </category>
         <category ID="152">
@@ -611,9 +613,9 @@
         <category ID="200">
           <label xml:lang="de" text="200 Religion" />
           <category ID="200.9">
-            <label xml:lang="fr" text="200.9 Histoire des religions" />
-            <label xml:lang="en" text="200.9 History of religion" />
             <label xml:lang="de" text="200.9 Kirchen- und Religionsgeschichte" />
+            <label xml:lang="en" text="200.9 History of religion" />
+            <label xml:lang="fr" text="200.9 Histoire des religions" />
           </category>
         </category>
         <category ID="201">
@@ -916,8 +918,8 @@
         <category ID="300">
           <label xml:lang="de" text="300 Sozialwissenschaften" />
           <category ID="300.9">
-            <label xml:lang="en" text="300.9 Social and Cultural History" />
             <label xml:lang="de" text="300.9 Sozial- und Kulturgeschichte" />
+            <label xml:lang="en" text="300.9 Social and Cultural History" />
             <label xml:lang="fr" text="300.9 Histoire culturelle et sociale" />
           </category>
         </category>
@@ -936,17 +938,17 @@
         <category ID="304">
           <label xml:lang="de" text="304 Faktoren mit Einfluss auf das soziale Verhalten" />
           <category ID="304.609">
-            <label xml:lang="en" text="304.609 Historical Demography" />
             <label xml:lang="de" text="304.609 Historische Demographie" />
+            <label xml:lang="en" text="304.609 Historical Demography" />
             <label xml:lang="fr" text="304.609 Démographie" />
           </category>
         </category>
         <category ID="305">
           <label xml:lang="de" text="305 Gesellschaftliche Gruppen" />
           <category ID="305.309">
-            <label xml:lang="fr" text="305.309 Histoire des genres" />
             <label xml:lang="de" text="305.309 Geschlechtergeschichte" />
             <label xml:lang="en" text="305.309 Gender Studies" />
+            <label xml:lang="fr" text="305.309 Histoire des genres" />
           </category>
         </category>
         <category ID="306">
@@ -959,8 +961,8 @@
           <label xml:lang="de" text="307 Soziale Lebensformen" />
           <category ID="307.09">
             <label xml:lang="de" text="307.09 Siedlungs-, Stadt- und Ortsgeschichte" />
-            <label xml:lang="fr" text="307.09 Histoire locale" />
             <label xml:lang="en" text="307.09 Local History" />
+            <label xml:lang="fr" text="307.09 Histoire locale" />
           </category>
         </category>
       </category>
@@ -1023,9 +1025,9 @@
         <category ID="330">
           <label xml:lang="de" text="330 Wirtschaft" />
           <category ID="330.09">
+            <label xml:lang="de" text="330.09 Wirtschaftsgeschichte" />
             <label xml:lang="en" text="330.09 Economic History" />
             <label xml:lang="fr" text="330.09 Histoire économique" />
-            <label xml:lang="de" text="330.09 Wirtschaftsgeschichte" />
           </category>
         </category>
         <category ID="331">
@@ -1061,9 +1063,9 @@
         <category ID="340">
           <label xml:lang="de" text="340 Recht" />
           <category ID="340.09">
+            <label xml:lang="de" text="340.09 Rechtsgeschichte" />
             <label xml:lang="en" text="340.09 Legal History" />
             <label xml:lang="fr" text="340.09 Histoire du droit" />
-            <label xml:lang="de" text="340.09 Rechtsgeschichte" />
           </category>
         </category>
         <category ID="341">
@@ -1102,9 +1104,9 @@
         <category ID="351">
           <label xml:lang="de" text="351 Öffentliche Verwaltung" />
           <category ID="351.09">
+            <label xml:lang="de" text="351.09 Verwaltungsgeschichte" />
             <label xml:lang="en" text="351.09 History of administration" />
             <label xml:lang="fr" text="351.09 Histoire de l'administration" />
-            <label xml:lang="de" text="351.09 Verwaltungsgeschichte" />
           </category>
         </category>
         <category ID="352">
@@ -1119,9 +1121,9 @@
         <category ID="355">
           <label xml:lang="de" text="355 Militärwissenschaft" />
           <category ID="355.009">
-            <label xml:lang="fr" text="355.009 Histoire militaire" />
-            <label xml:lang="en" text="355.009 Military History" />
             <label xml:lang="de" text="355.009 Militär- und Kriegsgeschichte" />
+            <label xml:lang="en" text="355.009 Military History" />
+            <label xml:lang="fr" text="355.009 Histoire militaire" />
           </category>
         </category>
         <category ID="356">
@@ -1175,9 +1177,9 @@
         <category ID="370">
           <label xml:lang="de" text="370 Erziehung, Schul- und Bildungswesen" />
           <category ID="370.9">
+            <label xml:lang="de" text="370.9 Bildungs-, Wissenschafts-, Schul- und Universitätsgeschichte" />
             <label xml:lang="en" text="370.9 History of education" />
             <label xml:lang="fr" text="370.9 Histoire de l'éducation" />
-            <label xml:lang="de" text="370.9 Bildungs-, Wissenschafts-, Schul- und Universitätsgeschichte" />
           </category>
         </category>
         <category ID="371">
@@ -1322,8 +1324,8 @@
           <label xml:lang="de" text="417 Dialektologie, historische Linguistik" />
           <category ID="417.7">
             <label xml:lang="de" text="417.7 Sprachgeschichte" />
-            <label xml:lang="fr" text="417.7 Linguistique comparée" />
             <label xml:lang="en" text="417.7 Historical Linguistics" />
+            <label xml:lang="fr" text="417.7 Linguistique comparée" />
           </category>
         </category>
         <category ID="418">
@@ -1926,8 +1928,8 @@
             <label xml:lang="de" text="610.82 Frauen in der Medizin" />
           </category>
           <category ID="610.9">
-            <label xml:lang="en" text="610.9 History of medicine" />
             <label xml:lang="de" text="610.9 Medizin - Geschichte" />
+            <label xml:lang="en" text="610.9 History of medicine" />
             <label xml:lang="fr" text="610.9 Histoire de la médecine" />
           </category>
           <category ID="610.92">
@@ -2306,8 +2308,8 @@
         <category ID="630">
           <label xml:lang="de" text="630 Landwirtschaft und verwandte Bereiche" />
           <category ID="630.9">
-            <label xml:lang="en" text="630.9 History of agriculture" />
             <label xml:lang="de" text="630.9 Agrargeschichte" />
+            <label xml:lang="en" text="630.9 History of agriculture" />
             <label xml:lang="fr" text="630.9 Histoire rurale" />
           </category>
         </category>
@@ -2785,9 +2787,9 @@
         <category ID="780">
           <label xml:lang="de" text="780 Musik" />
           <category ID="780.9">
-            <label xml:lang="fr" text="780.9 Histoire de la musique" />
             <label xml:lang="de" text="780.9 Musikgeschichte" />
             <label xml:lang="en" text="780.9 Music History" />
+            <label xml:lang="fr" text="780.9 Histoire de la musique" />
           </category>
         </category>
         <category ID="781">
@@ -2826,8 +2828,8 @@
         <category ID="791">
           <label xml:lang="de" text="791 Öffentliche Darbietungen, Film, Rundfunk" />
           <category ID="791.409">
-            <label xml:lang="en" text="791.409 History of cinema, radio and television" />
             <label xml:lang="de" text="791.409 Film-, Hörfunk- und Fernsehgeschichte" />
+            <label xml:lang="en" text="791.409 History of cinema, radio and television" />
             <label xml:lang="fr" text="791.409 Histoire du cinéma, de la radio et de la télévision" />
           </category>
         </category>
@@ -2849,9 +2851,9 @@
         <category ID="796">
           <label xml:lang="de" text="796 Athletische Sportarten u. Spiele, Freiluftsportarten u. -spiele" />
           <category ID="796.09">
+            <label xml:lang="de" text="796.09 Sportgeschichte" />
             <label xml:lang="en" text="796.09 History of Sport" />
             <label xml:lang="fr" text="796.09 Histoire du sport" />
-            <label xml:lang="de" text="796.09 Sportgeschichte" />
           </category>
         </category>
         <category ID="797">
@@ -3209,9 +3211,9 @@
           <label xml:lang="de" text="900 Geschichte und Geografie" />
         </category>
         <category ID="901">
+          <label xml:lang="de" text="901 Theorie und Methode der Geschichtswissenschaften" />
           <label xml:lang="en" text="901 Historiographie" />
           <label xml:lang="fr" text="901 Épistémologie et historiographie" />
-          <label xml:lang="de" text="901 Theorie und Methode der Geschichtswissenschaften" />
         </category>
         <category ID="902">
           <label xml:lang="de" text="902 Verschiedenes" />
@@ -3232,8 +3234,8 @@
           <label xml:lang="de" text="907 Ausbildung, Forschung, verwandte Themen" />
           <category ID="907.2">
             <label xml:lang="de" text="907.2 Historische Hilfswissenschaften" />
-            <label xml:lang="fr" text="907.2 Sciences auxiliaires de l'Histoire" />
             <label xml:lang="en" text="907.2 Auxiliary sciences of history" />
+            <label xml:lang="fr" text="907.2 Sciences auxiliaires de l'Histoire" />
           </category>
         </category>
         <category ID="908">
@@ -3243,8 +3245,8 @@
           <label xml:lang="de" text="909 Weltgeschichte" />
           <category ID="909.04924">
             <label xml:lang="de" text="909.04924 Jüdische Geschichte" />
-            <label xml:lang="fr" text="909.04924 Histoire juive" />
             <label xml:lang="en" text="909.04924 Jewish History" />
+            <label xml:lang="fr" text="909.04924 Histoire juive" />
           </category>
           <category ID="909.0491497">
             <label xml:lang="de" text="909.0491497 Geschichte der Sinti und Roma" />

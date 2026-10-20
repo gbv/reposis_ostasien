@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="mir_genres">
+<mycoreclass ID="mir_genres"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="MCRClassification.xsd">
   <label xml:lang="de" text="Genre" description="Liste der Publikationsarten" />
   <label xml:lang="en" text="genre" description="A list of publication types" />
   <label xml:lang="x-uri" text="http://www.mycore.org/classifications/mir_genres" />
@@ -85,8 +87,8 @@
     <category ID="journal">
       <label xml:lang="de" text="Zeitschrift" />
       <label xml:lang="en" text="Journal" />
-      <label xml:lang="x-hosts" text="standalone" />
       <label xml:lang="x-editor" text="false" />
+      <label xml:lang="x-hosts" text="standalone" />
       <label xml:lang="x-mapping" text="marcgt:journal diniPublType:Periodical diniPublType2022:Periodical" />
     </category>
     <category ID="series">
@@ -99,14 +101,14 @@
     <category ID="blog">
       <label xml:lang="de" text="Blog" />
       <label xml:lang="en" text="Blog" />
-      <label xml:lang="x-hosts" text="standalone" />
       <label xml:lang="x-editor" text="false" />
+      <label xml:lang="x-hosts" text="standalone" />
       <label xml:lang="x-mapping" text="marcgt:web_site diniPublType:Website diniPublType2022:DynamicWebRessource" />
     </category>
     <category ID="research_data">
       <label xml:lang="de" text="Forschungsdaten" />
       <label xml:lang="en" text="Research Data" />
-      <label xml:lang="x-hosts" text="journal series collection proceedings habilitation dissertation article book chapter report speech standalone" />
+      <label xml:lang="x-hosts" text="journal series collection proceedings standalone" />
       <label xml:lang="x-mapping" text="marcgt:database diniPublType:ResearchData diniPublType2022:ResearchData" />
     </category>
     <category ID="poster">
