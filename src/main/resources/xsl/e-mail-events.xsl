@@ -30,7 +30,12 @@
 
   <xsl:template match="mycoreobject" mode="email">
     <xsl:choose>
+      <!-- START ostasien adaptions (OSTA-45) -->
+      <!--
+      <xsl:when test="not(mcrxsl:isCurrentUserInRole('editor') or mcrxsl:isCurrentUserInRole('admin')) and mcrxsl:isCurrentUserInRole('submitter') and ($action='create')">
+      -->
       <xsl:when test="not(mcrxsl:isCurrentUserInRole('admin')) and ($action='create')">
+      <!-- END ostasien adaptions (OSTA-45) -->
         <!-- SEND EMAIL -->
         <xsl:apply-templates select="." mode="mailReceiver" />
         <subject>

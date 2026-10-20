@@ -2,6 +2,7 @@
   <!-- ============================================== -->
   <!-- $Revision$ $Date$ -->
   <!-- ============================================== -->
+<!-- ostasien adaptions (OSTA-2): added xmlns:mcrxsl namespace -->
 <xsl:stylesheet version="1.0"
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -42,13 +43,16 @@
         </xsl:if>
         <xsl:call-template name="mir.prop4js" />
 
+        <!-- START ostasien adaptions (OSTA-9) -->
         <link href="https://crossasia.org/resources/sheader/css/bootstrap-xasia.min.css" rel="stylesheet" />
         <link href="https://crossasia.org/resources/sheader/css/style-xabs.css" rel="stylesheet" />
+        <!-- END ostasien adaptions (OSTA-9) -->
 
       </head>
 
       <body>
 
+        <!-- START ostasien adaptions (OSTA-9, OSTA-2, OSTA-39) -->
         <div class="xabs">HTML-from-Page-Type-1001</div>
         <script>
           window["isGuest"] = <xsl:value-of select="mcrxsl:isCurrentUserGuestUser()" />;
@@ -109,6 +113,7 @@
             }
           });
         </script>
+        <!-- END ostasien adaptions (OSTA-9, OSTA-2, OSTA-39) -->
 
         <xsl:if test="//div/@class='jumbotwo'">
           <xsl:attribute name="class">
