@@ -3,7 +3,7 @@
 [MIR](https://github.com/MyCoRe-Org/mir) plugin with project-specific customizations
 for the CrossAsia Open Access Repository.
 
-Compatible with **MIR 2022.06.x**.
+Compatible with **MIR 2023.06.x**.
 
 ## Installation
 
